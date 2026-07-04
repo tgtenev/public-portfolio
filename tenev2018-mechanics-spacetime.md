@@ -23,14 +23,18 @@ This paper explores the material analogy of physical space and its implications.
 The possible confluence between Hooke's Law and Einstein's Gravitational Law motivated the material analogy of space that is explored here. In 1678, Robert Hooke, a contemporary of Isaac Newton, published what later became known as Hooke's Law [10]. In 1827, Cauchy [11] advanced Hooke's Law by defining the tensorial formulation of stress. For an isotropic linear elastic material, Hooke's Law states in tensorial form that,
 
 $$
+\begin{split}
 \sigma^{kl} = \frac{Y}{1+\nu} \left(\frac{\nu}{1-2\nu} g^{ij}g^{kl} + g^{ik}g^{jl}\right)\varepsilon_{ij}
+\end{split}
 \tag{1.1}
 $$
 
 where $\sigma^{kl}$, $\varepsilon_{ij}$, and $g^{ij}$ are the stress, strain, and the metric tensors, respectively, $Y$ is Young's elastic modulus, and $\nu$ is the Poisson's ratio. Latin indexes, $i,j,k,l = 1 \ldots 3$, run over the three spatial dimensions, and Einstein summation convention is employed. In 1916 Einstein published the field equations of General Relativity [7], which can be written as,
 
 $$
+\begin{split}
 T_{\mu\nu} = \frac{1}{\kappa} \left(R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} \right)
+\end{split}
 \tag{1.2}
 $$
 
@@ -53,9 +57,11 @@ In this paper, we develop a formal analogy between Solid Mechanics and General R
 We conduct our study in the limit of weak and nearly static gravitational fields, and demonstrate that outside of inclusions, the fabric's action $\mathcal{S}_\text{F}$, assumes the form of the Einstein-Hilbert action $\mathcal{S}_\text{EH}$,
 
 $$
+\begin{split}
 \mathcal{S}_\text{F} = \frac{YL}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4\quad
 \text{vs.}\quad
 \mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\,\mathrm{d}x^4
+\end{split}
 \tag{1.3}
 $$
 
@@ -92,14 +98,18 @@ The fabric and its enclosing reference space share the same coordinate time $t$.
 Let $x^i$ be the material coordinates assigned to the cosmic fabric's mid-hypersurface, and let $g_{ij}$ be the metric tensor of the fabric. The metric tensor defines how coordinate differences relate to distances. Thus, the distance $ds$ between two nearby material points is given by,
 
 $$
+\begin{split}
 ds^2 = g_{ij}dx^i dx^j
+\end{split}
 \tag{2.1}
 $$
 
 For Cartesian coordinates, as adopted here, the distance $d\overline{s}$ between the same two material points prior to deformation is,
 
 $$
+\begin{split}
 d\overline{s}^2 = \delta_{ij}dx^i dx^j
+\end{split}
 \tag{2.2}
 $$
 
@@ -118,7 +128,9 @@ $$
 The 3D volumetric strain, defined as
 
 $$
+\begin{split}
 \varepsilon^\text{3D} \equiv \varepsilon^i_i
+\end{split}
 \tag{2.4}
 $$
 
@@ -147,7 +159,9 @@ The small transverse thickness of the fabric is needed to create resistance to b
 Matter-energy fields behave as inclusions in the fabric inducing *membrane* strains leading to transverse displacements and hence bending (Fig. 1). The following equation postulates that matter is a source of volumetric strain,
 
 $$
+\begin{split}
 \varepsilon^\text{3D}_{,kk} \propto c^2\kappa \rho
+\end{split}
 \tag{2.5}
 $$
 
@@ -166,21 +180,27 @@ Notice that the shear wave speed will appear to have remained constant when meas
 Stated quantitatively, we postulate that the shear wave speed $v_s$ depends on the fabric's volumetric strain $\varepsilon^\text{3D}$ as follows,
 
 $$
+\begin{split}
 v_s = (1 + \varepsilon^\text{3D})^{-1}c
+\end{split}
 \tag{2.6}
 $$
 
 Consequently, the lapse rate, that is the relationship between proper time $\tau$ and coordinate time $t$, is as follows,
 
 $$
+\begin{split}
 \frac{d \tau}{d t} = (1 + \varepsilon^\text{3D})^{-1}
+\end{split}
 \tag{2.7}
 $$
 
 We motivate the above postulate by connecting the shear wave speed $v_s$ to the mechanical properties of the cosmic fabric. A well known result from Solid Mechanics is that $v_s = \sqrt{\mu/\rho}$ where $\mu$ and $\rho$ are, respectively, the shear modulus and density of the material. When such material is stretched, its density decreases by a factor of $(1+\varepsilon^\text{3D})$ because the same amount of material now occupies $(1+\varepsilon^\text{3D})$ times more volume. The elastic modulus also changes when the fabric is stretched, but its relationship to strain depends on the internal structure of the material. The choice of modulus-strain relationship becomes a parameter in our model that controls the effect of time dilation. By fixing this relationship to be such that,
 
 $$
+\begin{split}
 \mu = (1+\varepsilon^\text{3D})^{-3}\mu_0
+\end{split}
 \tag{2.8}
 $$
 
@@ -199,7 +219,9 @@ Except in regards to gravity waves (§2.9 / §3.3), we will assume nearly static
 Under the weak field condition, the metric tensor can be approximated as,
 
 $$
+\begin{split}
 g_{\mu\nu} = \eta_{\mu\nu} + 2\varepsilon_{\mu\nu}, \quad |\varepsilon_{\mu\nu}| \ll 1
+\end{split}
 \tag{2.9}
 $$
 
@@ -230,7 +252,9 @@ $$
 which, by the application of the Inclusion Postulate (2.5), yields the following result,
 
 $$
+\begin{split}
 \varepsilon_{00,kk} = \varepsilon^\text{3D}_{,kk} \propto c^2 \kappa \rho
+\end{split}
 \tag{2.12}
 $$
 
@@ -247,7 +271,9 @@ To compute $U$, we adapt the work of Efrati *et al.* [35] concerning the bending
 It can be shown [35] that the metric $g_{ij} = g_{ij}(\xi)$ of each $\Sigma_{\xi}$ takes the form,
 
 $$
+\begin{split}
 g_{ij} = a_{ij} - 2b_{ij} \xi + c_{ij} \xi^2
+\end{split}
 \tag{2.13}
 $$
 
@@ -295,31 +321,39 @@ For the remainder of this subsection, we focus on evaluating the term $U_\text{B
 Evaluating $U_\text{B}$ from Eq. (2.16), we obtain,
 
 $$
+\begin{split}
 U_\text{B} = L^2C^{ijkl}\left[b_{ij}b_{kl} + \mathcal{O}(b^3 L)\right]
+\end{split}
 \tag{2.17}
 $$
 
 The extrinsic curvature terms $b_{ij}$ have magnitudes comparable to the inverse of the curvature radius. The curvature radius is much greater than the thickness of the fabric, so $\mathcal{O}(b L) \ll 1$ allows us to neglect the term $\mathcal{O}(b^3 L)$ in the above expression. Using the identity, $R^\text{3D}_{lijk} = b_{ik}b_{jl} - b_{ij}b_{kl}$, where $R^\text{3D}_{lijk}$ is the Riemann curvature tensor of the mid-hypersurface, and setting $\mathcal{O}(b^3 L) = 0$, we can express $U_\text{B}$ in terms of the intrinsic three-dimensional spatial curvature $R^\text{3D}$ as follows,
 
 $$
+\begin{split}
 U_\text{B} = -\frac{L^2 Y}{24(1+\nu)} \left(
 R^\text{3D} +
 \frac{1-\nu}{1-2\nu} b^i_i b^k_k
 \right)
+\end{split}
 \tag{2.18}
 $$
 
 The Poisson's ratio of the cosmic fabric had remained unspecified as a freedom to be fixed at a later time such as now. In order for $U_\text{B}$ to be physical, it should not depend on the extrinsic curvature $b_{ij}$ that is not already incorporated into the intrinsic curvature $R^\text{3D}$. The $b^i_i b^k_k$ term would vanish if we chose Poisson's ratio $\nu = 1$. In this case, the bending energy becomes as follows,
 
 $$
+\begin{split}
 U_\text{B} = - \frac{YL^2}{48} R^\text{3D}
+\end{split}
 \tag{2.19}
 $$
 
 subject to the condition,
 
 $$
+\begin{split}
 \nu = 1
+\end{split}
 \tag{2.20}
 $$
 
@@ -372,14 +406,18 @@ In the last step of the above derivation, we have recognized that the purely spa
 In free space $\varepsilon_{00,kk} = 0$ per Eq. (2.12). Consequently, after combining Equations (2.19) and (2.23), we finally arrive at,
 
 $$
+\begin{split}
 \mathcal{L}_\text{F} = -U_\text{B} \sqrt{|g|} = \frac{YL^2}{48} R \sqrt{|g|}
+\end{split}
 \tag{2.24}
 $$
 
 which has the same form as the Einstein-Hilbert Lagrangian density. The resulting action is simply the integral of the Lagrangian density over coordinate spacetime, namely,
 
 $$
+\begin{split}
 \mathcal{S}_\text{F} = \int \mathcal{L}_\text{F} \,\mathrm{d}x^4 = \frac{YL}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4
+\end{split}
 \tag{2.25}
 $$
 
@@ -390,7 +428,9 @@ which is what we had set out to demonstrate as stated earlier per Eq. (1.3).
 In the previous section, we postulated a material body, which we named the "cosmic fabric" whose constitutive behavior outside of inclusions is analogous to the behavior of gravity, and have shown the sequential mathematical development. For the analogy to be useful, it should allow us to map between notions in Solid Mechanics and General Relativity. Such a mapping is possible on the basis of identifying the fabric Lagrangian density $\mathcal{L}_\text{F}$ with the Lagrangian density from the Einstein-Hilbert action, $\mathcal{L}_\text{EH}$, as applying to free space. Specifically,
 
 $$
+\begin{split}
 \mathcal{L}_\text{F} = \frac{YL^2}{48}R\sqrt{|g|} = \mathcal{L}_\text{EH} = \frac{1}{2\kappa}R\sqrt{|g|}
+\end{split}
 \tag{3.1}
 $$
 
@@ -403,14 +443,18 @@ In the subsections below, we discuss the correspondence between mechanical prope
 It is a well known result from Linearized Gravity that given the choice of coordinates adopted here, the classical gravitational potential $\Phi$ is related to the time-time component of the metric in the following way [33],
 
 $$
+\begin{split}
 \Phi/c^2 = -\left(g_{00} - \eta_{00}\right)/2
+\end{split}
 \tag{3.2}
 $$
 
 Combined with Eq. (2.11) the above becomes,
 
 $$
+\begin{split}
 \Phi/c^2 = -\left(g_{00} + 1\right)/2 = -\varepsilon_{00} = -\varepsilon^\text{3D}
+\end{split}
 \tag{3.3}
 $$
 
@@ -459,7 +503,9 @@ $$
 Since $\varepsilon_{\mu\nu}$ satisfies the harmonic gauge condition, we can apply the linearized approximation for the Ricci tensor,
 
 $$
+\begin{split}
 R_{\mu\nu} \approx -\varepsilon_{\mu\nu,\alpha}^{\;\;\;\;\;\alpha}
+\end{split}
 \tag{3.7}
 $$
 
@@ -476,14 +522,18 @@ $$
 which is a wave equation with solutions that are traveling waves at the speed of light $c$. To see this clearly, let us re-write Eq. (3.8) in terms of the coordinate time variable $t$, where $x^0 \equiv ct$, and using the canonical form derivative operators $\partial$ and $\nabla$,
 
 $$
+\begin{split}
 \frac{1}{c^2} \frac{\partial^2}{ \partial t^2} \varepsilon_{ij} = \nabla^2 \varepsilon_{ij}
+\end{split}
 \tag{3.9}
 $$
 
 The above equation can be related to the Solid Mechanics equation for the propagation of a shear wave in elastic medium with density $\rho$ and shear modulus $\mu$. In the absence of body forces, the equation of motion is the following,
 
 $$
+\begin{split}
 \rho \frac{\partial^2}{\partial t^2} u_i = \sigma_{ij,j}
+\end{split}
 \tag{3.10}
 $$
 
@@ -517,14 +567,18 @@ are the only two independent degrees of freedom left, which implies just two typ
 From the result in Eq. (3.1), the fabric's elastic modulus $Y$ could be computed given an estimate for the fabric's thickness $L$. As reasoned in §2.4.1, Planck's length $l_p \equiv \sqrt{\hbar G/c^3}$ is a suitable estimate for $L$, where $\hbar$ is the reduced Planck's constant. Assuming $L \sim l_p$, we can estimate $Y$ to be,
 
 $$
+\begin{split}
 Y \sim \frac{24}{l^2_p \kappa} = 4.4 \times 10^{113} \text{N m}^{-2}
+\end{split}
 \tag{3.13}
 $$
 
 The density of the fabric $\rho$ is related to the wave speed and shear modulus, as shown in §3.3, and can now be computed,
 
 $$
+\begin{split}
 \rho = \frac{\mu}{c^2} = \frac{Y}{4c^2} \sim 1.3 \times 10^{96} \mathrm{kg}\,\mathrm{m}^{-3}
+\end{split}
 \tag{3.14}
 $$
 

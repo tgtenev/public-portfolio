@@ -1,5 +1,17 @@
 # Recovering the Principle of Relativity from the Cosmic Fabric Model of Space
 
+**Document Metadata**
+
+| | |
+|---|---|
+| **Store** | public-portfolio |
+| **Publication** | Rep. Adv. Phys. Sci., vol. 2, no. 3, art. 1850011, 2018 |
+| **DOI / URL** | https://doi.org/10.1142/S2424942418500111 |
+| **Cite as** | T. G. Tenev and M. F. Horstemeyer, "Recovering the principle of relativity from the cosmic fabric model of space," Rep. Adv. Phys. Sci., vol. 2, no. 3, art. 1850011, 2018. |
+| **Converted from** | Local Overleaf-cloned LaTeX source (`recovering-relativity-v1`), commit `738b44a` |
+
+---
+
 **T G Tenev**
 Mississippi State University, Starkville, MS 39759, USA
 ticho@tenev.com

@@ -1,5 +1,17 @@
 # The Mechanics of Spacetime – A Solid Mechanics Perspective on the Theory of General Relativity
 
+**Document Metadata**
+
+| | |
+|---|---|
+| **Store** | public-portfolio |
+| **Publication** | Int. J. Mod. Phys. D, vol. 27, no. 8, art. 1850083, 2018 |
+| **DOI / URL** | https://doi.org/10.1142/S0218271818500839 |
+| **Cite as** | T. G. Tenev and M. F. Horstemeyer, "Mechanics of spacetime — A solid mechanics perspective on the theory of general relativity," Int. J. Mod. Phys. D, vol. 27, no. 8, art. 1850083, 2018. |
+| **Converted from** | Local Overleaf-cloned LaTeX source (`mechanics-of-spacetime-v7-ijmpd`), commit `33d526a` |
+
+---
+
 **T G Tenev**
 Mississippi State University, Starkville, MS 39759, USA
 ticho@tenev.com

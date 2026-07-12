@@ -81,7 +81,7 @@ Finally, I would like to acknowledge my wife, Rong Tenev, without whose support,
 | $\kappa$ | The Einstein constant, $\kappa \equiv 8\pi G / c^4$. |
 | $\partial_{a},\ \partial_{ab}$ | Partial derivatives, $\partial_{a}\equiv\partial/\partial x_{a}$, and $\partial_{ab}\equiv\partial/\partial x_{a}\partial x_{b}$. |
 | $\nabla^{2}$ | The Laplace operator for spatial coordinates, $\nabla^{2}\equiv\partial_{11}+\partial_{22}+\partial_{33}$. |
-| $\delta_{b}^{a}$ | Kronecker delta: $\delta_{a}^{b}=\delta_{ab}=\delta^{ab}=\{1,\ a=b;\ 0,\ a\neq b\}$. |
+| $\delta_{b}^{a}$ | Kronecker delta: $\delta_{a}^{b}=\delta_{ab}=\delta^{ab}=\lbrace 1,\ a=b;\ 0,\ a\neq b\rbrace$. |
 | $g_{ij}$ | The three-dimensional metric tensor. |
 | $\overline{g}_{ij}$ | The three-dimensional undeformed metric tensor. In general, a bar decoration indicates that a quantity pertains to the undeformed configuration. |
 | $g_{\mu\nu},\ g$ | The spacetime metric and its determinant, $g \equiv \det g_{\mu\nu}$. |

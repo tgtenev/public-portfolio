@@ -289,7 +289,7 @@ $$
 \tag{7.24}
 $$
 
-where a "boundary node" $(a, b, c)$, as opposed to an "interior node" is one for which at least one of the following is the case: $a \in \{0, a_\text{max}\} \text{ or } b \in \{0, b_\text{max}\}, \text{ or } c \in \{0, c_\text{max}\}$. Furthermore, the strains $\varepsilon^{*}_{abc}$ stand for user-specified boundary quantities. Consequently, we arrive at the following discretization for the Poisson Equation:
+where a "boundary node" $(a, b, c)$, as opposed to an "interior node" is one for which at least one of the following is the case: $a \in \lbrace 0, a_\text{max}\rbrace \text{ or } b \in \lbrace 0, b_\text{max}\rbrace, \text{ or } c \in \lbrace 0, c_\text{max}\rbrace$. Furthermore, the strains $\varepsilon^{*}_{abc}$ stand for user-specified boundary quantities. Consequently, we arrive at the following discretization for the Poisson Equation:
 
 $$
 \begin{split}
@@ -314,9 +314,9 @@ To compute the mass density $\rho_{abc}$ at a given node $(a,b,c)$, we will cons
 
 $$
 \begin{split}
-\rho_{abc} &= \rho^{*}_{abc} + \frac{8}{\mathcal{V}_{abc}} \left\{ \sum_{p\in \Omega_{(a-1)(b-1)(c-1)}} m_p \frac{\xi^1_{(a-1)}}{h^1_{(a-1)}}\frac{\xi^2_{(b-1)}}{h^2_{(b-1)}}\frac{\xi^3_{(c-1)}}{h^3_{(c-1)}} \right. \\
+\rho_{abc} &= \rho^{*}_{abc} + \frac{8}{\mathcal{V}_{abc}} \left\lbrace  \sum_{p\in \Omega_{(a-1)(b-1)(c-1)}} m_p \frac{\xi^1_{(a-1)}}{h^1_{(a-1)}}\frac{\xi^2_{(b-1)}}{h^2_{(b-1)}}\frac{\xi^3_{(c-1)}}{h^3_{(c-1)}} \right. \\
 & +\sum_{p\in \Omega_{a(b-1)(c-1)}} m_p \left(1 - \frac{\xi^1_{a}}{h^1_{a}}\right)\frac{\xi^2_{(b-1)}}{h^2_{(b-1)}}\frac{\xi^3_{(c-1)}}{h^3_{(c-1)}} + \ldots \\
-& \left. +\sum_{p\in \Omega_{abc}} m_p \left(1 - \frac{\xi^1_{a}}{h^1_{a}}\right) \left(1 - \frac{\xi^2_{b}}{h^2_{b}}\right) \left(1 - \frac{\xi^3_{c}}{h^3_{c}}\right) \right\} \\
+& \left. +\sum_{p\in \Omega_{abc}} m_p \left(1 - \frac{\xi^1_{a}}{h^1_{a}}\right) \left(1 - \frac{\xi^2_{b}}{h^2_{b}}\right) \left(1 - \frac{\xi^3_{c}}{h^3_{c}}\right) \right\rbrace \\
 & \text{where} \quad \mathcal{V}_{abc} \equiv \sqrt{\overline{g}_{abc}}\,(h^1_{(a-1)} + h^1_a)(h^1_{(b-1)} + h^1_b)(h^1_{(c-1)} + h^1_c)
 \end{split}
 \tag{7.26}

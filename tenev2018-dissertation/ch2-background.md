@@ -68,7 +68,7 @@ Let $\Delta \mathbf{x}=\mathbf{b}-\mathbf{a}$ be the vector between points $\mat
 
 $$
 \begin{split}
-\Delta x^i = b^i - a^i, \quad i = \{1,2\}
+\Delta x^i = b^i - a^i, \quad i = \lbrace 1,2\rbrace
 \end{split}
 \tag{2.5}
 $$
@@ -91,7 +91,7 @@ $$
 \tag{2.7}
 $$
 
-where the coefficients $g_{ij}, i,j=\{1,2\}$ are called the *metric*. It is possible to show that these coefficients obey tensor transformation rules under change of basis and thus show that they are the components of a tensor $\mathbf{g}$ known as the *metric tensor*. Being a tensor means that $\mathbf{g}$ represents a quantity that is independent of the choice of basis so that only the specific representation of $\mathbf{g}$ in terms of its components $g_{ij}$ depends on the basis.
+where the coefficients $g_{ij}, i,j=\lbrace 1,2\rbrace$ are called the *metric*. It is possible to show that these coefficients obey tensor transformation rules under change of basis and thus show that they are the components of a tensor $\mathbf{g}$ known as the *metric tensor*. Being a tensor means that $\mathbf{g}$ represents a quantity that is independent of the choice of basis so that only the specific representation of $\mathbf{g}$ in terms of its components $g_{ij}$ depends on the basis.
 
 Indeed, we can write the equation above in a basis-independent way as follows:
 
@@ -130,7 +130,7 @@ where summation of repeated indexes is implied. The last equality above follows 
 
 $$
 \begin{split}
-g_{ij} = \mathbf{e_i}\cdot\mathbf{e_j}, \quad i,j = \{1,2\}
+g_{ij} = \mathbf{e_i}\cdot\mathbf{e_j}, \quad i,j = \lbrace 1,2\rbrace
 \end{split}
 \tag{2.11}
 $$

@@ -81,6 +81,20 @@ Except when explicitly stated otherwise, we will use the Einstein summation conv
 
 ---
 
+## Errata
+
+This Markdown edition corrects a small number of typographical errors present in the published version of record (ProQuest No. 10978458). The corrections below are confined to notation; no derivation, result, or conclusion is affected. Each entry gives the form as printed in the published version and the corrected form used here.
+
+| Location | Published version | Corrected here | Reason |
+|---|---|---|---|
+| Eq. (3.1), Eq. (3.24), and the paragraph opening *Formulation of the Cosmic Fabric Model of Gravity* | coefficient $\frac{YL}{48}$ | $\frac{YL^2}{48}$ | The exponent on the fabric thickness $L$ was dropped. The Lagrangian density derived in Eq. (3.23) and the identification $\frac{YL^2}{48} = \frac{1}{2\kappa}$ in Eq. (3.25) both carry $L^2$, and the analogy $\mathcal{S}_\text{F} = \mathcal{S}_\text{EH}$ with the Einstein–Hilbert action requires it. |
+| Eq. (5.37) | $ds = g_{tt}c^2dt^2 + \ldots$ | $ds^2 = g_{tt}c^2dt^2 + \ldots$ | The left-hand side is the squared line element; the right-hand side is written in squared differentials. |
+| Eq. (5.41), hoop term | $\left(1 + 2\varepsilon_\Omega\right)d\overline{r}^2\, d\Omega^2$ | $\left(1 + 2\varepsilon_\Omega\right)\overline{r}^2\, d\Omega^2$ | Matches the $g_{\Omega\Omega}\overline{r}^2 d\Omega^2$ term of Eq. (5.37); the hoop term carries $\overline{r}^2$, not $d\overline{r}^2$. |
+| Eq. (5.53), exterior line | $\ldots + r^2 d\Omega$ | $\ldots + r^2 d\Omega^2$ | Matches the interior line and the definition $d\Omega^2 \equiv d\theta^2 + \sin^2\theta\, d\varphi^2$. |
+| Eq. (6.12), first line | $\overline{\Gamma}^1_{11} = \dfrac{\overline{l}'\,\overline{l}''}{(l)^2}$ | $\overline{\Gamma}^1_{11} = \dfrac{\overline{l}'\,\overline{l}''}{(\overline{l}')^2}$ | Consistent with $\overline{\Gamma}^1_{11} = \tfrac{1}{2}\overline{g}^{11}\partial_1\overline{g}_{11}$ and $\overline{g}^{11} = (\overline{l}')^{-2}$, and with the two sibling lines of the same equation. |
+
+---
+
 ## I. Introduction
 
 In this dissertation work, we investigate the two-part proposition that: 1) physical space exhibits material-like properties and, that 2) having material nature, physical space has inherent structure at multiple length scales, which affects its behavior. The first part of the proposition underlies what we call the "Cosmic Fabric Model" of gravity. The second part of the proposition, which we call the "Inherent Structure Hypothesis," offers a new approach for solving conundrums of modern cosmology, such as explaining phenomena currently attributed to dark matter. We also show how the Cosmic Fabric model of gravity makes the computational tools of modern mechanics applicable to studying the inherent structure of cosmic space. Much of the work presented here is based on the publications by Tenev and Horstemeyer [160, 161], which introduced the Cosmic Fabric Model of gravity and began to illustrate its application to studying the inherent structure of space.
@@ -732,7 +746,7 @@ We conduct our study in the limit of weak and nearly static gravitational fields
 
 $$
 \begin{split}
-\mathcal{S}_\text{F} = \frac{YL}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\,\mathrm{d}x^4
+\mathcal{S}_\text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\,\mathrm{d}x^4
 \end{split}
 \tag{3.1}
 $$
@@ -747,7 +761,7 @@ The remainder of this chapter is organized as follows: In the section *Formulati
 
 ### Formulation of the Cosmic Fabric Model of Gravity
 
-Consider a four-dimensional hyperplate, called here the "cosmic fabric," which is thin in the fourth spatial dimension, $x^4$. We show that, for suitably chosen constitutive parameters, the fabric's Lagrangian density outside of inclusions is $\mathcal{L}_\text{F} = (YL/48)R\sqrt{|g|}$, where $\mathcal{L}_\text{F}$ is the integrand in Equation (3.1). This result enables us to subsequently analyze how the remaining kinematic properties of the cosmic fabric correspond to properties of gravity.
+Consider a four-dimensional hyperplate, called here the "cosmic fabric," which is thin in the fourth spatial dimension, $x^4$. We show that, for suitably chosen constitutive parameters, the fabric's Lagrangian density outside of inclusions is $\mathcal{L}_\text{F} = (YL^2/48)R\sqrt{|g|}$, where $\mathcal{L}_\text{F}$ is the integrand in Equation (3.1). This result enables us to subsequently analyze how the remaining kinematic properties of the cosmic fabric correspond to properties of gravity.
 
 ### Coordinate Assignment and Reference Space
 
@@ -1038,7 +1052,7 @@ which has the same form as the Einstein–Hilbert Lagrangian density. The result
 
 $$
 \begin{split}
-\mathcal{S}_\text{F} = \int \mathcal{L}_\text{F}\, \mathrm{d}x^4 = \frac{YL}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4
+\mathcal{S}_\text{F} = \int \mathcal{L}_\text{F}\, \mathrm{d}x^4 = \frac{YL^2}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4
 \end{split}
 \tag{3.24}
 $$
@@ -1856,7 +1870,7 @@ Because of the spherical symmetry, it is useful to derive the metric using the p
 
 $$
 \begin{split}
-ds = g_{tt} c^2 dt^2 + g_{\overline{r}\overline{r}} d\overline{r}^2 + g_{\Omega\Omega}\overline{r}^2 d\Omega^2
+ds^2 = g_{tt} c^2 dt^2 + g_{\overline{r}\overline{r}} d\overline{r}^2 + g_{\Omega\Omega}\overline{r}^2 d\Omega^2
 \end{split}
 \tag{5.37}
 $$
@@ -1906,7 +1920,7 @@ From a solid mechanics perspective, the three metric coefficients in Equation (5
 
 $$
 \begin{split}
-ds^2 =& -\left(1 - 2\varepsilon\right)c^2dt^2 + \left(1 + 2\varepsilon_r\right)d\overline{r}^2 + \left(1 + 2\varepsilon_\Omega\right)d\overline{r}^2 d\Omega^2
+ds^2 =& -\left(1 - 2\varepsilon\right)c^2dt^2 + \left(1 + 2\varepsilon_r\right)d\overline{r}^2 + \left(1 + 2\varepsilon_\Omega\right)\overline{r}^2 d\Omega^2
 \end{split}
 \tag{5.41}
 $$
@@ -2082,7 +2096,7 @@ The Schwarzschild Metric [148] is a solution of the Field Equations of General R
 $$
 \begin{split}
 ds^2_\text{int} &= -\left(1 - \frac{3r_g^2}{2r_0^2} + \frac{r^2}{2r_0^2}\right) c^2 dt^2 + \left(1 + \frac{r^2}{r_0^2}\right) dr^2 + r^2 d\Omega^2 \\
-ds^2_\text{ext} &= -\left(1-\frac{r_s}{r}\right) c^2 dt^2 + \left(1+\frac{r_s}{r}\right) dr^2 + r^2 d\Omega
+ds^2_\text{ext} &= -\left(1-\frac{r_s}{r}\right) c^2 dt^2 + \left(1+\frac{r_s}{r}\right) dr^2 + r^2 d\Omega^2
 \end{split}
 \tag{5.53}
 $$
@@ -2315,7 +2329,7 @@ We proceed to evaluate these for the special coordinate choice (6.3). For the ch
 
 $$
 \begin{split}
-\overline{\Gamma}^1_{11} &= \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}_{11} = \frac{\overline{l}'\overline{l}''}{(l)^2} \\
+\overline{\Gamma}^1_{11} &= \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}_{11} = \frac{\overline{l}'\overline{l}''}{(\overline{l}')^2} \\
 \overline{\Gamma}^1_{22} &= \overline{g}^{11}\partial_2 \overline{g}_{12} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2} \\
 \overline{\Gamma}^1_{33} &= \overline{g}^{11}\partial_3 \overline{g}_{13} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2}
 \end{split}

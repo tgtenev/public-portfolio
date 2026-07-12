@@ -193,12 +193,12 @@ where $\overline{w} = \overline{w}(x^i)$ is the displacement of the cosmic fabri
 $$
 \begin{split}
 G^{(ij)}_n &= \delta_{ij} + \left(D^{(i)}_{nm}W_m\right)\circ(D^{(j)}_{nm}W_m) \\
-J^{(kij)}_n &= \frac{1}{2}\operatorname{inv}\left[G^{(kl)}_n\right]\circ \left( D^{(j)}_{nm}G^{(il)}_m + D^{(i)}_{nm}G^{(lj)}_m - D^{(l)}_{nm}G^{(ij)}_m \right)
+J^{(kij)}_n &= \frac{1}{2}\mathrm{inv}\left[G^{(kl)}_n\right]\circ \left( D^{(j)}_{nm}G^{(il)}_m + D^{(i)}_{nm}G^{(lj)}_m - D^{(l)}_{nm}G^{(ij)}_m \right)
 \end{split}
 \tag{7.16}
 $$
 
-where $G^{(ij)}_{n_{abc}}\equiv \overline{g}_{ij}(x^k_{abc})$, $W \equiv \overline{w}_{abc}$, and $J^{(kij)}_n \equiv \overline{\Gamma}^{k}_{\;ij}(x^k_{abc})$. Furthermore, the operator $\operatorname{inv}$ applies to $G$'s parenthesized indexes and represents a $3 \times 3$ matrix inversion, the binary operator $\circ$ represents element-wise multiplication *with respect to the unparenthesized indexes*, summation over repeated indexes is implied, and the $D$ matrices are defined per Equations (7.12) and (7.13). Note that the element-wise multiplication of vector elements that is represented by the binary operator $\circ$ can be substituted with regular matrix multiplication provided that the vectors are treated as diagonal matrices with the diagonal elements being the vector elements.
+where $G^{(ij)}_{n_{abc}}\equiv \overline{g}_{ij}(x^k_{abc})$, $W \equiv \overline{w}_{abc}$, and $J^{(kij)}_n \equiv \overline{\Gamma}^{k}_{\;ij}(x^k_{abc})$. Furthermore, the operator $\mathrm{inv}$ applies to $G$'s parenthesized indexes and represents a $3 \times 3$ matrix inversion, the binary operator $\circ$ represents element-wise multiplication *with respect to the unparenthesized indexes*, summation over repeated indexes is implied, and the $D$ matrices are defined per Equations (7.12) and (7.13). Note that the element-wise multiplication of vector elements that is represented by the binary operator $\circ$ can be substituted with regular matrix multiplication provided that the vectors are treated as diagonal matrices with the diagonal elements being the vector elements.
 
 #### Discretization of the Geodesic Equation
 
@@ -251,7 +251,7 @@ The discretized version of the particle acceleration Equation (7.20) can now be 
 
 $$
 \begin{split}
-A^{(k)}_p = \left. c^2 \operatorname{inv}\left[G^{(kl)}_n\right]\circ D^{(l)}_{nm}E_m \right|_p - \left. \frac{2 D^{(i)}_{nm} E_m}{1 - 2 E_n}\right|_p \circ V^{(i)}_p \circ V^{(k)}_p - \left. J^{(kij)}_n \right|_p \circ V^{(i)}_p \circ V^{(j)}_p
+A^{(k)}_p = \left. c^2 \mathrm{inv}\left[G^{(kl)}_n\right]\circ D^{(l)}_{nm}E_m \right|_p - \left. \frac{2 D^{(i)}_{nm} E_m}{1 - 2 E_n}\right|_p \circ V^{(i)}_p \circ V^{(k)}_p - \left. J^{(kij)}_n \right|_p \circ V^{(i)}_p \circ V^{(j)}_p
 \end{split}
 \tag{7.21}
 $$
@@ -273,7 +273,7 @@ the Covariant Laplacian $\nabla_i (\nabla^i \varepsilon)$ is discretized as foll
 
 $$
 \begin{split}
-L_{nm} \equiv \operatorname{inv}\left[G^{(ij)}_n\right]\circ \left(D^{(ij)}_{nm} - J^{(kij)}_n \circ D^{(k)}_{nm} \right)
+L_{nm} \equiv \mathrm{inv}\left[G^{(ij)}_n\right]\circ \left(D^{(ij)}_{nm} - J^{(kij)}_n \circ D^{(k)}_{nm} \right)
 \end{split}
 \tag{7.23}
 $$

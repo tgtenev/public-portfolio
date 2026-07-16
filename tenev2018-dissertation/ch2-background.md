@@ -108,7 +108,7 @@ In general, $\mathbf{g}$ may vary from point to point in space. In other words, 
 
 $$
 \begin{split}
-(ds)^2 = d\mathbf{x}^T\mathbf{g}\,d\mathbf{x}
+(ds)^2 = d\mathbf{x}^T\mathbf{g}\ d\mathbf{x}
 \end{split}
 \tag{2.9}
 $$
@@ -143,7 +143,7 @@ d\mathbf{x}\cdot d\mathbf{y}
 = \left( dx^i\mathbf{e_i}\right)\cdot \left( dy^j\mathbf{e_j}\right)
 = dx^i dy^j(\mathbf{e_i}\cdot\mathbf{e_j})
 = g_{ij}dx^i dy^j
-= d\mathbf{x}^T \mathbf{g}\, d\mathbf{y}
+= d\mathbf{x}^T \mathbf{g}\  d\mathbf{y}
 \end{split}
 \tag{2.12}
 $$
@@ -210,7 +210,7 @@ Likewise, the flat three-dimensional Cartesian metric tensor is: $g_{ij} = \delt
 
 $$
 \begin{split}
-\eta_{00}=-1, \; \eta_{0i}=\eta_{i0}=0, \; \eta_{ij} =\delta_{ij} \quad (i,j=1\ldots 3)
+\eta_{00}=-1, \  \eta_{0i}=\eta_{i0}=0, \  \eta_{ij} =\delta_{ij} \quad (i,j=1\ldots 3)
 \end{split}
 \tag{2.18}
 $$
@@ -238,7 +238,7 @@ $$
 
 ![A line segment $ds$ in skewed Cartesian (a) and spherical (b) coordinates.](https://figures.tgtenev.com/tenev2018-dissertation/fig-metric.svg)
 
-**Figure 2.1.** A line segment $ds$ in skewed Cartesian (a) and spherical (b) coordinates. The metric for case (a), when the basis are unit vectors subtending some angle $\theta$ with each other, is $ds^2 = (dx^1)^2 + (dx^2)^2 + 2dx^1 dx^2 \cos \theta$. For case (b) of the coordinates $(\theta, \varphi)$ for the surface of a sphere with radius $R$, the metric is $ds^2 = R^2 d\theta^2 + R^2 \sin^2 \theta\, d\varphi^2$.
+**Figure 2.1.** A line segment $ds$ in skewed Cartesian (a) and spherical (b) coordinates. The metric for case (a), when the basis are unit vectors subtending some angle $\theta$ with each other, is $ds^2 = (dx^1)^2 + (dx^2)^2 + 2dx^1 dx^2 \cos \theta$. For case (b) of the coordinates $(\theta, \varphi)$ for the surface of a sphere with radius $R$, the metric is $ds^2 = R^2 d\theta^2 + R^2 \sin^2 \theta\  d\varphi^2$.
 
 Just as with the previous example of Cartesian coordinates, the current one also involves a flat (Euclidean) space and yet the metric tensor's representation is no longer one and the same as the identity tensor. That is because the metric tensor's representation depends on the choice of basis vectors. At the same time, in both of the above cases the metric is constant throughout space.
 
@@ -246,7 +246,7 @@ In spherical coordinates, the great circles serve as coordinate axes and, as ill
 
 $$
 \begin{split}
-ds^2 = R^2 d\theta^2 + R^2 \sin^2 \theta\, d\varphi^2
+ds^2 = R^2 d\theta^2 + R^2 \sin^2 \theta\  d\varphi^2
 \end{split}
 \tag{2.21}
 $$
@@ -454,7 +454,7 @@ where the dots represent differentiation with respect to proper time. Essentiall
 $$
 \begin{split}
 & \ddot{r} + c^2\Gamma^r_{00} = 0 \\
-& a_P = \sqrt{g_{rr}}\,\ddot{r} = c^2\frac{\partial_r g_{00}}{2 \sqrt{g_{rr}}}
+& a_P = \sqrt{g_{rr}}\ \ddot{r} = c^2\frac{\partial_r g_{00}}{2 \sqrt{g_{rr}}}
 \end{split}
 \tag{2.38}
 $$

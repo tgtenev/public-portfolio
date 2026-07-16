@@ -75,9 +75,9 @@ Finally, I would like to acknowledge my wife, Rong Tenev, without whose support,
 | $Y$ | Young's modulus of elasticity. |
 | $\nu$ | Poisson's ratio (when not used as an index). |
 | $L$ | Cosmic fabric thickness. |
-| $\hbar$ | The reduced Planck constant, $\hbar = 1.054571800\times 10^{-34}\ \mathrm{m}^2\,\mathrm{kg}\,\mathrm{s}^{-1}$. |
-| $G$ | The gravitational constant, $G = 6.67408\times 10^{-11}\ \mathrm{m}^3\,\mathrm{kg}^{-1}\mathrm{s}^{-2}$. |
-| $c$ | Speed of light, $c = 299{,}792{,}458\ \mathrm{m\,s}^{-1}$. |
+| $\hbar$ | The reduced Planck constant, $\hbar = 1.054571800\times 10^{-34}\ \mathrm{m}^2\ \mathrm{kg}\ \mathrm{s}^{-1}$. |
+| $G$ | The gravitational constant, $G = 6.67408\times 10^{-11}\ \mathrm{m}^3\ \mathrm{kg}^{-1}\mathrm{s}^{-2}$. |
+| $c$ | Speed of light, $c = 299{,}792{,}458\ \mathrm{m\ s}^{-1}$. |
 | $\kappa$ | The Einstein constant, $\kappa \equiv 8\pi G / c^4$. |
 | $\partial_{a},\ \partial_{ab}$ | Partial derivatives, $\partial_{a}\equiv\partial/\partial x_{a}$, and $\partial_{ab}\equiv\partial/\partial x_{a}\partial x_{b}$. |
 | $\nabla^{2}$ | The Laplace operator for spatial coordinates, $\nabla^{2}\equiv\partial_{11}+\partial_{22}+\partial_{33}$. |
@@ -105,12 +105,12 @@ This Markdown edition corrects a small number of errors present in the published
 |---|---|---|---|
 | Ch. I, preview of the SM Lagrangian | $\mathcal{L} = RL^2\mu/(24c)$ | $\mathcal{L} = RL^2\mu/(12c)$ | Factor-of-two slip. With $\mu = Y/4$ this coefficient is $\frac{\mu L^2}{24}$, half of the derived $\frac{\mu L^2}{12} = \frac{YL^2}{48} = \frac{1}{2\kappa}$ (Eqs. 3.18, 3.25). The corrected form also matches the elastic modulus $Y \sim 24/(l_p^2\kappa)$ of Eq. (3.29). |
 | Eq. (3.1), Eq. (3.24), and the paragraph opening *Formulation of the Cosmic Fabric Model of Gravity* | coefficient $\frac{YL}{48}$ | $\frac{YL^2}{48}$ | The exponent on the fabric thickness $L$ was dropped. The Lagrangian density derived in Eq. (3.23) and the identification $\frac{YL^2}{48} = \frac{1}{2\kappa}$ in Eq. (3.25) both carry $L^2$, and the analogy $\mathcal{S}_\text{F} = \mathcal{S}_\text{EH}$ with the Einstein–Hilbert action requires it. |
-| Table 3.1, Solid Mechanics action cell | $\mathcal{S} = \frac{L^2 Y}{24}\int R\sqrt{\ldots}\,d^4x$ | $\mathcal{S} = \frac{L^2 Y}{48}\int R\sqrt{\ldots}\,d^4x$ | Factor-of-two slip in the opposite direction. Equals $\frac{1}{2\kappa}$ per Eq. (3.25); the table's own elastic-constant entry $Y = \frac{6c^7}{2\pi\hbar G^2}$ is consistent only with the $\frac{L^2Y}{48}$ coefficient. |
+| Table 3.1, Solid Mechanics action cell | $\mathcal{S} = \frac{L^2 Y}{24}\int R\sqrt{\ldots}\ d^4x$ | $\mathcal{S} = \frac{L^2 Y}{48}\int R\sqrt{\ldots}\ d^4x$ | Factor-of-two slip in the opposite direction. Equals $\frac{1}{2\kappa}$ per Eq. (3.25); the table's own elastic-constant entry $Y = \frac{6c^7}{2\pi\hbar G^2}$ is consistent only with the $\frac{L^2Y}{48}$ coefficient. |
 | Eq. (4.5) | $d\tau' = dt\sqrt{1-\beta^2}$ | $d\tau' = d\tau\sqrt{1-\beta^2}$ | The quantity being time-dilated is the stationary observer's round-trip proper time $d\tau$ from Eq. (4.4), per the dilation relation Eq. (4.3). No coordinate time $t$ is defined in this derivation. |
 | Eq. (5.37) | $ds = g_{tt}c^2dt^2 + \ldots$ | $ds^2 = g_{tt}c^2dt^2 + \ldots$ | The left-hand side is the squared line element; the right-hand side is written in squared differentials. |
-| Eq. (5.41), hoop term | $\left(1 + 2\varepsilon_\Omega\right)d\overline{r}^2\, d\Omega^2$ | $\left(1 + 2\varepsilon_\Omega\right)\overline{r}^2\, d\Omega^2$ | Matches the $g_{\Omega\Omega}\overline{r}^2 d\Omega^2$ term of Eq. (5.37); the hoop term carries $\overline{r}^2$, not $d\overline{r}^2$. |
-| Eq. (5.53), exterior line | $\ldots + r^2 d\Omega$ | $\ldots + r^2 d\Omega^2$ | Matches the interior line and the definition $d\Omega^2 \equiv d\theta^2 + \sin^2\theta\, d\varphi^2$. |
-| Eq. (6.12), first line | $\overline{\Gamma}^1_{11} = \dfrac{\overline{l}'\,\overline{l}''}{(l)^2}$ | $\overline{\Gamma}^1_{11} = \dfrac{\overline{l}'\,\overline{l}''}{(\overline{l}')^2}$ | Consistent with $\overline{\Gamma}^1_{11} = \tfrac{1}{2}\overline{g}^{11}\partial_1\overline{g}_{11}$ and $\overline{g}^{11} = (\overline{l}')^{-2}$, and with the two sibling lines of the same equation. |
+| Eq. (5.41), hoop term | $\left(1 + 2\varepsilon_\Omega\right)d\overline{r}^2\  d\Omega^2$ | $\left(1 + 2\varepsilon_\Omega\right)\overline{r}^2\  d\Omega^2$ | Matches the $g_{\Omega\Omega}\overline{r}^2 d\Omega^2$ term of Eq. (5.37); the hoop term carries $\overline{r}^2$, not $d\overline{r}^2$. |
+| Eq. (5.53), exterior line | $\ldots + r^2 d\Omega$ | $\ldots + r^2 d\Omega^2$ | Matches the interior line and the definition $d\Omega^2 \equiv d\theta^2 + \sin^2\theta\  d\varphi^2$. |
+| Eq. (6.12), first line | $\overline{\Gamma}^1_{11} = \dfrac{\overline{l}'\ \overline{l}''}{(l)^2}$ | $\overline{\Gamma}^1_{11} = \dfrac{\overline{l}'\ \overline{l}''}{(\overline{l}')^2}$ | Consistent with $\overline{\Gamma}^1_{11} = \tfrac{1}{2}\overline{g}^{11}\partial_1\overline{g}_{11}$ and $\overline{g}^{11} = (\overline{l}')^{-2}$, and with the two sibling lines of the same equation. |
 | Ch. VII, `wfunMOND` code listing | `r = sqsrt(x{1}.^2 + x{2}.^2 + x{3}.^3)` | `r = sqrt(x{1}.^2 + x{2}.^2 + x{3}.^2)` | Slips in the reproduced MATLAB code: the function name is `sqrt`, and the radial distance is $r=\sqrt{x_1^2+x_2^2+x_3^2}$ (the third term's exponent is 2, not 3). |
 
 ---

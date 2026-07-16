@@ -10,7 +10,7 @@ Despite the overwhelming evidence for the DM effect, there has been no direct co
 
 $$
 \begin{split}
-ma = F = \frac{G M m}{\mu(a/a_0) \overline{l}^2}, \quad a_0 = 1.2 \times 10^{-10}\ \text{m}\,\text{s}^{-2}
+ma = F = \frac{G M m}{\mu(a/a_0) \overline{l}^2}, \quad a_0 = 1.2 \times 10^{-10}\ \text{m}\ \text{s}^{-2}
 \end{split}
 \tag{6.1}
 $$
@@ -31,7 +31,7 @@ In the remainder of the chapter, we introduce the mathematical tools used for ha
 
 ### Spherically Symmetric Inherent Curvature
 
-We adapt the coordinate conventions described in the *Deformation, Material and Reference Coordinates* section of Chapter II for a cosmic fabric with a spherically symmetric inherent curvature. The cosmic fabric (physical space) is considered as immersed in a four-dimensional hyperspace within which it can deform. The enclosing hyperspace is flat and has been assigned Cartesian coordinates $y^K,\,K=1\ldots 4$. Within this space, the fabric's spherical symmetry manifests as radial symmetry whose profile is visualized in Figure 6.1. Let $y^K$ be such that $y^4$ is aligned with the axis of symmetry and $y^4 = \overline{w}(\overline{r})$, where $\overline{r}$ is the distance from $y^4$. Another set of coordinates $x^i,\,i=1\ldots 3$ is painted on the fabric, such that $x^i = y^i$. The time coordinate of the fabric, $x^0$, is defined as usual such that $x^0 \equiv c t$, where $c$ is the speed of light and $t$ is time.
+We adapt the coordinate conventions described in the *Deformation, Material and Reference Coordinates* section of Chapter II for a cosmic fabric with a spherically symmetric inherent curvature. The cosmic fabric (physical space) is considered as immersed in a four-dimensional hyperspace within which it can deform. The enclosing hyperspace is flat and has been assigned Cartesian coordinates $y^K,\ K=1\ldots 4$. Within this space, the fabric's spherical symmetry manifests as radial symmetry whose profile is visualized in Figure 6.1. Let $y^K$ be such that $y^4$ is aligned with the axis of symmetry and $y^4 = \overline{w}(\overline{r})$, where $\overline{r}$ is the distance from $y^4$. Another set of coordinates $x^i,\ i=1\ldots 3$ is painted on the fabric, such that $x^i = y^i$. The time coordinate of the fabric, $x^0$, is defined as usual such that $x^0 \equiv c t$, where $c$ is the speed of light and $t$ is time.
 
 ![Profile of a spherically symmetric inherent curvature.](https://figures.tgtenev.com/tenev2018-dissertation/fig-dm-profile.svg)
 
@@ -47,7 +47,7 @@ $$
 \begin{split}
 \partial_i \overline{r} &= \frac{x^i}{\overline{r}} \\
 \partial_i f &= f'\partial_i \overline{r} = f' \frac{x^i}{\overline{r}} \\
-\partial_{ii} f &= f''\frac{(x^i)^2}{\overline{r}^2} + f'\frac{1}{\overline{r}} - f'\frac{(x^i)^2}{\overline{r}^3},\;\text{(no summation)} \\
+\partial_{ii} f &= f''\frac{(x^i)^2}{\overline{r}^2} + f'\frac{1}{\overline{r}} - f'\frac{(x^i)^2}{\overline{r}^3},\ \text{(no summation)} \\
 \nabla^2 f &= f'' + 3 f'\frac{1}{\overline{r}} - f'\frac{1}{\overline{r}} = f'' + 2f'\frac{1}{\overline{r}}
 \end{split}
 \tag{6.2}
@@ -163,11 +163,11 @@ $$
 
 #### Christoffel Symbols
 
-The Christoffel symbols $\overline{\Gamma}^m_{\;ij}$ characterize how inherent curvature affects field derivatives (see the *Affine Connection and Covariant Derivative* section of Chapter II). These can be calculated from the metric as follows:
+The Christoffel symbols $\overline{\Gamma}^m_{\ ij}$ characterize how inherent curvature affects field derivatives (see the *Affine Connection and Covariant Derivative* section of Chapter II). These can be calculated from the metric as follows:
 
 $$
 \begin{split}
-\overline{\Gamma}^m_{\;ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}_{ki} + \partial_i \overline{g}_{jk} - \partial_k \overline{g}_{ij}\right),
+\overline{\Gamma}^m_{\ ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}_{ki} + \partial_i \overline{g}_{jk} - \partial_k \overline{g}_{ij}\right),
 \end{split}
 \tag{6.11}
 $$
@@ -257,8 +257,8 @@ where $\nabla_i$ is the covariant derivative with respect to the $x^i$ coordinat
 
 $$
 \begin{split}
-\nabla_i (\nabla^i \varepsilon) &= \overline{g}^{ij}\left( \partial_{ij} \varepsilon - \overline{\Gamma}^m_{\;ij} \partial_m \varepsilon \right) \\
-& = \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}_{\;11}\partial_1 \varepsilon + \overline{g}^{22}\partial_{22} \varepsilon - \overline{g}^{22}\overline{\Gamma}^1_{\;22}\partial_1 \varepsilon + \overline{g}^{33}\partial_{33} \varepsilon - \overline{g}^{33}\overline{\Gamma}^1_{\;33}\partial_1 \varepsilon \\
+\nabla_i (\nabla^i \varepsilon) &= \overline{g}^{ij}\left( \partial_{ij} \varepsilon - \overline{\Gamma}^m_{\ ij} \partial_m \varepsilon \right) \\
+& = \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}_{\ 11}\partial_1 \varepsilon + \overline{g}^{22}\partial_{22} \varepsilon - \overline{g}^{22}\overline{\Gamma}^1_{\ 22}\partial_1 \varepsilon + \overline{g}^{33}\partial_{33} \varepsilon - \overline{g}^{33}\overline{\Gamma}^1_{\ 33}\partial_1 \varepsilon \\
 & = \frac{1}{(\overline{l}')^2}\left[\varepsilon'' - \frac{\overline{l}''}{\overline{l}'}\varepsilon' + \frac{2}{\overline{r}}\varepsilon'\right]
 \end{split}
 \tag{6.20}
@@ -443,7 +443,7 @@ The above comparison between the Inherent Structure Hypothesis (ISH) and MOND se
 
 **Table 6.1.** Apparent masses and sizes of galaxies $25\times 10^3$ – $13.4\times 10^9$ light years from Earth. The list is sorted by distance from Earth. The scale factor $s=\sqrt{GM/a_0}$, where $a_0$ is the MOND parameter, is characteristic of the inherent curvature of space associated with that galaxy. The visible radius $R$ is to within an order of magnitude of the characteristic scale $s$. This relationship appears to hold for a broad variety of galaxies. The acronyms LMC and SMC stand for Large Magellanic Cloud and Small Magellanic Cloud, respectively.
 
-| Galaxy | Mass $M$ $[10^9\,\text{M}_\odot]$ | Radius $R$ $[10^3\,\text{ly}]$ | $R/s$ |
+| Galaxy | Mass $M$ $[10^9\ \text{M}_\odot]$ | Radius $R$ $[10^3\ \text{ly}]$ | $R/s$ |
 |---|---|---|---|
 | Milky Way [73, 75, 107, 108, 123] | 1000 | 50.0 | 0.45 |
 | LMC [129] | 10 | 7.0 | 0.63 |
@@ -460,7 +460,7 @@ The above comparison between the Inherent Structure Hypothesis (ISH) and MOND se
 | Phoenix Cluster [106] | 2000000 | 550.0 | 0.11 |
 | GN-z11 [125] | 1 | 1.5 | 0.43 |
 
-At the same time, the ISH provides a more general and potentially more accurate explanation than MOND. Being a single-parameter model, MOND still leaves a considerable number of outliers [137] where $a_0$ is either too large or too small. By contrast per the ISH such cases simply reflect, respectively, less or more inherent curvature. Furthermore, MOND calls for the modification of a fundamental law of nature, such as Newton's Second Law of motion, or at the very least Newton's Gravity Law, which has far reaching effects. By contrast, the ISH only refers to the properties of a specific object of nature, namely physical space, and only in a specific region. Finally, there are clues within MOND and also from the analysis above to suggest that the likely explanation for the MOND effect is geometrical in nature. One such clue is that the MOND parameter $a_0$, which has been empirically derived, when expressed as length, $l_\text{MOND} \equiv c^2/a_0 = 7.5\times 10^{26}\,\text{m}$, is comparable to the Hubble distance, $l_\text{H} = c/H_0 = 1.4\times 10^{26}\ \text{m}$ where $H_0$ is the Hubble parameter. At the same time, the Hubble distance is characteristic of the size of the visible universe. Another clue is that the characteristic length scale $s$ computed for each gravitational system based on the MOND hypothesis happens to be comparable to the geometrical size of said system (see Table 6.1). Both of these "coincidences" are empirical as opposed to an artifact of the model, so they point to some geometrical (or structural) characteristics of the underlying reality. In fact, MOND's single parameter model seems like a first order approximation for the inherent structure of space.
+At the same time, the ISH provides a more general and potentially more accurate explanation than MOND. Being a single-parameter model, MOND still leaves a considerable number of outliers [137] where $a_0$ is either too large or too small. By contrast per the ISH such cases simply reflect, respectively, less or more inherent curvature. Furthermore, MOND calls for the modification of a fundamental law of nature, such as Newton's Second Law of motion, or at the very least Newton's Gravity Law, which has far reaching effects. By contrast, the ISH only refers to the properties of a specific object of nature, namely physical space, and only in a specific region. Finally, there are clues within MOND and also from the analysis above to suggest that the likely explanation for the MOND effect is geometrical in nature. One such clue is that the MOND parameter $a_0$, which has been empirically derived, when expressed as length, $l_\text{MOND} \equiv c^2/a_0 = 7.5\times 10^{26}\ \text{m}$, is comparable to the Hubble distance, $l_\text{H} = c/H_0 = 1.4\times 10^{26}\ \text{m}$ where $H_0$ is the Hubble parameter. At the same time, the Hubble distance is characteristic of the size of the visible universe. Another clue is that the characteristic length scale $s$ computed for each gravitational system based on the MOND hypothesis happens to be comparable to the geometrical size of said system (see Table 6.1). Both of these "coincidences" are empirical as opposed to an artifact of the model, so they point to some geometrical (or structural) characteristics of the underlying reality. In fact, MOND's single parameter model seems like a first order approximation for the inherent structure of space.
 
 #### Implication to Cosmological Models
 

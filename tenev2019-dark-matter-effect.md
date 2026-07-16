@@ -36,7 +36,7 @@ Despite the overwhelming evidence for the DM effect, there has been no direct co
 
 $$
 \begin{split}
-ma = F = \frac{G M m}{\mu(a/a_0) \overline{l}^2}, \quad a_0 = 1.2 \times 10^{-10} \text{m}\,\text{s}^{-2}
+ma = F = \frac{G M m}{\mu(a/a_0) \overline{l}^2}, \quad a_0 = 1.2 \times 10^{-10} \text{m}\ \text{s}^{-2}
 \end{split}
 \tag{1.1}
 $$
@@ -58,7 +58,7 @@ In the remainder of the paper, we introduce the mathematical tools used for hand
 
 ## 2. Spherically Symmetric Inherent Curvature
 
-We adapt the coordinate conventions described in [23] for a cosmic fabric with a spherically symmetric inherent curvature. The cosmic fabric (physical space) is considered as immersed in a four dimensional hyperspace within which it can deform. The enclosing hyperspace is flat and has been assigned Cartesian coordinates $y^K,\,K=1\ldots 4$. Within this space, the fabric's spherical symmetry manifests as radial symmetry whose profile is visualized in Figure 1. Let $y^K$ be such that $y^4$ is aligned with the axis of symmetry and $y^4 = \overline{w}(\overline{r})$, where $\overline{r}$ is the distance from $y^4$. Another set of coordinates $x^i,\,i=1\ldots 3$ is painted on the fabric, such that $x^i = y^i$. The time coordinate of the fabric, $x^0$, is defined as usual such that $x^0 \equiv c t$, where $c$ is the speed of light and $t$ is time.
+We adapt the coordinate conventions described in [23] for a cosmic fabric with a spherically symmetric inherent curvature. The cosmic fabric (physical space) is considered as immersed in a four dimensional hyperspace within which it can deform. The enclosing hyperspace is flat and has been assigned Cartesian coordinates $y^K,\ K=1\ldots 4$. Within this space, the fabric's spherical symmetry manifests as radial symmetry whose profile is visualized in Figure 1. Let $y^K$ be such that $y^4$ is aligned with the axis of symmetry and $y^4 = \overline{w}(\overline{r})$, where $\overline{r}$ is the distance from $y^4$. Another set of coordinates $x^i,\ i=1\ldots 3$ is painted on the fabric, such that $x^i = y^i$. The time coordinate of the fabric, $x^0$, is defined as usual such that $x^0 \equiv c t$, where $c$ is the speed of light and $t$ is time.
 
 Here, and for the remainder of the paper we have adopted the following notational convention: A bar over the variable name of a quantity indicates that it pertains to the inherent curvature (undeformed configuration) of the cosmic fabric. Upper-case Latin indexes run over the four dimensions of hyperspace $(1\ldots 4)$, lower-case Latin indexes run over the three ordinary spatial dimensions $(1\ldots 3)$, and Greek indexes run over the four spacetime dimensions $(0\ldots 3)$, where the $0^\text{th}$ dimension is time scaled by the speed of light $c$, so it has units of space. Since the fabric represents physical three-dimensional (3D) space, $x^i$ are the coordinates which we have assigned to 3D space in this manner.
 
@@ -76,7 +76,7 @@ $$
 \begin{split}
 \partial_i \overline{r} &= \frac{x^i}{\overline{r}} \\
 \partial_i f &= f'\partial_i \overline{r} = f' \frac{x^i}{\overline{r}} \\
-\partial_{ii} f &= f''\frac{(x^i)^2}{\overline{r}^2} + f'\frac{1}{\overline{r}} - f'\frac{(x^i)^2}{\overline{r}^3},\;\text{(no summation)} \\
+\partial_{ii} f &= f''\frac{(x^i)^2}{\overline{r}^2} + f'\frac{1}{\overline{r}} - f'\frac{(x^i)^2}{\overline{r}^3},\ \text{(no summation)} \\
 \nabla^2 f &= f'' + 3 f'\frac{1}{\overline{r}} - f'\frac{1}{\overline{r}} = f'' + 2f'\frac{1}{\overline{r}}
 \end{split}
 \tag{2.1}
@@ -209,11 +209,11 @@ $$
 
 ### 2.4 Christoffel Symbols
 
-The Christoffel symbols $\overline{\Gamma}^m_{\;ij}$ characterize how inherent curvature affects field derivatives. These can be calculated from the metric as follows:
+The Christoffel symbols $\overline{\Gamma}^m_{\ ij}$ characterize how inherent curvature affects field derivatives. These can be calculated from the metric as follows:
 
 $$
 \begin{split}
-\overline{\Gamma}^m_{\;ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}_{ki} + \partial_i \overline{g}_{jk} - \partial_k \overline{g}_{ij}\right)
+\overline{\Gamma}^m_{\ ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}_{ki} + \partial_i \overline{g}_{jk} - \partial_k \overline{g}_{ij}\right)
 \end{split}
 \tag{2.10}
 $$
@@ -308,10 +308,10 @@ where $\nabla_i$ is the covariant derivative with respect to the $x^i$ coordinat
 
 $$
 \begin{split}
-\nabla_i (\nabla^i \varepsilon) = & \overline{g}^{ij}\left( \partial_{ij} \varepsilon - \overline{\Gamma}^m_{\;ij} \partial_m \varepsilon \right) \\
-= & \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}_{\;11}\partial_1 \varepsilon \\
-& + \overline{g}^{22}\partial_{22} \varepsilon - \overline{g}^{22}\overline{\Gamma}^1_{\;22}\partial_1 \varepsilon \\
-& + \overline{g}^{33}\partial_{33} \varepsilon - \overline{g}^{33}\overline{\Gamma}^1_{\;33}\partial_1 \varepsilon \\
+\nabla_i (\nabla^i \varepsilon) = & \overline{g}^{ij}\left( \partial_{ij} \varepsilon - \overline{\Gamma}^m_{\ ij} \partial_m \varepsilon \right) \\
+= & \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}_{\ 11}\partial_1 \varepsilon \\
+& + \overline{g}^{22}\partial_{22} \varepsilon - \overline{g}^{22}\overline{\Gamma}^1_{\ 22}\partial_1 \varepsilon \\
+& + \overline{g}^{33}\partial_{33} \varepsilon - \overline{g}^{33}\overline{\Gamma}^1_{\ 33}\partial_1 \varepsilon \\
 = & \frac{1}{(\overline{l}')^2}\left[\varepsilon'' - \frac{\overline{l}''}{\overline{l}'}\varepsilon' + \frac{2}{\overline{r}}\varepsilon'\right]
 \end{split}
 \tag{3.8}
@@ -496,7 +496,7 @@ Table 1 shows that within a diverse sample of galaxies, the vast majority confor
 
 **Table 1.** *Apparent masses and sizes of galaxies $25\times 10^3$–$13.4\times 10^9$ light years from Earth. The list is sorted by distance from Earth. The scale factor $s=\sqrt{GM/a_0}$, where $a_0$ is the MOND parameter, is characteristic of the inherent curvature of space associated with that galaxy. The visible radius $R$ is to within an order of magnitude of the characteristic scale $s$. This relationship appears to hold for a broad variety of galaxies. The acronyms LMC and SMC stand for Large Magellanic Cloud and Small Magellanic Cloud, respectively.*
 
-| Galaxy | Mass $M$ [$10^9\,\text{M}_\odot$] | Radius $R$ [$10^3\,\text{ly}$] | $R/s$ |
+| Galaxy | Mass $M$ [$10^9\ \text{M}_\odot$] | Radius $R$ [$10^3\ \text{ly}$] | $R/s$ |
 |---|---|---|---|
 | Milky Way [28–32] | 1000 | 50.0 | 0.45 |
 | LMC [33] | 10 | 7.0 | 0.63 |

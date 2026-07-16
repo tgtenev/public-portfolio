@@ -70,9 +70,9 @@ We conduct our study in the limit of weak and nearly static gravitational fields
 
 $$
 \begin{split}
-\mathcal{S}_\text{F} = \frac{YL}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4\quad
+\mathcal{S}_\text{F} = \frac{YL}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4\quad
 \text{vs.}\quad
-\mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\,\mathrm{d}x^4
+\mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4
 \end{split}
 \tag{1.3}
 $$
@@ -256,7 +256,7 @@ Combining Equations (2.10) and (2.9), we note that
 $$
 \begin{split}
 -1 + 2\varepsilon_{00} &\approx g_{00} = -(1+\varepsilon^\text{3D})^{-2} \approx -1 + 2\varepsilon^\text{3D} \\
-\therefore\, & \varepsilon_{00} = \varepsilon^\text{3D}
+\therefore\  & \varepsilon_{00} = \varepsilon^\text{3D}
 \end{split}
 \tag{2.11}
 $$
@@ -317,11 +317,11 @@ $$
 
 $$
 \begin{split}
-U & = \frac{1}{L} \int_{-\frac{L}{2}}^{\frac{L}{2}} U_{\xi} \,\mathrm{d}\xi \\
-& = \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}(\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl} + [\varepsilon^\text{M}_{ij}\varepsilon^\text{B}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{M}_{kl}]) \,\mathrm{d}\xi \\
+U & = \frac{1}{L} \int_{-\frac{L}{2}}^{\frac{L}{2}} U_{\xi} \ \mathrm{d}\xi \\
+& = \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}(\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl} + [\varepsilon^\text{M}_{ij}\varepsilon^\text{B}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{M}_{kl}]) \ \mathrm{d}\xi \\
 & = U_\text{M} + U_\text{B} \\
-U_\text{M} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl}\,\mathrm{d}\xi \\
-U_\text{B} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl}\,\mathrm{d}\xi
+U_\text{M} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl}\ \mathrm{d}\xi \\
+U_\text{B} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl}\ \mathrm{d}\xi
 \end{split}
 \tag{2.16}
 $$
@@ -405,8 +405,8 @@ Next, we derive an expression for $\mathcal{L}_\text{F}$ in terms of the Ricci c
 
 $$
 \begin{split}
-R & = 2\left( -\varepsilon_{\mu\,,\alpha}^{\;\mu\;\;\alpha} + \varepsilon_{\;\;\;,\alpha\mu}^{\alpha\mu} \right) \\
-& = 2\left( -\varepsilon_{i\,,k}^{\;i\;\;k} + \varepsilon_{\;\;\;,ik}^{ik} - \varepsilon_{0\,,k}^{\;0\;\;k} - \varepsilon_{k\,,0}^{\;k\;\;0} + 2\varepsilon_{0k,}^{\;\;\;0k}
+R & = 2\left( -\varepsilon_{\mu\ ,\alpha}^{\ \mu\ \ \alpha} + \varepsilon_{\ \ \ ,\alpha\mu}^{\alpha\mu} \right) \\
+& = 2\left( -\varepsilon_{i\ ,k}^{\ i\ \ k} + \varepsilon_{\ \ \ ,ik}^{ik} - \varepsilon_{0\ ,k}^{\ 0\ \ k} - \varepsilon_{k\ ,0}^{\ k\ \ 0} + 2\varepsilon_{0k,}^{\ \ \ 0k}
 \right) \\
 & \approx R^\text{3D} + 2\varepsilon_{00,kk}
 \end{split}
@@ -428,7 +428,7 @@ which has the same form as the Einstein-Hilbert Lagrangian density. The resultin
 
 $$
 \begin{split}
-\mathcal{S}_\text{F} = \int \mathcal{L}_\text{F} \,\mathrm{d}x^4 = \frac{YL}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4
+\mathcal{S}_\text{F} = \int \mathcal{L}_\text{F} \ \mathrm{d}x^4 = \frac{YL}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4
 \end{split}
 \tag{2.25}
 $$
@@ -492,7 +492,7 @@ implying that the transverse (shear) wave velocity $v_s = \sqrt{\mu/\rho} \neq 0
 
 Let us consider the analogy between shear waves in the fabric and gravitational waves. Such an analogy depends on demonstrating that the fabric's behavior parallels that of spacetime for fast changing fields as well. We leave the rigorous proof for a future article, and for the rest of this subsection we assume that the fabric's behavior implied by the Lagrangian (2.24) also holds for fast changing fields. Based on this assumption, we proceed to investigate in-plane shear waves propagating through the fabric and their correspondence to gravitational waves.
 
-First, we show that if static fields are negligible and in the absence of torsion, then the strain $\varepsilon_{\mu\nu}$ satisfies the harmonic gauge condition, $\varepsilon^{\mu\alpha}_{\;\;\;,\alpha} = (1/2)\varepsilon^{\alpha\;\;\mu}_{\;\alpha,}$. For shear waves, $\varepsilon^\text{3D} = 0$, and by Eq. (3.3)'s underlying relation $\varepsilon_{00} = \varepsilon^\text{3D}$, $\varepsilon_{00} = 0$, implying that $\varepsilon^{\alpha}_{\;\alpha} = 0$. Therefore, proving the harmonic gauge condition reduces to demonstrating that $\varepsilon^{\mu\alpha}_{\;\;,\alpha} = 0$. Furthermore, the shear time-space components must vanish, $\varepsilon_{4j} = \varepsilon_{j4} = 0 = \varepsilon_{0j} = \varepsilon_{j0}$, because we are assuming negligible static fields and in-plane shear waves. Therefore, in order to prove that the harmonic gauge condition holds, we just need to show that $\varepsilon_{ik,k} = 0$. Let $u_i$ be the material displacement field. In terms of the displacement field, the strain is $2\varepsilon_{ij} = u_{i,j} + u_{j,i}$, and so,
+First, we show that if static fields are negligible and in the absence of torsion, then the strain $\varepsilon_{\mu\nu}$ satisfies the harmonic gauge condition, $\varepsilon^{\mu\alpha}_{\ \ \ ,\alpha} = (1/2)\varepsilon^{\alpha\ \ \mu}_{\ \alpha,}$. For shear waves, $\varepsilon^\text{3D} = 0$, and by Eq. (3.3)'s underlying relation $\varepsilon_{00} = \varepsilon^\text{3D}$, $\varepsilon_{00} = 0$, implying that $\varepsilon^{\alpha}_{\ \alpha} = 0$. Therefore, proving the harmonic gauge condition reduces to demonstrating that $\varepsilon^{\mu\alpha}_{\ \ ,\alpha} = 0$. Furthermore, the shear time-space components must vanish, $\varepsilon_{4j} = \varepsilon_{j4} = 0 = \varepsilon_{0j} = \varepsilon_{j0}$, because we are assuming negligible static fields and in-plane shear waves. Therefore, in order to prove that the harmonic gauge condition holds, we just need to show that $\varepsilon_{ik,k} = 0$. Let $u_i$ be the material displacement field. In terms of the displacement field, the strain is $2\varepsilon_{ij} = u_{i,j} + u_{j,i}$, and so,
 
 $$
 \begin{split}
@@ -507,7 +507,7 @@ But, $u_{k,ki} = 0$ since $\varepsilon_{kk} = u_{k,k} = 0$. The difference in th
 $$
 \begin{split}
 \varepsilon_{ik,k} &= 0 \\
-\therefore \varepsilon^{\mu\alpha}_{\;\;\;,\alpha} &= (1/2)\varepsilon^{\alpha\;\;\mu}_{\;\alpha,}
+\therefore \varepsilon^{\mu\alpha}_{\ \ \ ,\alpha} &= (1/2)\varepsilon^{\alpha\ \ \mu}_{\ \alpha,}
 \end{split}
 \tag{3.6}
 $$
@@ -516,16 +516,16 @@ Since $\varepsilon_{\mu\nu}$ satisfies the harmonic gauge condition, we can appl
 
 $$
 \begin{split}
-R_{\mu\nu} \approx -\varepsilon_{\mu\nu,\alpha}^{\;\;\;\;\;\alpha}
+R_{\mu\nu} \approx -\varepsilon_{\mu\nu,\alpha}^{\ \ \ \ \ \alpha}
 \end{split}
 \tag{3.7}
 $$
 
-After substituting into the Einstein Field Equations (1.2), and taking into account that $R \approx \varepsilon^{\alpha\;\;\mu}_{\;\alpha,\;\mu} = 0$, and that in empty space $T_{\mu\nu} = 0$, we arrive at,
+After substituting into the Einstein Field Equations (1.2), and taking into account that $R \approx \varepsilon^{\alpha\ \ \mu}_{\ \alpha,\ \mu} = 0$, and that in empty space $T_{\mu\nu} = 0$, we arrive at,
 
 $$
 \begin{split}
-\varepsilon_{\mu\nu,\alpha}^{\;\;\;\;\;\alpha} & =\varepsilon_{ij,kk} - \varepsilon_{ij, 00} = 0 \\
+\varepsilon_{\mu\nu,\alpha}^{\ \ \ \ \ \alpha} & =\varepsilon_{ij,kk} - \varepsilon_{ij, 00} = 0 \\
 \therefore & \varepsilon_{ij, 00} = \varepsilon_{ij,kk}
 \end{split}
 \tag{3.8}
@@ -589,12 +589,12 @@ The density of the fabric $\rho$ is related to the wave speed and shear modulus,
 
 $$
 \begin{split}
-\rho = \frac{\mu}{c^2} = \frac{Y}{4c^2} \sim 1.3 \times 10^{96} \mathrm{kg}\,\mathrm{m}^{-3}
+\rho = \frac{\mu}{c^2} = \frac{Y}{4c^2} \sim 1.3 \times 10^{96} \mathrm{kg}\ \mathrm{m}^{-3}
 \end{split}
 \tag{3.14}
 $$
 
-In accordance with the Cosmic Fabric analogy, the density of the fabric corresponds to the density of free space, which is also known as the zero-point energy density. The computed value for $\rho$ agrees to an order of magnitude with the predictions of Quantum Field Theory ($\sim 10^{96} \mathrm{kg}\,\mathrm{m}^{-3}$) for the energy density of free space [9]. Note that the predictions of Quantum Field Theory are also based on using Planck's length $l_p$ as a length-scale parameter.
+In accordance with the Cosmic Fabric analogy, the density of the fabric corresponds to the density of free space, which is also known as the zero-point energy density. The computed value for $\rho$ agrees to an order of magnitude with the predictions of Quantum Field Theory ($\sim 10^{96} \mathrm{kg}\ \mathrm{m}^{-3}$) for the energy density of free space [9]. Note that the predictions of Quantum Field Theory are also based on using Planck's length $l_p$ as a length-scale parameter.
 
 ### 3.5 Generalizing the Cosmic Fabric Model
 
@@ -604,7 +604,7 @@ The small strain (weak gravity) condition was imposed so we could use the linear
 
 Imposing the nearly static field condition allowed us to ignore the kinetic energy term in the fabric's Lagrangian. It also let us assume specific bending kinematics that minimize the membrane energy of the fabric and, in §2.8, we showed that such kinematics result in zero membrane energy. Without the condition of nearly static fields, we will need to take into account the kinetic and membrane energies of the fabric and also consider a more complex deformation state. One possible simplification would be to concentrate on the condition without bending (away from static gravitational fields), and derive a closed-form result for the fabric's Lagrangian. This is the condition under which we would study gravitational waves as discussed in §3.3. The mathematical complexities resulting in the general non-static fields case will probably require the use of numerical techniques.
 
-Focusing on deriving the fabric's Lagrangian outside of inclusions was a useful simplification so the $\varepsilon_{00,kk}$ term in Eq. (2.23) could be eliminated. In the case of inclusions, this term contributes to an additional Lagrangian term that is analogous to the energy-matter Lagrangian term $\mathcal{L}_\text{M}$ in the generalized Einstein-Hilbert action $\mathcal{S}_\text{EH} = \int (R/2\kappa + \mathcal{L}_\text{M})\sqrt{|g|}\,\mathrm{d}x^4$. The detailed analysis of the fabric's behavior within inclusions will be presented in a subsequent paper.
+Focusing on deriving the fabric's Lagrangian outside of inclusions was a useful simplification so the $\varepsilon_{00,kk}$ term in Eq. (2.23) could be eliminated. In the case of inclusions, this term contributes to an additional Lagrangian term that is analogous to the energy-matter Lagrangian term $\mathcal{L}_\text{M}$ in the generalized Einstein-Hilbert action $\mathcal{S}_\text{EH} = \int (R/2\kappa + \mathcal{L}_\text{M})\sqrt{|g|}\ \mathrm{d}x^4$. The detailed analysis of the fabric's behavior within inclusions will be presented in a subsequent paper.
 
 ## 4. Summary and Conclusion
 
@@ -619,8 +619,8 @@ Focusing on deriving the fabric's Lagrangian outside of inclusions was a useful 
 | Gravitational potential $\Phi$ | Volumetric strain $\varepsilon^\text{3D}$, such that $\varepsilon^\text{3D} = -\Phi/c^2$ |
 | Gravitational waves | Shear waves traveling at the speed of light |
 | Matter curves spacetime | Matter induces prescribed strain causing the fabric to bend |
-| Action integral in free space, $\mathcal{S} = \frac{1}{2\kappa} \int R\sqrt{\lvert g\rvert}\,d^4x$ | Action integral outside of inclusions, $\mathcal{S} = \frac{L^2 Y}{24} \int R\sqrt{\lvert g\rvert}\,d^4x$ |
-| Constants of Nature: $G,\;\hbar,\;c$ | Elastic constants: $Y = 6c^7/2\pi\hbar G^2,\quad \nu=1$ |
+| Action integral in free space, $\mathcal{S} = \frac{1}{2\kappa} \int R\sqrt{\lvert g\rvert}\ d^4x$ | Action integral outside of inclusions, $\mathcal{S} = \frac{L^2 Y}{24} \int R\sqrt{\lvert g\rvert}\ d^4x$ |
+| Constants of Nature: $G,\ \hbar,\ c$ | Elastic constants: $Y = 6c^7/2\pi\hbar G^2,\quad \nu=1$ |
 
 In this paper, we showed that the behavior of spacetime per Einstein's Field Equations (1.2) is analogous to that of an appropriately chosen material body, termed the "cosmic fabric" that is governed by a simple constitutive relation per Hooke's Law (1.1). In §2, we postulated several basic properties of the fabric and how they correspond to physical space and matter in space. Constitutive properties, such as the Poisson ratio and the elastic modulus dependence on strain, were left unconstrained as model parameters. These were subsequently chosen such that the Lagrangian of the fabric could take the form of the Einstein-Hilbert Lagrangian of General Relativity. After the Cosmic Fabric model was calibrated in this way, in §3, it was applied to interpret various properties of gravity in terms of the fabric's mechanics and vice versa. To a great extent, the interpretations seemed physically meaningful from both perspectives of General Relativity and Solid Mechanics. Table 1 summarizes the correspondence between concepts from one field to analogous concepts in the other.
 

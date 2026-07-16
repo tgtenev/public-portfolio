@@ -31,7 +31,7 @@ We will use the following notation:
 - $\rho_{abc}$: Latin subscripts in the alphabet range of $a, b, c$ are used to denote the grid indexes of the node to which the subscripted quantity applies, where $a = 1\ldots a_\text{max}$, $b = 1\ldots b_\text{max}$, and $c = 1\ldots c_\text{max}$ on a grid of size $a_\text{max} \times b_\text{max} \times c_\text{max}$ (see Figure 7.1). For example, $\rho_{abc}$ means the mass density at grid node $(a, b, c)$.
 - $m_p$: Latin subscript $p$ specifies the particle index. For example, $m_p$ is the mass of the $p^\text{th}$ particle, where $p = 1\ldots p_\text{tot}$ and $p_\text{tot}$ is the total number of particles.
 - $x^i$: Latin indexes in the alphabet range of $i, j, k, l = 1\ldots 3$ correspond to the spatial components of vectors and tensors. For example, $x^i_{abc}$ refers to the three spatial coordinates for the grid node $(a, b, c)$. Similarly, $x^i_p$ are the three spatial coordinates of the $p^\text{th}$ particle. Note that $\rho_{abc} \equiv \rho(x^i_{abc})$, because being a field quantity, $\rho$ is a function of the position $x^i$. This alternative way of denoting a field quantity helps with tensor notation where writing the node indexes as subscripts to the tensor quantity could be awkward. For example, $g_{ij}(x^k_{abc})$ denotes the value of the metric tensor $g_{ij}$ at the node $(a,b,c)$.
-- $x^\mu, \Gamma^{\mu}_{\;\alpha\beta}$: As usual, Greek indexes $\mu,\nu, \alpha,\beta = 0\ldots 3$ run over the four spacetime dimensions with the $0^\text{th}$ dimension corresponding to time.
+- $x^\mu, \Gamma^{\mu}_{\ \alpha\beta}$: As usual, Greek indexes $\mu,\nu, \alpha,\beta = 0\ldots 3$ run over the four spacetime dimensions with the $0^\text{th}$ dimension corresponding to time.
 
 We consider a grid of dimensions $a_\text{max} \times b_\text{max} \times c_\text{max}$, for which the spacing between the grid nodes is not necessarily uniform but is specified by the differences $h^1_a$, $h^2_b$, and $h^3_c$, where $a = 1\ldots (a_\text{max}-1)$, and likewise for $b$ and $c$. In other words, $x^1_{abc} = x^1_{(a-1)bc} + h^1_{(a-1)}$, and likewise for $x^2_{abc}$ and $x^3_{abc}$ (see Figure 7.1). The non-uniform spacing of the grid is useful when higher fidelity is needed at some locations but not others, such as the center of a gravitational system compared to its outskirts.
 
@@ -116,8 +116,8 @@ where we have made the following substitutions:
 
 $$
 \begin{split}
-d^1_a & \equiv \frac{h^1_{(a-1)}}{(h^1_{(a-1)} + h^1_a) h^1_a}, \; a = 2\ldots (a_\text{max}-1); \quad d^1_1 \equiv \frac{1}{h^1_1}; \quad d^1_{a_\text{max}} \equiv 0 \\
-e^1_a & \equiv \frac{h^1_a}{(h^1_{(a-1)} + h^1_a) h^1_{(a-1)}}, \; a = 2\ldots (a_\text{max}-1); \quad e^1_1 \equiv 0 \quad e^1_{a_\text{max}} \equiv \frac{1}{h^1_{(a_\text{max}-1)}}
+d^1_a & \equiv \frac{h^1_{(a-1)}}{(h^1_{(a-1)} + h^1_a) h^1_a}, \  a = 2\ldots (a_\text{max}-1); \quad d^1_1 \equiv \frac{1}{h^1_1}; \quad d^1_{a_\text{max}} \equiv 0 \\
+e^1_a & \equiv \frac{h^1_a}{(h^1_{(a-1)} + h^1_a) h^1_{(a-1)}}, \  a = 2\ldots (a_\text{max}-1); \quad e^1_1 \equiv 0 \quad e^1_{a_\text{max}} \equiv \frac{1}{h^1_{(a_\text{max}-1)}}
 \end{split}
 \tag{7.9}
 $$
@@ -183,7 +183,7 @@ The undeformed metric and Christoffel symbols can be computed during the preproc
 $$
 \begin{split}
 \overline{g}_{ij} &= \delta_{ij} + \partial_i \overline{w} \partial_j \overline{w} \\
-\overline{\Gamma}^{k}_{\;ij} &= \frac{1}{2}\overline{g}^{kl}\left(\partial_j \overline{g}_{il} + \partial_i \overline{g}_{lj} - \partial_l \overline{g}_{ij} \right).
+\overline{\Gamma}^{k}_{\ ij} &= \frac{1}{2}\overline{g}^{kl}\left(\partial_j \overline{g}_{il} + \partial_i \overline{g}_{lj} - \partial_l \overline{g}_{ij} \right).
 \end{split}
 \tag{7.15}
 $$
@@ -198,7 +198,7 @@ J^{(kij)}_n &= \frac{1}{2}\mathrm{inv}\left[G^{(kl)}_n\right]\circ \left( D^{(j)
 \tag{7.16}
 $$
 
-where $G^{(ij)}_{n_{abc}}\equiv \overline{g}_{ij}(x^k_{abc})$, $W \equiv \overline{w}_{abc}$, and $J^{(kij)}_n \equiv \overline{\Gamma}^{k}_{\;ij}(x^k_{abc})$. Furthermore, the operator $\mathrm{inv}$ applies to $G$'s parenthesized indexes and represents a $3 \times 3$ matrix inversion, the binary operator $\circ$ represents element-wise multiplication *with respect to the unparenthesized indexes*, summation over repeated indexes is implied, and the $D$ matrices are defined per Equations (7.12) and (7.13). Note that the element-wise multiplication of vector elements that is represented by the binary operator $\circ$ can be substituted with regular matrix multiplication provided that the vectors are treated as diagonal matrices with the diagonal elements being the vector elements.
+where $G^{(ij)}_{n_{abc}}\equiv \overline{g}_{ij}(x^k_{abc})$, $W \equiv \overline{w}_{abc}$, and $J^{(kij)}_n \equiv \overline{\Gamma}^{k}_{\ ij}(x^k_{abc})$. Furthermore, the operator $\mathrm{inv}$ applies to $G$'s parenthesized indexes and represents a $3 \times 3$ matrix inversion, the binary operator $\circ$ represents element-wise multiplication *with respect to the unparenthesized indexes*, summation over repeated indexes is implied, and the $D$ matrices are defined per Equations (7.12) and (7.13). Note that the element-wise multiplication of vector elements that is represented by the binary operator $\circ$ can be substituted with regular matrix multiplication provided that the vectors are treated as diagonal matrices with the diagonal elements being the vector elements.
 
 #### Discretization of the Geodesic Equation
 
@@ -206,7 +206,7 @@ The geodesic equation is used to compute particle acceleration for a given gravi
 
 $$
 \begin{split}
-\partial_{00} x^{\mu} = -\Gamma^{\mu}_{\;\alpha\beta}\partial_0 x^\alpha \partial_0 x^\beta + \Gamma^0_{\;\alpha\beta}\partial_0 x^\alpha \partial_0 x^\beta \partial_0 x^\mu
+\partial_{00} x^{\mu} = -\Gamma^{\mu}_{\ \alpha\beta}\partial_0 x^\alpha \partial_0 x^\beta + \Gamma^0_{\ \alpha\beta}\partial_0 x^\alpha \partial_0 x^\beta \partial_0 x^\mu
 \end{split}
 \tag{7.17}
 $$
@@ -217,9 +217,9 @@ In the case of slow changing fields, the time derivatives, $\partial_0$, of fiel
 
 $$
 \begin{split}
-\Gamma^0_{\;i0} &= \Gamma^0_{\;0i} = \frac{\partial_i g_{00}}{2g_{00}};\quad \Gamma^0_{00} = \Gamma^0_{ij} = 0 \\
-\Gamma^k_{00} &= -\frac{1}{2}g^{kl}\partial_l g_{00}; \quad \Gamma^{k}_{\;i0} = \Gamma^{k}_{\;0i} = 0 \\
-\Gamma^{k}_{\;ij} &= \frac{1}{2}g^{kl}\left(\partial_j g_{il} + \partial_i g_{lj} - \partial_l g_{ij} \right),
+\Gamma^0_{\ i0} &= \Gamma^0_{\ 0i} = \frac{\partial_i g_{00}}{2g_{00}};\quad \Gamma^0_{00} = \Gamma^0_{ij} = 0 \\
+\Gamma^k_{00} &= -\frac{1}{2}g^{kl}\partial_l g_{00}; \quad \Gamma^{k}_{\ i0} = \Gamma^{k}_{\ 0i} = 0 \\
+\Gamma^{k}_{\ ij} &= \frac{1}{2}g^{kl}\left(\partial_j g_{il} + \partial_i g_{lj} - \partial_l g_{ij} \right),
 \end{split}
 \tag{7.18}
 $$
@@ -228,19 +228,19 @@ which when substituted into Equation (7.17) and evaluated for the spatial compon
 
 $$
 \begin{split}
-\partial_{00} x^k &= -\Gamma^k_{\;00}(\partial_0 x^0)^2 + 2 \Gamma^0_{\;0i}\partial_0 x^k \partial_0 x^i - \Gamma^k_{\;ij} \partial_0 x^i\partial_0 x^j \\
-& = \frac{1}{2}g^{kl}\partial_l g_{00} + \frac{\partial_i g_{00}}{g_{00}}\partial_0 x^i \partial_0 x^k - \Gamma^k_{\;ij} \partial_0 x^i\partial_0 x^j
+\partial_{00} x^k &= -\Gamma^k_{\ 00}(\partial_0 x^0)^2 + 2 \Gamma^0_{\ 0i}\partial_0 x^k \partial_0 x^i - \Gamma^k_{\ ij} \partial_0 x^i\partial_0 x^j \\
+& = \frac{1}{2}g^{kl}\partial_l g_{00} + \frac{\partial_i g_{00}}{g_{00}}\partial_0 x^i \partial_0 x^k - \Gamma^k_{\ ij} \partial_0 x^i\partial_0 x^j
 \end{split}
 \tag{7.19}
 $$
 
 Notice that although we have assumed that the fields are slow changing, we do not assume that particle velocities are slow, but that individual particles could achieve speeds comparable to $c$. Therefore, while we can approximate the time derivatives of field quantities as vanishing, we do not make the same approximation for the time derivatives of particle quantities. In a typical configuration, such as a galaxy, the total gravitational field is the combined effect of a large number of particles (billions of stars), so as long as the collection of particles as a whole moves slowly through space, then the motion of individual particles (stars) will not cause the gravitational field to change rapidly except in its immediate vicinity.
 
-Next, we invoke the weak gravity (small strain) assumption to approximate the spatial curvature of the deformed fabric with that of the undeformed one: $g_{ij} \approx \overline{g}_{ij}$ and $\Gamma^k_{\;ij} \approx \overline{\Gamma}^k_{\;ij}$. Furthermore, from Equation (7.4) follows that $\partial_l g_{00} \approx 2\partial_l \varepsilon$. Finally, we recognize that since $x^0 = ct$, where $t$ is coordinate time, then $a^k = c^2 \partial_{00} x^k$ and $v^k = c \partial_0 x^k$, where $a^k$ and $v^k$ are, respectively, the particle's coordinate acceleration and velocity. When these substitutions are made into Equation (7.19), we arrive at the following formula for the acceleration $a^k$:
+Next, we invoke the weak gravity (small strain) assumption to approximate the spatial curvature of the deformed fabric with that of the undeformed one: $g_{ij} \approx \overline{g}_{ij}$ and $\Gamma^k_{\ ij} \approx \overline{\Gamma}^k_{\ ij}$. Furthermore, from Equation (7.4) follows that $\partial_l g_{00} \approx 2\partial_l \varepsilon$. Finally, we recognize that since $x^0 = ct$, where $t$ is coordinate time, then $a^k = c^2 \partial_{00} x^k$ and $v^k = c \partial_0 x^k$, where $a^k$ and $v^k$ are, respectively, the particle's coordinate acceleration and velocity. When these substitutions are made into Equation (7.19), we arrive at the following formula for the acceleration $a^k$:
 
 $$
 \begin{split}
-a^k = c^2\overline{g}^{kl} \partial_l \varepsilon - \frac{2 \partial_i \varepsilon}{1 - 2\varepsilon} v^i v^k - \overline{\Gamma}^k_{\;ij}(x^k) v^i v^j
+a^k = c^2\overline{g}^{kl} \partial_l \varepsilon - \frac{2 \partial_i \varepsilon}{1 - 2\varepsilon} v^i v^k - \overline{\Gamma}^k_{\ ij}(x^k) v^i v^j
 \end{split}
 \tag{7.20}
 $$
@@ -264,7 +264,7 @@ Given the following expansion of the covariant Laplace operator in terms of the 
 
 $$
 \begin{split}
-\nabla_i (\nabla^i \varepsilon) = \overline{g}^{ij}\left( \partial_{ij} - \overline{\Gamma}^k_{\;ij} \partial_k \right)\varepsilon
+\nabla_i (\nabla^i \varepsilon) = \overline{g}^{ij}\left( \partial_{ij} - \overline{\Gamma}^k_{\ ij} \partial_k \right)\varepsilon
 \end{split}
 \tag{7.22}
 $$
@@ -317,7 +317,7 @@ $$
 \rho_{abc} &= \rho^{*}_{abc} + \frac{8}{\mathcal{V}_{abc}} \left\lbrace  \sum_{p\in \Omega_{(a-1)(b-1)(c-1)}} m_p \frac{\xi^1_{(a-1)}}{h^1_{(a-1)}}\frac{\xi^2_{(b-1)}}{h^2_{(b-1)}}\frac{\xi^3_{(c-1)}}{h^3_{(c-1)}} \right. \\
 & +\sum_{p\in \Omega_{a(b-1)(c-1)}} m_p \left(1 - \frac{\xi^1_{a}}{h^1_{a}}\right)\frac{\xi^2_{(b-1)}}{h^2_{(b-1)}}\frac{\xi^3_{(c-1)}}{h^3_{(c-1)}} + \ldots \\
 & \left. +\sum_{p\in \Omega_{abc}} m_p \left(1 - \frac{\xi^1_{a}}{h^1_{a}}\right) \left(1 - \frac{\xi^2_{b}}{h^2_{b}}\right) \left(1 - \frac{\xi^3_{c}}{h^3_{c}}\right) \right\rbrace \\
-& \text{where} \quad \mathcal{V}_{abc} \equiv \sqrt{\overline{g}_{abc}}\,(h^1_{(a-1)} + h^1_a)(h^1_{(b-1)} + h^1_b)(h^1_{(c-1)} + h^1_c)
+& \text{where} \quad \mathcal{V}_{abc} \equiv \sqrt{\overline{g}_{abc}}\ (h^1_{(a-1)} + h^1_a)(h^1_{(b-1)} + h^1_b)(h^1_{(c-1)} + h^1_c)
 \end{split}
 \tag{7.26}
 $$

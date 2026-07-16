@@ -231,11 +231,11 @@ In this section we formulate the equations that govern the interaction between a
 
 The governing equations are formulated in terms of the radial stretch factor $e(r) = r/\overline{r} - 1$ and the transverse displacement $w(r)$ based on the following constraints: 1) the bending energy density must balance the relativistic energy density of the inclusion, 2) inclusions are sources of strain, and 3) the total membrane energy must vanish. As Chapter III discusses in detail, the term "bending energy" means the portion of the elastic energy due to bending whereby the mid-hypersurface of the fabric remains unstrained and the hypersurfaces on each side of it are being either stretched or compressed. By contrast, the term "membrane energy" is the elastic energy attributed to the stretching of the mid-hypersurface.
 
-The above constraints are motivated as follows: Consider the Fabric's action $\mathcal{S} = \int \mathcal{L}_\text{F} \sqrt{|g|}\, dx^4$ where $\mathcal{L}_\text{F}$ is the Lagrangian of the fabric together with the inclusion; $g \equiv \det [g_{\mu\nu}]$ is the determinant of the spacetime metric; and the integral is taken over a sufficiently large volume of spacetime such that the integral converges. According to the Principle of Least Action, physical systems progress along a trajectory that extremizes the action (the action is either minimized or maximized). For a nearly static situation the kinetic components of $\mathcal{L}_\text{F}$ can be ignored, so only the contributions from the fabric's elastic energy and the body's relativistic energy need to be considered. Thus, $\mathcal{L}_\text{F} = -(U_\text{M} + U_\text{B} + c^2 \rho)$. Furthermore, per Equation (3.9) the determinant $|g| \approx 1$. Therefore, since the total energy integrated over all of three-dimensional space should be non-negative, the action $\mathcal{S}$ would reach an extremum if the deformation functions $e$ and $w$ were such that the total elastic energy $W$ vanished, where $W$ is defined as follows:
+The above constraints are motivated as follows: Consider the Fabric's action $\mathcal{S} = \int \mathcal{L}_\text{F} \sqrt{|g|}\  dx^4$ where $\mathcal{L}_\text{F}$ is the Lagrangian of the fabric together with the inclusion; $g \equiv \det [g_{\mu\nu}]$ is the determinant of the spacetime metric; and the integral is taken over a sufficiently large volume of spacetime such that the integral converges. According to the Principle of Least Action, physical systems progress along a trajectory that extremizes the action (the action is either minimized or maximized). For a nearly static situation the kinetic components of $\mathcal{L}_\text{F}$ can be ignored, so only the contributions from the fabric's elastic energy and the body's relativistic energy need to be considered. Thus, $\mathcal{L}_\text{F} = -(U_\text{M} + U_\text{B} + c^2 \rho)$. Furthermore, per Equation (3.9) the determinant $|g| \approx 1$. Therefore, since the total energy integrated over all of three-dimensional space should be non-negative, the action $\mathcal{S}$ would reach an extremum if the deformation functions $e$ and $w$ were such that the total elastic energy $W$ vanished, where $W$ is defined as follows:
 
 $$
 \begin{split}
-W \equiv \int_\text{all space} (U_\text{M} + U_\text{B} + c^2 \rho)\, dx^3 = 0
+W \equiv \int_\text{all space} (U_\text{M} + U_\text{B} + c^2 \rho)\  dx^3 = 0
 \end{split}
 \tag{5.17}
 $$
@@ -244,7 +244,7 @@ As the *Membrane Energy and the Discrete Nature of Matter* section demonstrates,
 
 $$
 \begin{split}
-W_\text{M} \equiv \int_\text{all space} U_\text{M}\, dx^3 = 0
+W_\text{M} \equiv \int_\text{all space} U_\text{M}\  dx^3 = 0
 \end{split}
 \tag{5.18}
 $$
@@ -462,7 +462,7 @@ ds^2 = g_{tt} c^2 dt^2 + g_{\overline{r}\overline{r}} d\overline{r}^2 + g_{\Omeg
 \tag{5.37}
 $$
 
-where $d\Omega^2 \equiv d\theta^2 + \cos^2 \theta\, d\varphi^2$, and where $g_{tt}$, $g_{\overline{r}\overline{r}}$, and $g_{\Omega\Omega}$ are the polar metric coefficients.
+where $d\Omega^2 \equiv d\theta^2 + \cos^2 \theta\  d\varphi^2$, and where $g_{tt}$, $g_{\overline{r}\overline{r}}$, and $g_{\Omega\Omega}$ are the polar metric coefficients.
 
 For the chosen rectilinear coordinates in Equation (5.3), we can identify the spatial polar metric coefficients with the rectilinear coefficients $g_{ij}$ as follows,
 
@@ -613,12 +613,12 @@ $$
 \tag{5.49}
 $$
 
-Chapter III explains that the thickness of the fabric $L$ must be comparable to Planck's length $l_p = 1.616229\times 10^{-35}\,\text{m}$. Herein we propose a more precise value for $L$ founded on the notion that $L$ represents the intersection of two energy-based length scales: one derived from General Relativity and one from Quantum Mechanics. From General Relativity, one can assign a length value to the energy of a body using its Schwarzschild radius $r_s$, since the body's energy is given by $E = r_s c^4/(2G)$. Alternatively, one can also assign a length value to the body's energy from Quantum Mechanics using the body's De Broglie wavelength $\lambda$, in which case its energy is $E = hc/\lambda$, where $h$ is the Planck's constant. Notice that $r_s$ is proportional to the energy of the body, but $\lambda$ is inversely proportional. We propose that $L$ corresponds to the energy scale at which these two length values coincide. Therefore,
+Chapter III explains that the thickness of the fabric $L$ must be comparable to Planck's length $l_p = 1.616229\times 10^{-35}\ \text{m}$. Herein we propose a more precise value for $L$ founded on the notion that $L$ represents the intersection of two energy-based length scales: one derived from General Relativity and one from Quantum Mechanics. From General Relativity, one can assign a length value to the energy of a body using its Schwarzschild radius $r_s$, since the body's energy is given by $E = r_s c^4/(2G)$. Alternatively, one can also assign a length value to the body's energy from Quantum Mechanics using the body's De Broglie wavelength $\lambda$, in which case its energy is $E = hc/\lambda$, where $h$ is the Planck's constant. Notice that $r_s$ is proportional to the energy of the body, but $\lambda$ is inversely proportional. We propose that $L$ corresponds to the energy scale at which these two length values coincide. Therefore,
 
 $$
 \begin{split}
 \frac{h c}{L} &= \frac{r_s c^4}{2G} \\
-\therefore\ L &= \sqrt{\frac{2 h G}{c^3}} = 5.729\times 10^{-35}\,\text{m}
+\therefore\ L &= \sqrt{\frac{2 h G}{c^3}} = 5.729\times 10^{-35}\ \text{m}
 \end{split}
 \tag{5.50}
 $$
@@ -627,8 +627,8 @@ which is still comparable to $l_p$ but slightly larger. From Equation (5.50) and
 
 $$
 \begin{split}
-\max(r_s) & \sim 3.713\times 10^{-35}\,\text{m} \\
-\max(M)& = \max(r_s)\frac{c^2}{2G} \sim 2.500\times 10^{-8}\,\text{kg}
+\max(r_s) & \sim 3.713\times 10^{-35}\ \text{m} \\
+\max(M)& = \max(r_s)\frac{c^2}{2G} \sim 2.500\times 10^{-8}\ \text{kg}
 \end{split}
 \tag{5.51}
 $$
@@ -657,7 +657,7 @@ Next we show that a spherically symmetric inclusion can be arbitrarily massive a
 
 We show herein that if individual particles prescribe asymmetric fabric strains, such as oblate or longitudinal expansion, then there would be no resulting membrane energy. Thus, it is possible for the gravitating body to cause in-plane fabric strain that appears symmetric at the continuum length scale, but without incurring any membrane energy.
 
-Figure 5.4 shows a spherically symmetric body whose substructure is revealed progressively from most idealized (no substructure) in Figure 5.4a to least idealized (most detailed substructure) in Figure 5.4c. At a sufficiently large length scale, the body appears continuous and isotropic, but at smaller length scales continuity and isotropy need not necessarily apply as Figure 5.4c illustrates. In Figure 5.4, the gravitating body is pictured as subdivided into cells whose total mass remains the same from one subfigure to another, but the distribution of the mass within each cell is revealed to be different from one subfigure to another. Equation (5.47) shows that the membrane energy depends on the spatial radius $r_g$ of a gravitating body. Therefore, the membrane energy due to each cell within the body is reduced from Figure 5.4a to Figure 5.4b. To get an idea of the reduction, consider for example, that the mass of the Hydrogen atom with radius of about $5.3\times 10^{-11}\,\text{m}$ is concentrated in its nucleus, which is a single proton with radius of about $8.8\times 10^{-16}\,\text{m}$. So, simply by refining the picture we have for the hydrogen atom from a continuous solid sphere to a nearly hollow sphere with a nucleus, we would have to adjust our calculation for its resulting membrane energy by a factor of $\times 10^{-5}$. However, we can do even better than that and completely eliminate the membrane energy if we allowed non-spherically symmetric strain at the substructure length scale as described below.
+Figure 5.4 shows a spherically symmetric body whose substructure is revealed progressively from most idealized (no substructure) in Figure 5.4a to least idealized (most detailed substructure) in Figure 5.4c. At a sufficiently large length scale, the body appears continuous and isotropic, but at smaller length scales continuity and isotropy need not necessarily apply as Figure 5.4c illustrates. In Figure 5.4, the gravitating body is pictured as subdivided into cells whose total mass remains the same from one subfigure to another, but the distribution of the mass within each cell is revealed to be different from one subfigure to another. Equation (5.47) shows that the membrane energy depends on the spatial radius $r_g$ of a gravitating body. Therefore, the membrane energy due to each cell within the body is reduced from Figure 5.4a to Figure 5.4b. To get an idea of the reduction, consider for example, that the mass of the Hydrogen atom with radius of about $5.3\times 10^{-11}\ \text{m}$ is concentrated in its nucleus, which is a single proton with radius of about $8.8\times 10^{-16}\ \text{m}$. So, simply by refining the picture we have for the hydrogen atom from a continuous solid sphere to a nearly hollow sphere with a nucleus, we would have to adjust our calculation for its resulting membrane energy by a factor of $\times 10^{-5}$. However, we can do even better than that and completely eliminate the membrane energy if we allowed non-spherically symmetric strain at the substructure length scale as described below.
 
 Consider the strain tensor $\varepsilon^i_j$ of the fabric due to a single sub-scale particle inclusion such as one of the anisotropic particles in Figure 5.4c. Let us choose for convenience a coordinate system orientation in which this strain tensor is represented by a diagonal matrix, and let $\varepsilon_i \equiv \varepsilon^i_i\ i = 1\ldots 3$ (no summation) be the diagonal entries. From Equation (5.43) we see that,
 
@@ -688,7 +688,7 @@ ds^2_\text{ext} &= -\left(1-\frac{r_s}{r}\right) c^2 dt^2 + \left(1+\frac{r_s}{r
 \tag{5.53}
 $$
 
-where $d\Omega^2 \equiv d\theta^2 + \sin^2\theta\, d\varphi^2$, and $r_0^2 \equiv r_g^3/r_s$. Furthermore, $\overline{r}$, $\theta$ and $\varphi$ are the material polar coordinates in three-dimensional space, and $r = (1+e)\overline{r}$ is the stretched radius as Figure 5.1 indicates.
+where $d\Omega^2 \equiv d\theta^2 + \sin^2\theta\  d\varphi^2$, and $r_0^2 \equiv r_g^3/r_s$. Furthermore, $\overline{r}$, $\theta$ and $\varphi$ are the material polar coordinates in three-dimensional space, and $r = (1+e)\overline{r}$ is the stretched radius as Figure 5.1 indicates.
 
 Both the Schwarzschild metric in Equation (5.53) and the one derived in Equation (5.40) describe the same spacetime as it has been deformed due to a gravitating body of radius $r_g$ and Schwarzschild radius $r_s$. Notice that the time coefficients are the same in both metrics. Also, both metrics result in the same Ricci curvature of space, which is $R^\text{3D} = 6/r_0^2$ in the interior, and $R^\text{3D} = 0$ in the exterior of the gravitating body. The main difference between the two metrics are the spatial coefficients. The metric derived in Equation (5.40) shows that the fractional amount by which space is stretched volumetrically equals the fractional amount by which time lapse has been retarded. While this is true for the exterior Schwarzschild metric, it is not the case for the interior according to Equation (5.53). The reason for this difference is that the metric we derived in Equation (5.40) accounts for the in-plane stretch of physical space that is specified by the radial function $e(\overline{r})$. Without attributing material properties to space, however, the radial stretch $e$ does not have physical meaning, since it does not produce a measurable intrinsic curvature. Therefore, in classical General Relativity, the stretch $e(\overline{r})$ would be viewed as mere coordinate relabeling.
 

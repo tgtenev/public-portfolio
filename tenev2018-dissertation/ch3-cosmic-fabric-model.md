@@ -12,7 +12,7 @@ We conduct our study in the limit of weak and nearly static gravitational fields
 
 $$
 \begin{split}
-\mathcal{S}_\text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\,\mathrm{d}x^4
+\mathcal{S}_\text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4
 \end{split}
 \tag{3.1}
 $$
@@ -213,10 +213,10 @@ $$
 
 $$
 \begin{split}
-U &= \frac{1}{L} \int_{-\frac{L}{2}}^{\frac{L}{2}} U_{\xi}\, \mathrm{d}\xi = \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}(\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl} + [\varepsilon^\text{M}_{ij}\varepsilon^\text{B}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{M}_{kl}])\, \mathrm{d}\xi \\
+U &= \frac{1}{L} \int_{-\frac{L}{2}}^{\frac{L}{2}} U_{\xi}\  \mathrm{d}\xi = \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}(\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl} + [\varepsilon^\text{M}_{ij}\varepsilon^\text{B}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{M}_{kl}])\  \mathrm{d}\xi \\
 & = U_\text{M} + U_\text{B} \\
-U_\text{M} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl}\, \mathrm{d}\xi \\
-U_\text{B} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl}\, \mathrm{d}\xi
+U_\text{M} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl}\  \mathrm{d}\xi \\
+U_\text{B} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl}\  \mathrm{d}\xi
 \end{split}
 \tag{3.15}
 $$
@@ -318,7 +318,7 @@ which has the same form as the Einstein–Hilbert Lagrangian density. The result
 
 $$
 \begin{split}
-\mathcal{S}_\text{F} = \int \mathcal{L}_\text{F}\, \mathrm{d}x^4 = \frac{YL^2}{48} \int R\sqrt{|g|}\,\mathrm{d}x^4
+\mathcal{S}_\text{F} = \int \mathcal{L}_\text{F}\  \mathrm{d}x^4 = \frac{YL^2}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4
 \end{split}
 \tag{3.24}
 $$
@@ -395,12 +395,12 @@ The density of the fabric $\rho_\text{F}$ is related to the wave speed and shear
 
 $$
 \begin{split}
-\rho_\text{F} = \frac{\mu}{c^2} = \frac{Y}{4c^2} \sim 1.3 \times 10^{96}\ \mathrm{kg}\,\mathrm{m}^{-3}
+\rho_\text{F} = \frac{\mu}{c^2} = \frac{Y}{4c^2} \sim 1.3 \times 10^{96}\ \mathrm{kg}\ \mathrm{m}^{-3}
 \end{split}
 \tag{3.30}
 $$
 
-In accordance with the Cosmic Fabric analogy, the density of the fabric corresponds to the density of free space, which is also known as the zero-point energy density. The computed value for $\rho_\text{F}$ agrees to an order of magnitude with the predictions of Quantum Field Theory ($\sim 10^{96}\ \mathrm{kg}\,\mathrm{m}^{-3}$) for the energy density of free space [146]. Note that the predictions of Quantum Field Theory are also based on using Planck's length $l_p$ as a length-scale parameter.
+In accordance with the Cosmic Fabric analogy, the density of the fabric corresponds to the density of free space, which is also known as the zero-point energy density. The computed value for $\rho_\text{F}$ agrees to an order of magnitude with the predictions of Quantum Field Theory ($\sim 10^{96}\ \mathrm{kg}\ \mathrm{m}^{-3}$) for the energy density of free space [146]. Note that the predictions of Quantum Field Theory are also based on using Planck's length $l_p$ as a length-scale parameter.
 
 #### Gravitational Waves
 
@@ -503,7 +503,7 @@ We showed that the behavior of spacetime per Einstein's Field Equations (1.3) is
 | Gravitational potential $\Phi$ | Volumetric strain $\varepsilon$, where $\varepsilon = -\Phi/c^2$ |
 | Gravitational waves | Shear waves traveling at the speed of light |
 | Matter curves spacetime. | Matter induces prescribed strain causing the fabric to bend and time lapse to slow down. |
-| Action integral in free space, $\mathcal{S} = \frac{1}{2\kappa} \int R\sqrt{|g|}\,d^4x$ | Action integral outside of inclusions, $\mathcal{S} = \frac{L^2 Y}{48} \int R\sqrt{|g|}\,d^4x$ |
+| Action integral in free space, $\mathcal{S} = \frac{1}{2\kappa} \int R\sqrt{|g|}\ d^4x$ | Action integral outside of inclusions, $\mathcal{S} = \frac{L^2 Y}{48} \int R\sqrt{|g|}\ d^4x$ |
 | Constants of Nature: $G,\ \hbar,\ c$ | Elastic constants: $Y = 6c^7/2\pi\hbar G^2,\ \nu=1$ |
 
 The research presented in this chapter suggests an equivalence between postulating the field equations of General Relativity and postulating a cosmic fabric having material-like properties as described here. We believe that these are two different approaches for studying the same underlying reality. The Cosmic Fabric model introduces a new paradigm for interpreting cosmological observations based on well-established ideas from Solid Mechanics.

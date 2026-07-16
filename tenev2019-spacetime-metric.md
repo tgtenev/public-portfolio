@@ -57,7 +57,7 @@ In the following subsections we describe the specific way we assign coordinates 
 
 ### 2.1 Coordinate Assignments
 
-We adopt the coordinate conventions as in [1], which we summarize here. The cosmic fabric (physical space) is immersed in a four-dimensional hyperspace within which it can deform. The enclosing hyperspace is flat and has been assigned Cartesian coordinates $y^K,\,K=1\ldots 4$. Another set of coordinates $x^i,\,i=1\ldots 3$ is painted on the fabric in the following manner: prior to deformation the $x^i$ coordinates are painted such that they coincide with the $y^i$ coordinates. As the fabric deforms (see Fig. 2), the $x^i$ coordinates remain attached to each material point and displace along with it. We call $y^K$ *hyperspatial coordinates* since they pertain to the enclosing hyperspace. By contrast, we call $x^i$ *material coordinates*, because they label material points on the fabric. These hyperspatial and material coordinates are analogous, respectively, to the concepts of spatial and material coordinates from solid mechanics. Note that what we consider "material coordinates" from the viewpoint of Solid Mechanics are also the coordinates of physical three-dimensional space from the viewpoint of General Relativity.
+We adopt the coordinate conventions as in [1], which we summarize here. The cosmic fabric (physical space) is immersed in a four-dimensional hyperspace within which it can deform. The enclosing hyperspace is flat and has been assigned Cartesian coordinates $y^K,\ K=1\ldots 4$. Another set of coordinates $x^i,\ i=1\ldots 3$ is painted on the fabric in the following manner: prior to deformation the $x^i$ coordinates are painted such that they coincide with the $y^i$ coordinates. As the fabric deforms (see Fig. 2), the $x^i$ coordinates remain attached to each material point and displace along with it. We call $y^K$ *hyperspatial coordinates* since they pertain to the enclosing hyperspace. By contrast, we call $x^i$ *material coordinates*, because they label material points on the fabric. These hyperspatial and material coordinates are analogous, respectively, to the concepts of spatial and material coordinates from solid mechanics. Note that what we consider "material coordinates" from the viewpoint of Solid Mechanics are also the coordinates of physical three-dimensional space from the viewpoint of General Relativity.
 
 ![Material coordinates x^i versus hyperspatial coordinates y^I, before (a) and after (b) deformation of a body. The material coordinates are attached to each material point and are carried along with the material as it deforms, while hyperspatial coordinates remain fixed during deformation.](https://figures.tgtenev.com/tenev2019-spacetime-metric/fig-material-ref-coords.svg)
 
@@ -203,8 +203,8 @@ In the context of a spherically symmetric inclusion causing the fabric to deform
 
 | Variable(s) | Description |
 |---|---|
-| $y^K,\; K =1\ldots 4$ | Hyperspatial coordinates of the embedding hyperspace (Cartesian) |
-| $x^i,\; i =1\ldots 3$ | Material rectilinear coordinates |
+| $y^K,\  K =1\ldots 4$ | Hyperspatial coordinates of the embedding hyperspace (Cartesian) |
+| $x^i,\  i =1\ldots 3$ | Material rectilinear coordinates |
 | $t, \overline{R}, \theta, \varphi$ | Material polar coordinates. Note that $t$ represents time and $ct = x^0$. |
 | $\overline{R} = \sqrt{\sum_{i=1}^{3} (x^i)^2}$ | Undeformed distance from the origin |
 | $e = y^i/x^i - 1$ | Common stretch factor for all $i = 1\ldots 3$ |
@@ -812,8 +812,8 @@ $$
 \begin{split}
 W_\text{M} &=  -\frac{3c^4 r_s^2 r_g}{50 G L^2} \times \\
 &\begin{cases}
-\left(\frac{5}{2} - \frac{3}{2}\xi^2\right)^2\xi^3 + 5\left(1 -\frac{3}{7}\xi^2\right)\xi^5,\;& 0 \le \xi < 1 \\
-\xi^{-3} - 10\xi^{-1} + \frac{90}{7},\;& 1\le \xi
+\left(\frac{5}{2} - \frac{3}{2}\xi^2\right)^2\xi^3 + 5\left(1 -\frac{3}{7}\xi^2\right)\xi^5,\ & 0 \le \xi < 1 \\
+\xi^{-3} - 10\xi^{-1} + \frac{90}{7},\ & 1\le \xi
 \end{cases},
 \end{split}
 \tag{5.5}
@@ -860,7 +860,7 @@ In [1], we concluded that the fabric's thickness, $L$, must be comparable to Pla
 $$
 \begin{split}
 \frac{h c}{L} &= \frac{r_s c^4} {2G} \\
-& \therefore L = \sqrt{\frac{2 h G}{c^3}} = 5.729\times 10^{-35}\,\text{m}
+& \therefore L = \sqrt{\frac{2 h G}{c^3}} = 5.729\times 10^{-35}\ \text{m}
 \end{split}
 \tag{5.9}
 $$
@@ -901,9 +901,9 @@ Next we show that a spherically symmetric inclusion can be arbitrarily massive a
 
 **Figure 6.** A spherically symmetric body that appears continuous and isotropic at the length scales comparable to its size. The actual structure is progressively revealed in (a) through (c), where (a) shows the body idealized as perfectly continuous and spherically symmetric at all length scales. The dashed lines represent imaginary subdivisions of the body into cells. In (b) the mass in each cell is revealed to be concentrated into a small particle, while the mass density of the body remains unaffected at larger length scales. In (c) each particle is revealed to cause asymmetric strain from local anisotropies, while the body remains ostensibly isotropic at larger length scales.
 
-Fig. 6 shows a spherically symmetric body whose substructure is revealed progressively from most idealized (no substructure) in Fig. 6a to least idealized (most detailed substructure) in Fig. 6c. At sufficiently large length scales the body appears continuous and isotropic, but at smaller length scales continuity and isotropy need not necessarily apply as Fig. 6c shows local anisotropies. In Fig. 6, the gravitating body is pictured as subdivided into cells whose total mass remains the same from one subfigure to another, but the distribution of that mass within the cell is revealed to be different from one subfigure to another. Eq. (5.6) shows that the membrane energy depends on the spatial radius $r_g$ of a gravitating body. Therefore, the membrane energy due to each cell within the body is reduced from Fig. 6a to Fig. 6b. To get an idea of the reduction, consider for example, that the mass of the Hydrogen atom with radius of about $5.3\times 10^{-11}\,\text{m}$ is concentrated in its nucleus, which is a single proton with radius of about $8.8\times 10^{-16}\,\text{m}$. So, simply by refining the picture we have for the hydrogen atom from a continuous solid sphere to a nearly hollow sphere with a nucleus, we would have to adjust our calculation for its resulting membrane energy by a factor of $\times 10^{-5}$. However, we can do even better than that and completely eliminate the membrane energy if we allow non-spherically symmetric strain at the substructure length scale as described below.
+Fig. 6 shows a spherically symmetric body whose substructure is revealed progressively from most idealized (no substructure) in Fig. 6a to least idealized (most detailed substructure) in Fig. 6c. At sufficiently large length scales the body appears continuous and isotropic, but at smaller length scales continuity and isotropy need not necessarily apply as Fig. 6c shows local anisotropies. In Fig. 6, the gravitating body is pictured as subdivided into cells whose total mass remains the same from one subfigure to another, but the distribution of that mass within the cell is revealed to be different from one subfigure to another. Eq. (5.6) shows that the membrane energy depends on the spatial radius $r_g$ of a gravitating body. Therefore, the membrane energy due to each cell within the body is reduced from Fig. 6a to Fig. 6b. To get an idea of the reduction, consider for example, that the mass of the Hydrogen atom with radius of about $5.3\times 10^{-11}\ \text{m}$ is concentrated in its nucleus, which is a single proton with radius of about $8.8\times 10^{-16}\ \text{m}$. So, simply by refining the picture we have for the hydrogen atom from a continuous solid sphere to a nearly hollow sphere with a nucleus, we would have to adjust our calculation for its resulting membrane energy by a factor of $\times 10^{-5}$. However, we can do even better than that and completely eliminate the membrane energy if we allow non-spherically symmetric strain at the substructure length scale as described below.
 
-Consider the strain tensor $\varepsilon^i_j$ of the fabric due to a single sub-scale particle inclusion such as one of the anisotropic particles in Fig. 6c. Let us choose for convenience a coordinate system orientation in which this strain tensor is represented by a diagonal matrix, and let $\varepsilon_i \equiv \varepsilon^i_i\; i = 1\ldots 3$ (no summation) be the diagonal entries. From Eq. (5.2) we see that,
+Consider the strain tensor $\varepsilon^i_j$ of the fabric due to a single sub-scale particle inclusion such as one of the anisotropic particles in Fig. 6c. Let us choose for convenience a coordinate system orientation in which this strain tensor is represented by a diagonal matrix, and let $\varepsilon_i \equiv \varepsilon^i_i\  i = 1\ldots 3$ (no summation) be the diagonal entries. From Eq. (5.2) we see that,
 
 $$
 \begin{split}
@@ -913,7 +913,7 @@ U_\text{M} & \propto \varepsilon_1^2 + \varepsilon_2^2 + \varepsilon_3^2 - (\var
 \tag{5.11}
 $$
 
-For any arbitrary value of the volumetric strain $\varepsilon^\text{3D} = \varepsilon_1 + \varepsilon_2 + \varepsilon_3 \neq 0$, the membrane energy $U_\text{M}$ can be made to vanish under a variety of conditions. For example, one such condition is purely a longitudinal strain: $\varepsilon^\text{3D} = \varepsilon_1;\; \varepsilon_2 = \varepsilon_3 = 0$, while another condition is an oblate strain: $\varepsilon_1 = \varepsilon_2;\; \varepsilon_3 = -\varepsilon_1/2;\; \varepsilon^\text{3D} = 3\varepsilon_1/2$. Therefore, if the substructure of all matter is closest to the one represented in Fig. 6c, then there would be no resulting membrane energy: $U_\text{M} = 0$.
+For any arbitrary value of the volumetric strain $\varepsilon^\text{3D} = \varepsilon_1 + \varepsilon_2 + \varepsilon_3 \neq 0$, the membrane energy $U_\text{M}$ can be made to vanish under a variety of conditions. For example, one such condition is purely a longitudinal strain: $\varepsilon^\text{3D} = \varepsilon_1;\  \varepsilon_2 = \varepsilon_3 = 0$, while another condition is an oblate strain: $\varepsilon_1 = \varepsilon_2;\  \varepsilon_3 = -\varepsilon_1/2;\  \varepsilon^\text{3D} = 3\varepsilon_1/2$. Therefore, if the substructure of all matter is closest to the one represented in Fig. 6c, then there would be no resulting membrane energy: $U_\text{M} = 0$.
 
 Is the substructure depicted in Fig. 6c a reasonable description of matter? Indeed. Ordinary matter at different length scales exhibits anisotropies all the way down to subatomic particles that are themselves not solid spheres but waves and therefore not perfectly spherically symmetric. The lower length scale anisotropies average out to an overall isotropic and symmetric volumetric strain field in a homogenized manner.
 
@@ -967,7 +967,7 @@ Arriving at a metric that is equivalent to the weak field limit of the classical
 
 ### 6.2 Flamm's Paraboloid
 
-Shortly after Karl Schwarzschild published his solution to the Field Equations of General Relativity for the case of spherical symmetry [4], Ludwig Flamm [6] offered a geometric interpretation of it. Flamm considered the spatial geometry of the Schwarzschild metric at a fixed time coordinate. He recognized that the interior metric is equivalent to the metric of a spherical cap and the exterior to that of a paraboloid. The interior cap is generated by revolving a circular arc of radius $r_0$ around its perpendicular bisector within four-dimensional Euclidean space, where $r_0$ is as defined in Table 2. The paraboloid is generated by revolving a parabola around its directrix within the same four-dimensional space. In both cases the axes of revolution coincide with each other and are aligned along a fictitious fourth spatial dimension. The resulting shape is illustrated in Fig. 7, where the fictitious fourth spatial dimension is labeled $w$, while the three ordinary spatial dimensions are $x^i,\; i=1\ldots 3$. The shape is known today as "Flamm's Paraboloid," although only a portion of it is a paraboloid, and is used mainly as a pedagogic tool when teaching General Relativity.
+Shortly after Karl Schwarzschild published his solution to the Field Equations of General Relativity for the case of spherical symmetry [4], Ludwig Flamm [6] offered a geometric interpretation of it. Flamm considered the spatial geometry of the Schwarzschild metric at a fixed time coordinate. He recognized that the interior metric is equivalent to the metric of a spherical cap and the exterior to that of a paraboloid. The interior cap is generated by revolving a circular arc of radius $r_0$ around its perpendicular bisector within four-dimensional Euclidean space, where $r_0$ is as defined in Table 2. The paraboloid is generated by revolving a parabola around its directrix within the same four-dimensional space. In both cases the axes of revolution coincide with each other and are aligned along a fictitious fourth spatial dimension. The resulting shape is illustrated in Fig. 7, where the fictitious fourth spatial dimension is labeled $w$, while the three ordinary spatial dimensions are $x^i,\  i=1\ldots 3$. The shape is known today as "Flamm's Paraboloid," although only a portion of it is a paraboloid, and is used mainly as a pedagogic tool when teaching General Relativity.
 
 ![The bending of the cosmic fabric due to a spherically symmetric inclusion assumes the shape known as Flamm's Paraboloid, a paraboloid in the exterior with a spheroid cap in the interior.](https://figures.tgtenev.com/tenev2019-spacetime-metric/fig-flamms-paraboloid.svg)
 

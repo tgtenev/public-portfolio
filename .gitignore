@@ -1,1 +1,4 @@
 .r2-env
+
+# Generated PDF output directories (md-to-pdf pipeline build artifacts)
+**/out/

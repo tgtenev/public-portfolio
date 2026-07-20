@@ -42,13 +42,13 @@ Einstein's Special Relativity (1905) seemed to make the aether unnecessary — n
 The specific motivation for the model is a structural similarity between the two fields' central laws. Hooke's Law for an isotropic linear elastic material relates the stress tensor $\sigma^{kl}$ (internal force per unit area) to the strain tensor $\varepsilon_{ij}$ (dimensionless deformation):
 
 $$
-\sigma^{kl} = \frac{Y}{1+\nu} \left(\frac{\nu}{1-2\nu} g^{ij}g^{kl} + g^{ik}g^{jl}\right)\varepsilon_{ij} \tag{1.2}
+\sigma^{kl} = \frac{Y}{1+\nu} \left(\frac{\nu}{1-2\nu} g^{ij}g^{kl} + g^{ik}g^{jl}\right)\varepsilon_{ij} \quad (1.2)
 $$
 
 where $Y$ is Young's modulus (stiffness) and $\nu$ is Poisson's ratio (how much a stretched material narrows sideways). Einstein's field equations of General Relativity read:
 
 $$
-T_{\mu\nu} = \frac{1}{\kappa} \left(R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} \right) \tag{1.3}
+T_{\mu\nu} = \frac{1}{\kappa} \left(R_{\mu\nu} - \frac{1}{2}R g_{\mu\nu} \right) \quad (1.3)
 $$
 
 where $T_{\mu\nu}$ is the stress–energy tensor (energy and momentum content), $R_{\mu\nu}$ and $R$ measure spacetime curvature, $g_{\mu\nu}$ is the spacetime metric, and $\kappa \equiv 8\pi G/c^4$ is the Einstein constant. Both laws relate stress (left side) to deformation (right side) — a *constitutive relation*, the kind of material-specific law that distinguishes steel from rubber. The apparent mismatch is dimensional: strain is dimensionless while curvature has dimensions of 1/length². The resolution, developed in Chapter III, is to compare Einstein's equation not to stretching but to **plate bending**, where stress is proportional to the *second spatial derivative* of strain.
@@ -66,7 +66,7 @@ A "length scale" is a range of distances over which certain physical laws and pa
 The analogy: at scales under a kilometer the Earth's surface is well approximated as flat; between 1 and 100 km local terrain matters; beyond 100 km the globe's curvature dominates. Those boundaries are not fundamental constants — they reflect how the Earth happens to be structured. Likewise, the Inherent Structure Hypothesis proposes that space has structure at galactic and cosmic scales reflecting the organization of the universe. Formally, this enters the Lagrangian (action) formulation of gravity as an extra term $\overline{\mathcal{L}}$:
 
 $$
-\mathcal{S} = \int_{\Omega}\left(\mathcal{L} - \overline{\mathcal{L}} + \mathcal{L}_\text{M} \right) d\Omega \tag{1.1}
+\mathcal{S} = \int_{\Omega}\left(\mathcal{L} - \overline{\mathcal{L}} + \mathcal{L}_\text{M} \right) d\Omega \quad (1.1)
 $$
 
 where $\mathcal{L}$ is the Lagrangian density from spacetime curvature, $\mathcal{L}_\text{M}$ accounts for matter–energy fields, and $\overline{\mathcal{L}}$ — a term not previously considered — is the correction due to the *inherent* (undeformed) curvature of space. Without $\overline{\mathcal{L}}$, the Cosmic Fabric model reproduces conventional General Relativity (Chapters III–V); with it, the model modifies General Relativity at galactic scales and above (Chapter VI).
@@ -108,7 +108,7 @@ This is the mechanical counterpart of "matter curves spacetime." Two coordinate 
 **2. Inclusions.** Matter is a source of volumetric strain $\varepsilon$ (the fractional volume change of the fabric):
 
 $$
-\nabla^2 \varepsilon = -\frac{1}{2} c^2\kappa \rho \tag{3.2}
+\nabla^2 \varepsilon = -\frac{1}{2} c^2\kappa \rho \quad (3.2)
 $$
 
 where $\rho$ is the matter–energy density. Equivalently: the "Schwarzschild-radius density" of matter — its mass converted to a geometric length — is what sources strain. How pointlike particles move freely through a stiff fabric is answered by their wave nature (waves propagate readily through stiff media); the model abstracts those details and takes the prescribed strain field as its input.
@@ -116,7 +116,7 @@ where $\rho$ is the matter–energy density. Equivalently: the "Schwarzschild-ra
 **3. Lapse rate.** All matter–matter interactions are mediated by signals propagating in the fabric as shear waves. Where those waves propagate slower (relative to the reference space), *all* physical processes — hence all clocks — run proportionally slower, regardless of the clock's design. Quantitatively, the shear wave speed $v_s$ and the rate of proper time $\tau$ (clock time) relative to coordinate time $t$ both scale as:
 
 $$
-v_s = (1 + \varepsilon)^{-1}c, \qquad \frac{d\tau}{dt} = (1 + \varepsilon)^{-1} \tag{3.3–3.4}
+v_s = (1 + \varepsilon)^{-1}c, \qquad \frac{d\tau}{dt} = (1 + \varepsilon)^{-1} \quad (3.3-3.4)
 $$
 
 An observer inside the fabric always measures the *same* signal speed, because the clock slowdown exactly compensates the wave slowdown — the mechanical origin of the invariance of the speed of light.
@@ -128,13 +128,13 @@ In physics, a system's dynamics are fully encoded in its **action** $\mathcal{S}
 The derivation proceeds in three steps. First, in the weak-field regime the spacetime metric is written $g_{\mu\nu} = \eta_{\mu\nu} + 2\varepsilon_{\mu\nu}$ — flat spacetime plus small deviations — and the deviations are identified *physically*: the spatial components are the fabric's strain, and the time–time component equals the volumetric strain, $\varepsilon_{00} = \varepsilon$ (from the lapse-rate postulate). Second, the elastic energy per unit volume is averaged across the plate's thickness and split into a **bending** part $U_\text{B}$ (strains that reverse sign across the mid-surface) and a **membrane** part $U_\text{M}$ (uniform in-plane stretching). Using thin-plate theory, the bending energy comes out proportional to the intrinsic curvature $R^\text{3D}$ of the mid-surface:
 
 $$
-U_\text{B} = - \frac{YL^2}{48} R^\text{3D} \tag{3.18}
+U_\text{B} = - \frac{YL^2}{48} R^\text{3D} \quad (3.18)
 $$
 
 — *provided* Poisson's ratio is fixed at $\nu = 1$, the unique choice that removes an unphysical dependence on how the fabric sits in the reference space (its extrinsic curvature). Third, the membrane energy is shown to vanish for nearly static deformations. The fabric's Lagrangian density is then $-U_\text{B}\sqrt{|g|}$, which — using the linearized relation between spatial curvature $R^\text{3D}$ and the four-dimensional Ricci scalar $R$ — takes exactly the Einstein–Hilbert form:
 
 $$
-\mathcal{S}_\text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4 \tag{3.1}
+\mathcal{S}_\text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad (3.1)
 $$
 
 Identifying the two coefficients, $YL^2/48 = 1/(2\kappa)$, calibrates the model: the fabric's stiffness is fixed by Newton's constant.
@@ -179,7 +179,7 @@ The fabric ostensibly defines a hyperplane of absolute simultaneity — a prefer
 **A moving observer.** Consider an observer moving with velocity $v$ through the fabric, timing a light signal's round trip across a fixed distance *transverse* to the motion. From the fabric frame, the signal traverses a diagonal path (Pythagoras), so its effective transverse speed is $\sqrt{c^2 - v^2}$. By the lapse-rate postulate, the moving observer's clocks slow by:
 
 $$
-\frac{d\tau'}{d\tau} = \sqrt{1 - \beta^2},\quad \beta \equiv \frac{v}{c} \tag{4.3}
+\frac{d\tau'}{d\tau} = \sqrt{1 - \beta^2},\quad \beta \equiv \frac{v}{c} \quad (4.3)
 $$
 
 — time dilation, derived mechanically.
@@ -195,7 +195,7 @@ $$
 With invariant signal speed established, the coordinate transformations between a stationary and a moving observer follow from symmetry alone. On a spacetime diagram with time scaled by $c$, a photon's path bisects the stationary observer's axes; by invariance it must also bisect the moving observer's axes, which tilt inward symmetrically (slopes $\beta$ and $1/\beta$). Translational symmetry of the fabric (valid at the continuum scale) forces the transformation to be linear, and requiring that the inverse transformation has the same form with $v \to -v$ pins down the coefficients:
 
 $$
-\begin{pmatrix} x' \\ c\tau' \end{pmatrix} = \gamma \begin{pmatrix} 1 & -\beta \\ -\beta & 1 \end{pmatrix} \begin{pmatrix} x \\ c\tau \end{pmatrix}, \qquad \gamma = \frac{1}{\sqrt{1-\beta^2}} \tag{4.9, 4.11}
+\begin{pmatrix} x' \\ c\tau' \end{pmatrix} = \gamma \begin{pmatrix} 1 & -\beta \\ -\beta & 1 \end{pmatrix} \begin{pmatrix} x \\ c\tau \end{pmatrix}, \qquad \gamma = \frac{1}{\sqrt{1-\beta^2}} \quad (4.9, 4.11)
 $$
 
 — the Lorentz transformations.
@@ -235,13 +235,13 @@ Solving these ordinary differential equations (with regularity at the center and
 Assembling the strains into the line element (the squared spacetime distance $ds^2$) gives, outside the body:
 
 $$
-ds^2_\text{ext} = -\left(1-\frac{r_s}{\overline{r}}\right) c^2 dt^2 + \left(1+\frac{r_s}{\overline{r}} - \frac{2 r_s r_g^2}{5\overline{r}^3}\right) d\overline{r}^2 + \left(1+\frac{r_s r_g^2}{5\overline{r}^3}\right) \overline{r}^2 d\Omega^2 \tag{5.40}
+ds^2_\text{ext} = -\left(1-\frac{r_s}{\overline{r}}\right) c^2 dt^2 + \left(1+\frac{r_s}{\overline{r}} - \frac{2 r_s r_g^2}{5\overline{r}^3}\right) d\overline{r}^2 + \left(1+\frac{r_s r_g^2}{5\overline{r}^3}\right) \overline{r}^2 d\Omega^2 \quad (5.40)
 $$
 
 with a corresponding interior solution. For comparison, the linearized Schwarzschild metric of General Relativity is:
 
 $$
-ds^2_\text{ext} = -\left(1-\frac{r_s}{r}\right) c^2 dt^2 + \left(1+\frac{r_s}{r}\right) dr^2 + r^2 d\Omega^2 \tag{5.53}
+ds^2_\text{ext} = -\left(1-\frac{r_s}{r}\right) c^2 dt^2 + \left(1+\frac{r_s}{r}\right) dr^2 + r^2 d\Omega^2 \quad (5.53)
 $$
 
 The time coefficients are identical, and both metrics produce the same intrinsic spatial curvature everywhere. The spatial coefficients differ only because the fabric solution tracks the in-plane stretch $e(\overline{r})$, which General Relativity regards as physically meaningless coordinate relabeling. Substituting $r = (1+e)\overline{r}$ into (5.40) recovers (5.53) exactly: **the two metrics are equivalent up to a coordinate rescaling.** This validates the model's postulates. The fabric version carries extra physical content, though: it is simultaneously the deformation tensor of a solid, and it shows that the fractional volumetric stretch of space always equals the fractional slowdown of time.
@@ -257,7 +257,7 @@ The *shape* the fabric bends into is also recognizable. In 1916 Ludwig Flamm sho
 The remaining constraint — vanishing membrane energy — has a surprising consequence. Computing the total membrane energy $W_\text{M}$ for a *perfectly continuous* spherical body gives a negative quantity whose magnitude saturates at:
 
 $$
-\max |W_\text{M}| = \frac{27 c^4 r_s^2 r_g}{35 G L^2} \tag{5.47}
+\max |W_\text{M}| = \frac{27 c^4 r_s^2 r_g}{35 G L^2} \quad (5.47)
 $$
 
 This grows as the *square* of the mass ($r_s^2$), while the body's own relativistic energy grows only linearly ($\propto r_s$). For the fabric's response not to overwhelm the energy of the body that caused it, one must require $r_s r_g \lesssim \frac{35}{54}L^2$ — an upper bound on how massive a *continuous* body can be, set by the fabric's thickness $L$. Proposing $L = \sqrt{2hG/c^3} = 5.7\times10^{-35}$ m (the energy scale where a body's Schwarzschild radius equals its de Broglie wavelength), the maximum continuous mass works out to $\sim2.5\times10^{-8}$ kg — a Planck-scale speck. Anything more massive **must be composed of discrete particles**.
@@ -283,7 +283,7 @@ Consider space with a spherically symmetric inherent curvature, described by a t
 Placing a gravitating mass at the center and following a test particle along its geodesic (using the inclusion postulate with curvature-aware covariant derivatives), the chapter derives a strikingly simple differential equation for the proper gravitational acceleration $a$, whose solution is:
 
 $$
-a(\overline{r}) = -\frac{G M(\overline{r})}{\overline{r}^2} \tag{6.23}
+a(\overline{r}) = -\frac{G M(\overline{r})}{\overline{r}^2} \quad (6.23)
 $$
 
 **Newton's inverse-square law holds — but in terms of the projected distance $\overline{r}$, not the proper distance $\overline{l}$.** Since $\overline{r} \le \overline{l}$, the measured acceleration at a given *measured* distance is stronger than the inverse-square law predicts. An astronomer applying Newton's law with $\overline{l}$ would infer extra invisible mass:

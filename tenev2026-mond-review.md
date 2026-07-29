@@ -6,10 +6,10 @@
 |---|---|
 | **Store** | public-portfolio |
 | **Publication** | Preprint, Zenodo, 2026 |
-| **Published** | *pending Zenodo deposit* |
-| **DOI / URL** | *pending Zenodo deposit* — on depositing, record the concept DOI here (cite that one for all versions) together with this version's own DOI |
+| **Published** | 2026-07-30 (Zenodo v1) |
+| **DOI / URL** | https://doi.org/10.5281/zenodo.21693735 — concept DOI, cite this one for all versions; this version is 10.5281/zenodo.21693736 |
 | **Licence** | CC BY 4.0 |
-| **Cite as** | T. G. Tenev, "Modified Newtonian dynamics after four decades: the idea, the evidence, and the open questions," Zenodo, preprint, 2026, doi: *pending*. |
+| **Cite as** | T. G. Tenev, "Modified Newtonian dynamics after four decades: the idea, the evidence, and the open questions," Zenodo, preprint, 2026, doi: 10.5281/zenodo.21693735. |
 | **Converted from** | research-workbench `cfm-dark-sector-program/mond-review.md`, commit `0b0eed0` (v2); figures served from the R2/CDN bucket rather than committed |
 
 ---

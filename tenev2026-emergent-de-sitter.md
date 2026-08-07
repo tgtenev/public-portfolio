@@ -135,7 +135,7 @@ We describe the mass accretion rate per unit current volume, $`\dot{\rho}_{\text
 
 $$
 \begin{split}
-\dot{\rho}_{\text{acc}} = \mathcal{K} \Delta \Phi \quad (8)
+\dot{\rho}\_{\text{acc}} = \mathcal{K} \Delta \Phi \quad (8)
 \end{split}
 $$
 
@@ -155,7 +155,7 @@ The growth Jacobian $`J_g`$ tracks the volume created by solidification of the p
 
 $$
 \begin{split}
-\frac{d}{dt} \ln J_g = \frac{\dot{\rho}_{\text{acc}}}{\rho_0} \quad (10)
+\frac{d}{dt} \ln J_g = \frac{\dot{\rho}\_{\text{acc}}}{\rho_0} \quad (10)
 \end{split}
 $$
 

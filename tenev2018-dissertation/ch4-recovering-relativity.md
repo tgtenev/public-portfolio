@@ -113,7 +113,10 @@ Consider a sufficiently small region around the origin where the cosmic fabric i
 
 $$
 \begin{split}
-\begin{pmatrix} x' \\ c\tau' \end{pmatrix} = \begin{pmatrix} a_{11} & a_{12} \\ a_{21} & a_{22} \end{pmatrix} \begin{pmatrix} x \\ c\tau \end{pmatrix}
+\begin{pmatrix} x' \\
+c\tau' \end{pmatrix} = \begin{pmatrix} a_{11} & a_{12} \\
+a_{21} & a_{22} \end{pmatrix} \begin{pmatrix} x \\
+c\tau \end{pmatrix}
 \end{split}
 \tag{4.8}
 $$
@@ -122,7 +125,10 @@ where the coefficients $a_{\mu\nu}$ only depend on the relative velocity $v$. Ev
 
 $$
 \begin{split}
-\begin{pmatrix} x' \\ c\tau' \end{pmatrix} = \gamma \begin{pmatrix} 1 & -\beta \\ -\beta & 1 \end{pmatrix} \begin{pmatrix} x \\ c\tau \end{pmatrix}
+\begin{pmatrix} x' \\
+c\tau' \end{pmatrix} = \gamma \begin{pmatrix} 1 & -\beta \\
+-\beta & 1 \end{pmatrix} \begin{pmatrix} x \\
+c\tau \end{pmatrix}
 \end{split}
 \tag{4.9}
 $$
@@ -131,8 +137,12 @@ The inverse of the transformation in Equation (4.9) should also have the same fo
 
 $$
 \begin{split}
-\begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} & = \gamma^2 \begin{pmatrix} 1 & -\beta \\ -\beta & 1 \end{pmatrix} \begin{pmatrix} 1 & \beta \\ \beta & 1 \end{pmatrix} \\
-& = \gamma^2 \begin{pmatrix} 1 - \beta^2 & 0 \\ 0 & 1 - \beta^2 \end{pmatrix}
+\begin{pmatrix} 1 & 0 \\
+0 & 1 \end{pmatrix} & = \gamma^2 \begin{pmatrix} 1 & -\beta \\
+-\beta & 1 \end{pmatrix} \begin{pmatrix} 1 & \beta \\
+\beta & 1 \end{pmatrix} \\
+& = \gamma^2 \begin{pmatrix} 1 - \beta^2 & 0 \\
+0 & 1 - \beta^2 \end{pmatrix}
 \end{split}
 \tag{4.10}
 $$

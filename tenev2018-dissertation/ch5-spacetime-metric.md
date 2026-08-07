@@ -94,10 +94,18 @@ Likewise, the second derivatives of $y^K$ at the chosen coordinates are as follo
 
 $$
 \begin{split}
-[\partial_{ij} y^1] &= \begin{pmatrix} r'' & 0 & 0 \\ 0 & e' & 0 \\ 0 & 0 & e' \end{pmatrix}
-\quad [\partial_{ij} y^2] = \begin{pmatrix} 0 & e' & 0 \\ e' & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}
-\quad [\partial_{ij} y^3] = \begin{pmatrix} 0 & 0 & e' \\ 0 & 0 & 0 \\ e' & 0 & 0 \end{pmatrix} \\
-[\partial_{ij} y^4] &= \begin{pmatrix} w''(r')^2 + w'r'' & 0 & 0 \\ 0 & w'r'\overline{r}^{-1} & 0 \\ 0 & 0 & w'r'\overline{r}^{-1} \end{pmatrix}
+[\partial_{ij} y^1] &= \begin{pmatrix} r'' & 0 & 0 \\
+0 & e' & 0 \\
+0 & 0 & e' \end{pmatrix}
+\quad [\partial_{ij} y^2] = \begin{pmatrix} 0 & e' & 0 \\
+e' & 0 & 0 \\
+0 & 0 & 0 \end{pmatrix}
+\quad [\partial_{ij} y^3] = \begin{pmatrix} 0 & 0 & e' \\
+0 & 0 & 0 \\
+e' & 0 & 0 \end{pmatrix} \\
+[\partial_{ij} y^4] &= \begin{pmatrix} w''(r')^2 + w'r'' & 0 & 0 \\
+0 & w'r'\overline{r}^{-1} & 0 \\
+0 & 0 & w'r'\overline{r}^{-1} \end{pmatrix}
 \end{split}
 \tag{5.5}
 $$
@@ -150,7 +158,13 @@ where $\epsilon^I_{JKL}$ is the permutation operator. Substituting Equation (5.4
 
 $$
 \begin{split}
-\begin{pmatrix} \hat{n}^1 \\ \hat{n}^2 \\ \hat{n}^3 \\ \hat{n}^4 \end{pmatrix} = \frac{1}{\sqrt{1+(w')^2}} \begin{pmatrix} w' \\ 0 \\ 0 \\ -1 \end{pmatrix}.
+\begin{pmatrix} \hat{n}^1 \\
+\hat{n}^2 \\
+\hat{n}^3 \\
+\hat{n}^4 \end{pmatrix} = \frac{1}{\sqrt{1+(w')^2}} \begin{pmatrix} w' \\
+0 \\
+0 \\
+-1 \end{pmatrix}.
 \end{split}
 \tag{5.10}
 $$
@@ -231,7 +245,7 @@ In this section we formulate the equations that govern the interaction between a
 
 The governing equations are formulated in terms of the radial stretch factor $e(r) = r/\overline{r} - 1$ and the transverse displacement $w(r)$ based on the following constraints: 1) the bending energy density must balance the relativistic energy density of the inclusion, 2) inclusions are sources of strain, and 3) the total membrane energy must vanish. As Chapter III discusses in detail, the term "bending energy" means the portion of the elastic energy due to bending whereby the mid-hypersurface of the fabric remains unstrained and the hypersurfaces on each side of it are being either stretched or compressed. By contrast, the term "membrane energy" is the elastic energy attributed to the stretching of the mid-hypersurface.
 
-The above constraints are motivated as follows: Consider the Fabric's action $\mathcal{S} = \int \mathcal{L}_\text{F} \sqrt{|g|}\  dx^4$ where $\mathcal{L}_\text{F}$ is the Lagrangian of the fabric together with the inclusion; $g \equiv \det [g_{\mu\nu}]$ is the determinant of the spacetime metric; and the integral is taken over a sufficiently large volume of spacetime such that the integral converges. According to the Principle of Least Action, physical systems progress along a trajectory that extremizes the action (the action is either minimized or maximized). For a nearly static situation the kinetic components of $\mathcal{L}_\text{F}$ can be ignored, so only the contributions from the fabric's elastic energy and the body's relativistic energy need to be considered. Thus, $\mathcal{L}_\text{F} = -(U_\text{M} + U_\text{B} + c^2 \rho)$. Furthermore, per Equation (3.9) the determinant $|g| \approx 1$. Therefore, since the total energy integrated over all of three-dimensional space should be non-negative, the action $\mathcal{S}$ would reach an extremum if the deformation functions $e$ and $w$ were such that the total elastic energy $W$ vanished, where $W$ is defined as follows:
+The above constraints are motivated as follows: Consider the Fabric's action $\mathcal{S} = \int \mathcal{L}\_\text{F} \sqrt{|g|}\  dx^4$ where $\mathcal{L}\_\text{F}$ is the Lagrangian of the fabric together with the inclusion; $g \equiv \det [g_{\mu\nu}]$ is the determinant of the spacetime metric; and the integral is taken over a sufficiently large volume of spacetime such that the integral converges. According to the Principle of Least Action, physical systems progress along a trajectory that extremizes the action (the action is either minimized or maximized). For a nearly static situation the kinetic components of $\mathcal{L}\_\text{F}$ can be ignored, so only the contributions from the fabric's elastic energy and the body's relativistic energy need to be considered. Thus, $\mathcal{L}\_\text{F} = -(U_\text{M} + U_\text{B} + c^2 \rho)$. Furthermore, per Equation (3.9) the determinant $|g| \approx 1$. Therefore, since the total energy integrated over all of three-dimensional space should be non-negative, the action $\mathcal{S}$ would reach an extremum if the deformation functions $e$ and $w$ were such that the total elastic energy $W$ vanished, where $W$ is defined as follows:
 
 $$
 \begin{split}
@@ -375,7 +389,7 @@ f &= -\frac{1}{2}\frac{\overline{r}}{r_0^2} - \frac{C_3}{\overline{r}^2} \\
 \tag{5.29}
 $$
 
-where $C_3$ and $C_4$ are constants of integration. Let $\varepsilon_\text{int}$ and $\varepsilon_\text{ext}$ represent the interior and exterior solutions, respectively. For the interior solution, $0\le \overline{r} \le \overline{r}_g$, we determine that $C_3 = 0$, or else $\varepsilon_\text{int}$ diverges as $\overline{r} \rightarrow 0$. For the exterior case, $r_0 = \infty$, so $\varepsilon_\text{ext} = C_4 + C_3/r$, but $C_4$ must vanish, for $\varepsilon_\text{ext}$ to vanish at infinity. Thus, we conclude so far the following,
+where $C_3$ and $C_4$ are constants of integration. Let $\varepsilon_\text{int}$ and $\varepsilon_\text{ext}$ represent the interior and exterior solutions, respectively. For the interior solution, $0\le \overline{r} \le \overline{r}\_g$, we determine that $C_3 = 0$, or else $\varepsilon_\text{int}$ diverges as $\overline{r} \rightarrow 0$. For the exterior case, $r_0 = \infty$, so $\varepsilon_\text{ext} = C_4 + C_3/r$, but $C_4$ must vanish, for $\varepsilon_\text{ext}$ to vanish at infinity. Thus, we conclude so far the following,
 
 $$
 \begin{split}
@@ -388,7 +402,7 @@ For it to be physically admissible, $\varepsilon$ and its first derivative must 
 
 $$
 \begin{split}
-&\varepsilon_\text{int}(r_g) = \varepsilon_\text{ext}(r_g); \quad \left.\frac{d}{d\overline{r}}\varepsilon_\text{int}\right|_{r = r_g} = \left.\frac{d}{d\overline{r}}\varepsilon_\text{ext}\right|_{r = r_g} \\
+&\varepsilon_\text{int}(r_g) = \varepsilon_\text{ext}(r_g); \quad \left.\frac{d}{d\overline{r}}\varepsilon_\text{int}\right|\_{r = r_g} = \left.\frac{d}{d\overline{r}}\varepsilon_\text{ext}\right|\_{r = r_g} \\
 &\therefore\ C_3 = \frac{r_s}{2}; \quad C_4 = \frac{3r_g^2}{4r_0^2},
 \end{split}
 \tag{5.31}
@@ -398,7 +412,7 @@ which finally produces the following result:
 
 $$
 \begin{split}
-\varepsilon_\text{int} = \frac{3}{4}\frac{\overline{r}_g^2}{r_0^2} - \frac{1}{4}\frac{\overline{r}^2}{r_0^2}; \quad \varepsilon_\text{ext} = \frac{1}{2}\frac{r_s}{\overline{r}}
+\varepsilon_\text{int} = \frac{3}{4}\frac{\overline{r}\_g^2}{r_0^2} - \frac{1}{4}\frac{\overline{r}^2}{r_0^2}; \quad \varepsilon_\text{ext} = \frac{1}{2}\frac{r_s}{\overline{r}}
 \end{split}
 \tag{5.32}
 $$
@@ -635,7 +649,7 @@ $$
 
 The maximum continuous mass derived above represents the mass of a tiny black hole, because we had assumed that $r_g = r_s$. For ordinary matter, however, $r_g \gg r_s$. How does the constraint expressed in Equation (5.48) apply to the particles that comprise matter?
 
-Table 5.3 lists the values of $r_s$ and $r_g$ for the proton, neutron, and electron. Subatomic particles do not have definite radii, but the size of their radii can be modeled based on how they interact with other particles. For example, the root mean square charge radius of a proton is determined from electron scattering experiments; it has a well-accepted value [168], which is the one used in Table 5.3 for the proton radius. Modern particle theory considers the electron to be a point particle, but its classical radius $r_e$, which is what we use in Table 5.3, can be calculated as the combination of fundamental constants: $r_e = e^2/(4\pi \varepsilon_0 m_e c^2)$ where $e$, $m_e$, and $\varepsilon_0$ are the electron charge, electron mass, and the permittivity of free space, respectively. The radius of the neutron is relatively challenging to compute because of its overall neutral charge. Several researchers [2, 63, 154] have studied $^{208}$Pb to determine the difference between the neutron and proton radii with results in the range of $0.15 - 0.33$ fm. Based on this research, Table 5.3 uses an estimate for the neutron's radius that is $0.2$ fm larger than the proton's. One conclusion from the values of $r_s$ and $r_g$ for the listed particles is that because $r_g \gg r_s$, the regime of small strains (weak gravity) applies and so the approximations used in our calculations herein apply too.
+Table 5.3 lists the values of $r_s$ and $r_g$ for the proton, neutron, and electron. Subatomic particles do not have definite radii, but the size of their radii can be modeled based on how they interact with other particles. For example, the root mean square charge radius of a proton is determined from electron scattering experiments; it has a well-accepted value [168], which is the one used in Table 5.3 for the proton radius. Modern particle theory considers the electron to be a point particle, but its classical radius $r_e$, which is what we use in Table 5.3, can be calculated as the combination of fundamental constants: $r_e = e^2/(4\pi \varepsilon_0 m_e c^2)$ where $e$, $m_e$, and $\varepsilon_0$ are the electron charge, electron mass, and the permittivity of free space, respectively. The radius of the neutron is relatively challenging to compute because of its overall neutral charge. Several researchers [2, 63, 154] have studied $^{208}\text{Pb}$ to determine the difference between the neutron and proton radii with results in the range of $0.15 - 0.33$ fm. Based on this research, Table 5.3 uses an estimate for the neutron's radius that is $0.2$ fm larger than the proton's. One conclusion from the values of $r_s$ and $r_g$ for the listed particles is that because $r_g \gg r_s$, the regime of small strains (weak gravity) applies and so the approximations used in our calculations herein apply too.
 
 **Table 5.3.** Length scales and energy scales of common sub-atomic particles. The length scales are expressed in terms of the particle's geometric radii $r_g$ and Schwarzschild radii $r_s$, respectively, and compared to the fabric's thickness $L$.
 
@@ -706,8 +720,8 @@ Consequently,
 
 $$
 \begin{split}
-\overline{r}_\text{int} &= \left(1 - \frac{r_g^2}{4r_0^2} + \frac{3r^2}{20r_0^2}\right)r; \quad \overline{r}_\text{ext} = \left(1 - \frac{r_s r_0^2}{10r^3}\right)r \\
-d\overline{r}_\text{int} &= \left(1 - \frac{r_g^2}{4r_0^2} + \frac{9r^2}{20r_0^2}\right)dr; \quad d\overline{r}_\text{ext} = \left(1 + \frac{r_s r_0^2}{5r^3}\right)dr
+\overline{r}\_\text{int} &= \left(1 - \frac{r_g^2}{4r_0^2} + \frac{3r^2}{20r_0^2}\right)r; \quad \overline{r}\_\text{ext} = \left(1 - \frac{r_s r_0^2}{10r^3}\right)r \\
+d\overline{r}\_\text{int} &= \left(1 - \frac{r_g^2}{4r_0^2} + \frac{9r^2}{20r_0^2}\right)dr; \quad d\overline{r}\_\text{ext} = \left(1 + \frac{r_s r_0^2}{5r^3}\right)dr
 \end{split}
 \tag{5.55}
 $$

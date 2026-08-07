@@ -87,6 +87,7 @@ We calculate the redshift $z_{\delta\Omega}$ for a center-bound photon leaving a
 First, we notice that for a photon departing from the shell, i.e. from $x = x_1 = R$, the situation has not changed from the perspective of $\delta\Omega$ compared to the SYLS setup in Figure 1. The causal portion of $\delta\Omega$ is still the intersection of a sphere centered at the photon's departing location and extending by $\varepsilon$ beyond the rim of $\delta\Omega$, and the evolution of this causal portion is identical to that in Figure 1. Next, we realize that a photon departing from some other point $x_i$ at local time $\tau$ shares the remainder of the trajectory of a photon departing from $x_1 = R$ at local time $\tau$ (see Figure 3). Therefore, by changing the upper bound of the integral in Equation (2) to be $x$ instead of $R$, we generalize the equation to apply to photons departing from within any point $x$ where $\varepsilon/2 \leq x \leq R$. For $x \leq \varepsilon/2$ the redshift vanishes, because the causal region of such photons includes the entire shell. Moreover, for $R \leq x$, we can integrate the result from Equation (A8) to formulate the complete set of equations for the SYLS redshift in terms of the four-piece function $z_{\delta\Omega}(x)$ as done in Equations (3) and (4).
 
 $$
+\begin{split}
 z_{\delta\Omega}(x) =
 \begin{cases}
 0, & 0 \leq x \leq \frac{\varepsilon}{2} \\
@@ -94,10 +95,12 @@ z_{\delta\Omega}(x) =
 \displaystyle z_{\delta\Omega}(R) - \frac{2\pi\sigma G}{c^2}\int_{R}^{x}\frac{R(2R+\varepsilon)}{x'^2}\frac{R-x'+\varepsilon/2}{R-x'+\varepsilon}\ dx', & R \leq x \leq R+\frac{\varepsilon}{2} \\
 z_{\delta\Omega}\left(R+\frac{\varepsilon}{2}\right), & R+\frac{\varepsilon}{2} \leq x
 \end{cases}
+\end{split}
 \tag{3}
 $$
 
 $$
+\begin{split}
 z_{\delta\Omega}(x) =
 \begin{cases}
 0, & 0 \leq x \leq \frac{\varepsilon}{2} \\
@@ -105,6 +108,7 @@ z_{\delta\Omega}(x) =
 \dfrac{2\pi\sigma G \varepsilon}{c^2}\left[A(x) - \dfrac{R - \varepsilon/2}{R+\varepsilon} - \dfrac{2(R+\varepsilon/2)^2(x-R)}{x(R+\varepsilon)\varepsilon}\right], & R \leq x \leq R+\frac{\varepsilon}{2} \\
 z_{\delta\Omega}\left(R+\frac{\varepsilon}{2}\right), & R+\frac{\varepsilon}{2} \leq x
 \end{cases}
+\end{split}
 \tag{4}
 $$
 
@@ -134,12 +138,14 @@ $$
 where $\rho$ is the volume mass density of the LYLB. For $R \leq \varepsilon/2$ and $x \leq \varepsilon/2$, the causal region of the emitted photon includes only homogeneous matter, leading to no redshift. With these limits applied, Equation (5) can be split into the following three pieces for $z_\Omega$ as follows:
 
 $$
+\begin{split}
 z_\Omega(x) =
 \begin{cases}
 0, & 0 \leq x \leq \dfrac{\varepsilon}{2} \\
 \dfrac{\rho}{\sigma}\left(\displaystyle\int_x^R z_{\delta\Omega}^{(1)}\ dR' + \int_{\varepsilon/2}^x z_{\delta\Omega}^{(2)}\ dR'\right), & \dfrac{\varepsilon}{2} \leq x \leq \varepsilon \\
 \dfrac{\rho}{\sigma}\left(\displaystyle\int_x^R z_{\delta\Omega}^{(1)}\ dR' + \int_{x-\varepsilon/2}^x z_{\delta\Omega}^{(2)}\ dR' + \int_{\varepsilon/2}^{x-\varepsilon/2} z_{\delta\Omega}^{(3)}\ dR'\right), & \varepsilon \leq x \leq R
 \end{cases}
+\end{split}
 \tag{6}
 $$
 

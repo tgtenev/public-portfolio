@@ -57,7 +57,7 @@ A century of related work has connected mechanics and relativity from various di
 
 ### Length scales and inherent structure
 
-A "length scale" is a range of distances over which certain physical laws and parameters dominate. The dissertation considers four: **substructure** ($10^{-36}$–$10^{-10}$ m, the discrete make-up of the fabric itself), **continuum** ($10^{-10}$–$10^{14}$ m, where space is smooth and General Relativity applies), **structure** ($10^{14}$–$3\times10^{24}$ m, galactic scales where dark-matter anomalies appear), and **cosmic** (above $3\times10^{24}$ m, the global geometry of the universe).
+A "length scale" is a range of distances over which certain physical laws and parameters dominate. The dissertation considers four: **substructure** ($10^{-36}$–$`10^{-10}`$ m, the discrete make-up of the fabric itself), **continuum** ($10^{-10}$–$`10^{14}`$ m, where space is smooth and General Relativity applies), **structure** ($10^{14}$–$`3\times10^{24}`$ m, galactic scales where dark-matter anomalies appear), and **cosmic** (above $3\times10^{24}$ m, the global geometry of the universe).
 
 ![Cosmic hierarchical length scales.](https://figures.tgtenev.com/tenev2018-dissertation/fig-lengthscales.svg)
 
@@ -66,7 +66,7 @@ A "length scale" is a range of distances over which certain physical laws and pa
 The analogy: at scales under a kilometer the Earth's surface is well approximated as flat; between 1 and 100 km local terrain matters; beyond 100 km the globe's curvature dominates. Those boundaries are not fundamental constants — they reflect how the Earth happens to be structured. Likewise, the Inherent Structure Hypothesis proposes that space has structure at galactic and cosmic scales reflecting the organization of the universe. Formally, this enters the Lagrangian (action) formulation of gravity as an extra term $\overline{\mathcal{L}}$:
 
 $$
-\mathcal{S} = \int_{\Omega}\left(\mathcal{L} - \overline{\mathcal{L}} + \mathcal{L}_\text{M} \right) d\Omega \quad (1.1)
+\mathcal{S} = \int_{\Omega}\left(\mathcal{L} - \overline{\mathcal{L}} + \mathcal{L}\_\text{M} \right) d\Omega \quad (1.1)
 $$
 
 where $\mathcal{L}$ is the Lagrangian density from spacetime curvature, $\mathcal{L}_\text{M}$ accounts for matter–energy fields, and $\overline{\mathcal{L}}$ — a term not previously considered — is the correction due to the *inherent* (undeformed) curvature of space. Without $\overline{\mathcal{L}}$, the Cosmic Fabric model reproduces conventional General Relativity (Chapters III–V); with it, the model modifies General Relativity at galactic scales and above (Chapter VI).
@@ -134,7 +134,7 @@ $$
 — *provided* Poisson's ratio is fixed at $\nu = 1$, the unique choice that removes an unphysical dependence on how the fabric sits in the reference space (its extrinsic curvature). Third, the membrane energy is shown to vanish for nearly static deformations. The fabric's Lagrangian density is then $-U_\text{B}\sqrt{|g|}$, which — using the linearized relation between spatial curvature $R^\text{3D}$ and the four-dimensional Ricci scalar $R$ — takes exactly the Einstein–Hilbert form:
 
 $$
-\mathcal{S}_\text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad (3.1)
+\mathcal{S}\_\text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}\_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad (3.1)
 $$
 
 Identifying the two coefficients, $YL^2/48 = 1/(2\kappa)$, calibrates the model: the fabric's stiffness is fixed by Newton's constant.
@@ -188,14 +188,17 @@ $$
 
 **Figure 4.2.** An observer moving with velocity $v$ relative to the fabric measures the round-trip time of a light signal traveling transverse to the motion, shown from the viewpoint of the moving observer (a) and a stationary observer (b). The effective transverse signal speed is $\sqrt{c^2 - v^2}$.
 
-**Lengths along the motion.** Timing a round-trip signal along a rod carried with the motion (travel times $dl/(c+v)$ and $dl/(c-v)$) and applying the time-dilation result forces a choice: either the moving observer finds light speed different along the motion than across it — anisotropy that the Michelson–Morley experiment ruled out — or rods aligned with the motion change length, with the comoving observer's measured length $dl'$ related to the fabric-frame length by $dl' = dl/\sqrt{1-\beta^2}$. This is the familiar length contraction, seen from the fabric's side: a moving rod occupies less fabric-frame length than its rest measurement. The combined effects of time dilation and length change make the moving observer measure exactly $c$ in every direction. Lorentz reached the same conclusion for light; here it holds for *all* signals, because the fabric mediates all matter–matter interactions — which is why not just electromagnetic clocks but every physical process is affected.
+**Lengths along the motion.** Timing a round-trip signal along a rod carried with the motion (travel times $dl/(c+v)$ and $`dl/(c-v)`$) and applying the time-dilation result forces a choice: either the moving observer finds light speed different along the motion than across it — anisotropy that the Michelson–Morley experiment ruled out — or rods aligned with the motion change length, with the comoving observer's measured length $dl'$ related to the fabric-frame length by $dl' = dl/\sqrt{1-\beta^2}$. This is the familiar length contraction, seen from the fabric's side: a moving rod occupies less fabric-frame length than its rest measurement. The combined effects of time dilation and length change make the moving observer measure exactly $c$ in every direction. Lorentz reached the same conclusion for light; here it holds for *all* signals, because the fabric mediates all matter–matter interactions — which is why not just electromagnetic clocks but every physical process is affected.
 
 ### The Lorentz transformations, geometrically
 
 With invariant signal speed established, the coordinate transformations between a stationary and a moving observer follow from symmetry alone. On a spacetime diagram with time scaled by $c$, a photon's path bisects the stationary observer's axes; by invariance it must also bisect the moving observer's axes, which tilt inward symmetrically (slopes $\beta$ and $1/\beta$). Translational symmetry of the fabric (valid at the continuum scale) forces the transformation to be linear, and requiring that the inverse transformation has the same form with $v \to -v$ pins down the coefficients:
 
 $$
-\begin{pmatrix} x' \\ c\tau' \end{pmatrix} = \gamma \begin{pmatrix} 1 & -\beta \\ -\beta & 1 \end{pmatrix} \begin{pmatrix} x \\ c\tau \end{pmatrix}, \qquad \gamma = \frac{1}{\sqrt{1-\beta^2}} \quad (4.9, 4.11)
+\begin{pmatrix} x' \\
+c\tau' \end{pmatrix} = \gamma \begin{pmatrix} 1 & -\beta \\
+-\beta & 1 \end{pmatrix} \begin{pmatrix} x \\
+c\tau \end{pmatrix}, \qquad \gamma = \frac{1}{\sqrt{1-\beta^2}} \quad (4.9, 4.11)
 $$
 
 — the Lorentz transformations.
@@ -262,7 +265,7 @@ $$
 
 This grows as the *square* of the mass ($r_s^2$), while the body's own relativistic energy grows only linearly ($\propto r_s$). For the fabric's response not to overwhelm the energy of the body that caused it, one must require $r_s r_g \lesssim \frac{35}{54}L^2$ — an upper bound on how massive a *continuous* body can be, set by the fabric's thickness $L$. Proposing $L = \sqrt{2hG/c^3} = 5.7\times10^{-35}$ m (the energy scale where a body's Schwarzschild radius equals its de Broglie wavelength), the maximum continuous mass works out to $\sim2.5\times10^{-8}$ kg — a Planck-scale speck. Anything more massive **must be composed of discrete particles**.
 
-Checking real particles against the bound $54\, r_s r_g/(35 L^2) \lesssim 1$: the electron scores $\sim0.002$ (comfortably within), the proton $\sim1.0$, and the neutron $\sim1.3$ — essentially saturating it. That the proton and neutron slightly exceed the bound is consistent with the fact that they, unlike the electron, have substructure (quarks). Moreover, if individual particles prescribe *asymmetric* strains (longitudinal or oblate rather than perfectly spherical) — plausible given their wave nature — the membrane energy vanishes identically, while the body still appears continuous and spherically symmetric at large scales:
+Checking real particles against the bound $54\ r_s r_g/(35 L^2) \lesssim 1$: the electron scores $\sim0.002$ (comfortably within), the proton $\sim1.0$, and the neutron $\sim1.3$ — essentially saturating it. That the proton and neutron slightly exceed the bound is consistent with the fact that they, unlike the electron, have substructure (quarks). Moreover, if individual particles prescribe *asymmetric* strains (longitudinal or oblate rather than perfectly spherical) — plausible given their wave nature — the membrane energy vanishes identically, while the body still appears continuous and spherically symmetric at large scales:
 
 ![Substructure of a spherically symmetric body.](https://figures.tgtenev.com/tenev2018-dissertation/fig-substructure.svg)
 
@@ -278,7 +281,7 @@ This chapter presents the dissertation's proposed alternative to dark matter: th
 
 ### How inherent curvature amplifies gravity
 
-Consider space with a spherically symmetric inherent curvature, described by a transverse displacement profile $\overline{w}(\overline{r})$ in the fourth dimension, where $\overline{r}$ is the *coordinate* (projected) distance from the symmetry center. Because the fabric is sloped, the **proper** distance $\overline{l}$ — what an observer inside space actually measures — exceeds the projected distance: $d\overline{l} = \sqrt{1 + (\overline{w}')^2}\, d\overline{r}$.
+Consider space with a spherically symmetric inherent curvature, described by a transverse displacement profile $\overline{w}(\overline{r})$ in the fourth dimension, where $\overline{r}$ is the *coordinate* (projected) distance from the symmetry center. Because the fabric is sloped, the **proper** distance $\overline{l}$ — what an observer inside space actually measures — exceeds the projected distance: $d\overline{l} = \sqrt{1 + (\overline{w}')^2}\ d\overline{r}$.
 
 Placing a gravitating mass at the center and following a test particle along its geodesic (using the inclusion postulate with curvature-aware covariant derivatives), the chapter derives a strikingly simple differential equation for the proper gravitational acceleration $a$, whose solution is:
 
@@ -310,11 +313,11 @@ Choosing a specific curvature profile reproduces MOND exactly (up to $r_c$). Wor
 
 **Figure 6.3.** The inherent curvature profile whose effect is equivalent to MOND up to a critical distance $r_c$, beyond which the actual profile may diverge from the MOND-equivalent one. The scale parameter is $s \equiv \sqrt{GM/a_0}$.
 
-Surveying fourteen galaxies and clusters spanning masses of $10^9$–$2\times10^{15}$ solar masses and distances from 25 thousand to 13.4 billion light years (Table 6.1 in the full text — Milky Way, the Magellanic Clouds, Andromeda, M33, Pinwheel, Whirlpool, M77, Malin 1, the Phoenix Cluster, GN-z11, and others), the visible radius $R$ falls within an order of magnitude of $s$ for nearly all: $R/s$ ranges from about 0.1 to 3, with outliers like the oddly-shaped Cartwheel galaxy ($R/s \approx 10.7$). The same relationship even holds for the Solar System ($R/s = 0.14$, taking $R$ as the Sun–Sedna distance). Since MOND fits most observations well, this correspondence validates ISH — while ISH additionally accommodates MOND's outliers naturally: galaxies that "prefer" a larger or smaller $a_0$ simply have more or less inherent curvature. And two empirical "coincidences" — the MOND length $c^2/a_0 \approx 7.5\times10^{26}$ m being comparable to the Hubble distance, and $s$ tracking each system's geometric size — both point toward a geometrical, structural origin for the effect. MOND, on this reading, is a first-order approximation to the inherent structure of space.
+Surveying fourteen galaxies and clusters spanning masses of $10^9$–$`2\times10^{15}`$ solar masses and distances from 25 thousand to 13.4 billion light years (Table 6.1 in the full text — Milky Way, the Magellanic Clouds, Andromeda, M33, Pinwheel, Whirlpool, M77, Malin 1, the Phoenix Cluster, GN-z11, and others), the visible radius $R$ falls within an order of magnitude of $s$ for nearly all: $R/s$ ranges from about 0.1 to 3, with outliers like the oddly-shaped Cartwheel galaxy ($R/s \approx 10.7$). The same relationship even holds for the Solar System ($R/s = 0.14$, taking $R$ as the Sun–Sedna distance). Since MOND fits most observations well, this correspondence validates ISH — while ISH additionally accommodates MOND's outliers naturally: galaxies that "prefer" a larger or smaller $a_0$ simply have more or less inherent curvature. And two empirical "coincidences" — the MOND length $c^2/a_0 \approx 7.5\times10^{26}$ m being comparable to the Hubble distance, and $s$ tracking each system's geometric size — both point toward a geometrical, structural origin for the effect. MOND, on this reading, is a first-order approximation to the inherent structure of space.
 
 ### Implications for cosmology
 
-Like MOND, ISH is incompatible with the standard $\Lambda$CDM model, which requires non-baryonic dark matter and presupposes the Cosmological Principle (no structure above 100 Mpc). ISH takes the opposite premise — structure is fundamental at every length scale. The galaxy data show inherent curvature *correlated* with matter, yet inherent curvature is by definition uncaused by matter; the suggested resolution is reversed causality: **the inherent structure of space is what caused matter to organize into galaxies and clusters in the first place** — potentially also explaining the universe's large-scale walls and filaments, which are too extended to be gravitationally bound. Inherent structure could serve future cosmological models as the seed for structure formation, the role $\Lambda$CDM assigns to cold dark matter.
+Like MOND, ISH is incompatible with the standard $\Lambda\text{CDM}$ model, which requires non-baryonic dark matter and presupposes the Cosmological Principle (no structure above 100 Mpc). ISH takes the opposite premise — structure is fundamental at every length scale. The galaxy data show inherent curvature *correlated* with matter, yet inherent curvature is by definition uncaused by matter; the suggested resolution is reversed causality: **the inherent structure of space is what caused matter to organize into galaxies and clusters in the first place** — potentially also explaining the universe's large-scale walls and filaments, which are too extended to be gravitationally bound. Inherent structure could serve future cosmological models as the seed for structure formation, the role $\Lambda\text{CDM}$ assigns to cold dark matter.
 
 ---
 

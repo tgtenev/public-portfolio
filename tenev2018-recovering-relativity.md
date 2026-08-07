@@ -153,9 +153,12 @@ Consider a sufficiently small region around the origin where the cosmic fabric i
 
 $$
 \begin{split}
-\left(\begin{array}{c} x' \\ c\tau' \end{array} \right) =
-\left(\begin{array}{cc} a_{11} &  a_{12} \\ a_{21} & a_{22} \end{array}\right)
-\left(\begin{array}{c} x \\ c\tau\end{array} \right)
+\left(\begin{array}{c} x' \\
+c\tau' \end{array} \right) =
+\left(\begin{array}{cc} a_{11} &  a_{12} \\
+a_{21} & a_{22} \end{array}\right)
+\left(\begin{array}{c} x \\
+c\tau\end{array} \right)
 \end{split}
 \tag{3.1}
 $$
@@ -164,9 +167,12 @@ where the coefficients $a_{\mu\nu}$ only depend on the relative velocity $v$. Ev
 
 $$
 \begin{split}
-\left(\begin{array}{c} x' \\ c\tau' \end{array} \right) =
-\gamma \left(\begin{array}{cc} 1 &  -\beta \\ -\beta & 1 \end{array}\right)
-\left(\begin{array}{c} x \\ c\tau\end{array} \right)
+\left(\begin{array}{c} x' \\
+c\tau' \end{array} \right) =
+\gamma \left(\begin{array}{cc} 1 &  -\beta \\
+-\beta & 1 \end{array}\right)
+\left(\begin{array}{c} x \\
+c\tau\end{array} \right)
 \end{split}
 \tag{3.2}
 $$
@@ -175,10 +181,14 @@ The inverse of the transformation in Eq. (3.2) should also have the same form an
 
 $$
 \begin{split}
-\left(\begin{array}{cc} 1 &  0 \\ 0 & 1 \end{array}\right) & =
-\gamma^2 \left(\begin{array}{cc} 1 &  -\beta \\ -\beta & 1 \end{array}\right)
-\left(\begin{array}{cc} 1 &  \beta \\ \beta & 1 \end{array}\right) \\
-& = \gamma^2 \left(\begin{array}{cc} 1 - \beta^2 & 0 \\ 0 & 1 - \beta^2 \end{array}\right)
+\left(\begin{array}{cc} 1 &  0 \\
+0 & 1 \end{array}\right) & =
+\gamma^2 \left(\begin{array}{cc} 1 &  -\beta \\
+-\beta & 1 \end{array}\right)
+\left(\begin{array}{cc} 1 &  \beta \\
+\beta & 1 \end{array}\right) \\
+& = \gamma^2 \left(\begin{array}{cc} 1 - \beta^2 & 0 \\
+0 & 1 - \beta^2 \end{array}\right)
 \end{split}
 \tag{3.3}
 $$

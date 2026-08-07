@@ -66,18 +66,18 @@ In this paper, we develop a formal analogy between Solid Mechanics and General R
 
 **Figure 1.** A plate bending from flat geometry (a) into a curved geometry (b) because of an inclusion that prescribes uneven strain field, as indicated by the concentric dashed lines and the diverging arrows. The strain is larger near the center and tapers off with the distance from it. For the geometry of the plate to accommodate the prescribed strain, the plate must bend into the transverse dimension.
 
-We conduct our study in the limit of weak and nearly static gravitational fields, and demonstrate that outside of inclusions, the fabric's action $\mathcal{S}_\text{F}$, assumes the form of the Einstein-Hilbert action $\mathcal{S}_\text{EH}$,
+We conduct our study in the limit of weak and nearly static gravitational fields, and demonstrate that outside of inclusions, the fabric's action $\mathcal{S}\_\text{F}$, assumes the form of the Einstein-Hilbert action $\mathcal{S}\_\text{EH}$,
 
 $$
 \begin{split}
-\mathcal{S}_\text{F} = \frac{YL}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4\quad
+\mathcal{S}\_\text{F} = \frac{YL}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4\quad
 \text{vs.}\quad
-\mathcal{S}_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4
+\mathcal{S}\_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4
 \end{split}
 \tag{1.3}
 $$
 
-where $L$ is the reference thickness of the fabric, $g \equiv \det g_{\mu\nu}$, and the integral is taken over a large enough volume of spacetime sufficient to ensure convergence. The action integral of any physical system fully determines its dynamics, because the system's equations of motion can be derived from the variation of the action with respect to the metric. Therefore, once we recognize $\mathcal{S}_\text{F}$ as analogous to $\mathcal{S}_\text{EH}$, we can interpret various attributes of the cosmic fabric, such as its shape, strain, vibrations, and elastic moduli as analogous to properties of gravity and space, such as curvature, gravitational potential, gravitational waves, and the zero point energy density of space.
+where $L$ is the reference thickness of the fabric, $g \equiv \det g_{\mu\nu}$, and the integral is taken over a large enough volume of spacetime sufficient to ensure convergence. The action integral of any physical system fully determines its dynamics, because the system's equations of motion can be derived from the variation of the action with respect to the metric. Therefore, once we recognize $\mathcal{S}\_\text{F}$ as analogous to $\mathcal{S}\_\text{EH}$, we can interpret various attributes of the cosmic fabric, such as its shape, strain, vibrations, and elastic moduli as analogous to properties of gravity and space, such as curvature, gravitational potential, gravitational waves, and the zero point energy density of space.
 
 Our approach ostensibly resembles the Arnowitt-Deser-Misner (ADM) [31] and DeWitt [26] formulations of gravity in the way time lapse is separated from spatial extent. For example, under the ADM approach, spacetime is foliated into space-like hypersurfaces related to each other via shift and lapse functions. Like ADM, DeWitt also considers the time evolution of the three dimensional spatial metric. Nevertheless, the Cosmic Fabric model differs from these formulations in that it associates constitutive behavior with the geometric description of gravity and derives its governing equations from a material-like constitutive relation. Furthermore, unlike these formulations, the cosmic fabric specifies a hyperplane of absolute simultaneity.
 
@@ -87,7 +87,7 @@ The remainder of this paper is organized as follows: In §2 we develop the Solid
 
 ## 2. Formulation of the Cosmic Fabric Model of Gravity
 
-Consider a four dimensional hyperplate, called here the "cosmic fabric," which is thin in the fourth spatial dimension, $x^4$. We show that, for a suitably chosen constitutive parameters, the fabric's Lagrangian density outside of inclusions is $\mathcal{L}_\text{F} = (YL/48)R\sqrt{|g|}$, where $\mathcal{L}_\text{F}$ is the integrand in Eq. (1.3). This result enables us to subsequently analyze how the remaining kinematic properties of the cosmic fabric correspond to properties of gravity.
+Consider a four dimensional hyperplate, called here the "cosmic fabric," which is thin in the fourth spatial dimension, $x^4$. We show that, for a suitably chosen constitutive parameters, the fabric's Lagrangian density outside of inclusions is $\mathcal{L}\_\text{F} = (YL/48)R\sqrt{|g|}$, where $\mathcal{L}\_\text{F}$ is the integrand in Eq. (1.3). This result enables us to subsequently analyze how the remaining kinematic properties of the cosmic fabric correspond to properties of gravity.
 
 ### 2.1 Notation
 
@@ -172,7 +172,7 @@ Matter-energy fields behave as inclusions in the fabric inducing *membrane* stra
 
 $$
 \begin{split}
-\varepsilon^\text{3D}_{,kk} \propto c^2\kappa \rho
+\varepsilon^\text{3D}\_{,kk} \propto c^2\kappa \rho
 \end{split}
 \tag{2.5}
 $$
@@ -265,7 +265,7 @@ which, by the application of the Inclusion Postulate (2.5), yields the following
 
 $$
 \begin{split}
-\varepsilon_{00,kk} = \varepsilon^\text{3D}_{,kk} \propto c^2 \kappa \rho
+\varepsilon_{00,kk} = \varepsilon^\text{3D}\_{,kk} \propto c^2 \kappa \rho
 \end{split}
 \tag{2.12}
 $$
@@ -304,13 +304,13 @@ $$
 
 where $\sigma_{ij} = \sigma_{ij}(\xi)$ and $\varepsilon_{ij} = \varepsilon_{ij}(\xi)$ are, respectively, the stress and strain at each hypersurface $\Sigma_{\xi}$. Note that here and for the remainder of the paper, we compute the elastic energy density with respect to the coordinate volume as opposed to the proper volume.
 
-Next, we compute the total elastic energy density $U$ averaged across the fabric's thickness, and we separate it into a bending term $U_\text{B}$ and a membrane stretch term $U_\text{M}$. For this purpose, we split the strain at each surface, $\varepsilon_{ij}$ into a membrane strain $\varepsilon^\text{M}_{ij}$ and a bending strain $\varepsilon^\text{B}_{ij}$ as follows:
+Next, we compute the total elastic energy density $U$ averaged across the fabric's thickness, and we separate it into a bending term $U_\text{B}$ and a membrane stretch term $U_\text{M}$. For this purpose, we split the strain at each surface, $\varepsilon_{ij}$ into a membrane strain $\varepsilon^\text{M}\_{ij}$ and a bending strain $\varepsilon^\text{B}\_{ij}$ as follows:
 
 $$
 \begin{split}
-\varepsilon_{ij} & = \frac{1}{2}(g_{ij} - \delta_{ij}) = \varepsilon^\text{M}_{ij} + \varepsilon^\text{B}_{ij} \\
-\varepsilon^\text{M}_{ij} & = \frac{1}{2}(a_{ij} - \delta_{ij}) \\
-\varepsilon^\text{B}_{ij} & = -b_{ij}\xi + \mathcal{O}(b^2\xi^2)
+\varepsilon_{ij} & = \frac{1}{2}(g_{ij} - \delta_{ij}) = \varepsilon^\text{M}\_{ij} + \varepsilon^\text{B}\_{ij} \\
+\varepsilon^\text{M}\_{ij} & = \frac{1}{2}(a_{ij} - \delta_{ij}) \\
+\varepsilon^\text{B}\_{ij} & = -b_{ij}\xi + \mathcal{O}(b^2\xi^2)
 \end{split}
 \tag{2.15}
 $$
@@ -318,15 +318,15 @@ $$
 $$
 \begin{split}
 U & = \frac{1}{L} \int_{-\frac{L}{2}}^{\frac{L}{2}} U_{\xi} \ \mathrm{d}\xi \\
-& = \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}(\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl} + [\varepsilon^\text{M}_{ij}\varepsilon^\text{B}_{kl} + \varepsilon^\text{B}_{ij}\varepsilon^\text{M}_{kl}]) \ \mathrm{d}\xi \\
+& = \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}(\varepsilon^\text{M}\_{ij}\varepsilon^\text{M}\_{kl} + \varepsilon^\text{B}\_{ij}\varepsilon^\text{B}\_{kl} + [\varepsilon^\text{M}\_{ij}\varepsilon^\text{B}\_{kl} + \varepsilon^\text{B}\_{ij}\varepsilon^\text{M}\_{kl}]) \ \mathrm{d}\xi \\
 & = U_\text{M} + U_\text{B} \\
-U_\text{M} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{M}_{ij}\varepsilon^\text{M}_{kl}\ \mathrm{d}\xi \\
-U_\text{B} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{B}_{ij}\varepsilon^\text{B}_{kl}\ \mathrm{d}\xi
+U_\text{M} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{M}\_{ij}\varepsilon^\text{M}\_{kl}\ \mathrm{d}\xi \\
+U_\text{B} &= \frac{1}{2L} \int_{-\frac{L}{2}}^{\frac{L}{2}} C^{ijkl}\varepsilon^\text{B}\_{ij}\varepsilon^\text{B}\_{kl}\ \mathrm{d}\xi
 \end{split}
 \tag{2.16}
 $$
 
-The term $\mathcal{O}(b^2\xi^2)$ stands for an expression whose order of magnitude is comparable to the square of the elements $b_{ij}$ multiplied by $\xi^2$. The mixed terms inside the square brackets in Eq. (2.16) vanish under integration because the bending strain reverses sign across the mid-hypersurface; hence $\varepsilon^\text{B}_{ij} = \varepsilon^\text{B}_{ij}(\xi)$ is an odd function, while $\varepsilon^\text{M}_{ij} = \varepsilon^\text{M}_{ij}(\xi)$ is an even function.
+The term $\mathcal{O}(b^2\xi^2)$ stands for an expression whose order of magnitude is comparable to the square of the elements $b_{ij}$ multiplied by $\xi^2$. The mixed terms inside the square brackets in Eq. (2.16) vanish under integration because the bending strain reverses sign across the mid-hypersurface; hence $\varepsilon^\text{B}\_{ij} = \varepsilon^\text{B}\_{ij}(\xi)$ is an odd function, while $\varepsilon^\text{M}\_{ij} = \varepsilon^\text{M}\_{ij}(\xi)$ is an even function.
 
 For the remainder of this subsection, we focus on evaluating the term $U_\text{B}$. The term $U_\text{M}$ will be addressed in the following subsection where we show that it vanishes under appropriately chosen material properties and deformation kinematics.
 
@@ -339,7 +339,7 @@ U_\text{B} = L^2C^{ijkl}\left[b_{ij}b_{kl} + \mathcal{O}(b^3 L)\right]
 \tag{2.17}
 $$
 
-The extrinsic curvature terms $b_{ij}$ have magnitudes comparable to the inverse of the curvature radius. The curvature radius is much greater than the thickness of the fabric, so $\mathcal{O}(b L) \ll 1$ allows us to neglect the term $\mathcal{O}(b^3 L)$ in the above expression. Using the identity, $R^\text{3D}_{lijk} = b_{ik}b_{jl} - b_{ij}b_{kl}$, where $R^\text{3D}_{lijk}$ is the Riemann curvature tensor of the mid-hypersurface, and setting $\mathcal{O}(b^3 L) = 0$, we can express $U_\text{B}$ in terms of the intrinsic three-dimensional spatial curvature $R^\text{3D}$ as follows,
+The extrinsic curvature terms $b_{ij}$ have magnitudes comparable to the inverse of the curvature radius. The curvature radius is much greater than the thickness of the fabric, so $\mathcal{O}(b L) \ll 1$ allows us to neglect the term $\mathcal{O}(b^3 L)$ in the above expression. Using the identity, $R^\text{3D}\_{lijk} = b_{ik}b_{jl} - b_{ij}b_{kl}$, where $R^\text{3D}\_{lijk}$ is the Riemann curvature tensor of the mid-hypersurface, and setting $\mathcal{O}(b^3 L) = 0$, we can express $U_\text{B}$ in terms of the intrinsic three-dimensional spatial curvature $R^\text{3D}$ as follows,
 
 $$
 \begin{split}
@@ -399,7 +399,7 @@ Hence, fixing the fabric's deformation to material displacements only along the 
 
 ### 2.9 Lagrangian Density
 
-Ignoring the kinetic energy component, under the simplifying assumption of nearly static fields, the Lagrangian density is $\mathcal{L}_\text{F} = - U_\text{B} \sqrt{|g|} \propto R^\text{3D} \sqrt{|g|}$, where $g \equiv \det[g_{\mu\nu}]$. The factor $\sqrt{|g|}$, which converts from a coordinate volume to a proper volume, is needed for $\mathcal{L}_\text{F}$ to be a tensor density, which requires invariance under coordinate transformations.
+Ignoring the kinetic energy component, under the simplifying assumption of nearly static fields, the Lagrangian density is $\mathcal{L}\_\text{F} = - U_\text{B} \sqrt{|g|} \propto R^\text{3D} \sqrt{|g|}$, where $g \equiv \det[g_{\mu\nu}]$. The factor $\sqrt{|g|}$, which converts from a coordinate volume to a proper volume, is needed for $\mathcal{L}\_\text{F}$ to be a tensor density, which requires invariance under coordinate transformations.
 
 Next, we derive an expression for $\mathcal{L}_\text{F}$ in terms of the Ricci curvature $R$ of the fabric's world volume. According to the gauge-invariant linearized expression for $R$ per Ref. [33],
 
@@ -419,7 +419,7 @@ In free space $\varepsilon_{00,kk} = 0$ per Eq. (2.12). Consequently, after comb
 
 $$
 \begin{split}
-\mathcal{L}_\text{F} = -U_\text{B} \sqrt{|g|} = \frac{YL^2}{48} R \sqrt{|g|}
+\mathcal{L}\_\text{F} = -U_\text{B} \sqrt{|g|} = \frac{YL^2}{48} R \sqrt{|g|}
 \end{split}
 \tag{2.24}
 $$
@@ -428,7 +428,7 @@ which has the same form as the Einstein-Hilbert Lagrangian density. The resultin
 
 $$
 \begin{split}
-\mathcal{S}_\text{F} = \int \mathcal{L}_\text{F} \ \mathrm{d}x^4 = \frac{YL}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4
+\mathcal{S}\_\text{F} = \int \mathcal{L}\_\text{F} \ \mathrm{d}x^4 = \frac{YL}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4
 \end{split}
 \tag{2.25}
 $$
@@ -437,11 +437,11 @@ which is what we had set out to demonstrate as stated earlier per Eq. (1.3).
 
 ## 3. Discussion
 
-In the previous section, we postulated a material body, which we named the "cosmic fabric" whose constitutive behavior outside of inclusions is analogous to the behavior of gravity, and have shown the sequential mathematical development. For the analogy to be useful, it should allow us to map between notions in Solid Mechanics and General Relativity. Such a mapping is possible on the basis of identifying the fabric Lagrangian density $\mathcal{L}_\text{F}$ with the Lagrangian density from the Einstein-Hilbert action, $\mathcal{L}_\text{EH}$, as applying to free space. Specifically,
+In the previous section, we postulated a material body, which we named the "cosmic fabric" whose constitutive behavior outside of inclusions is analogous to the behavior of gravity, and have shown the sequential mathematical development. For the analogy to be useful, it should allow us to map between notions in Solid Mechanics and General Relativity. Such a mapping is possible on the basis of identifying the fabric Lagrangian density $\mathcal{L}\_\text{F}$ with the Lagrangian density from the Einstein-Hilbert action, $\mathcal{L}\_\text{EH}$, as applying to free space. Specifically,
 
 $$
 \begin{split}
-\mathcal{L}_\text{F} = \frac{YL^2}{48}R\sqrt{|g|} = \mathcal{L}_\text{EH} = \frac{1}{2\kappa}R\sqrt{|g|}
+\mathcal{L}\_\text{F} = \frac{YL^2}{48}R\sqrt{|g|} = \mathcal{L}\_\text{EH} = \frac{1}{2\kappa}R\sqrt{|g|}
 \end{split}
 \tag{3.1}
 $$
@@ -492,12 +492,12 @@ implying that the transverse (shear) wave velocity $v_s = \sqrt{\mu/\rho} \neq 0
 
 Let us consider the analogy between shear waves in the fabric and gravitational waves. Such an analogy depends on demonstrating that the fabric's behavior parallels that of spacetime for fast changing fields as well. We leave the rigorous proof for a future article, and for the rest of this subsection we assume that the fabric's behavior implied by the Lagrangian (2.24) also holds for fast changing fields. Based on this assumption, we proceed to investigate in-plane shear waves propagating through the fabric and their correspondence to gravitational waves.
 
-First, we show that if static fields are negligible and in the absence of torsion, then the strain $\varepsilon_{\mu\nu}$ satisfies the harmonic gauge condition, $\varepsilon^{\mu\alpha}_{\ \ \ ,\alpha} = (1/2)\varepsilon^{\alpha\ \ \mu}_{\ \alpha,}$. For shear waves, $\varepsilon^\text{3D} = 0$, and by Eq. (3.3)'s underlying relation $\varepsilon_{00} = \varepsilon^\text{3D}$, $\varepsilon_{00} = 0$, implying that $\varepsilon^{\alpha}_{\ \alpha} = 0$. Therefore, proving the harmonic gauge condition reduces to demonstrating that $\varepsilon^{\mu\alpha}_{\ \ ,\alpha} = 0$. Furthermore, the shear time-space components must vanish, $\varepsilon_{4j} = \varepsilon_{j4} = 0 = \varepsilon_{0j} = \varepsilon_{j0}$, because we are assuming negligible static fields and in-plane shear waves. Therefore, in order to prove that the harmonic gauge condition holds, we just need to show that $\varepsilon_{ik,k} = 0$. Let $u_i$ be the material displacement field. In terms of the displacement field, the strain is $2\varepsilon_{ij} = u_{i,j} + u_{j,i}$, and so,
+First, we show that if static fields are negligible and in the absence of torsion, then the strain $\varepsilon_{\mu\nu}$ satisfies the harmonic gauge condition, $\varepsilon^{\mu\alpha}\_{\ \ \ ,\alpha} = (1/2)\varepsilon^{\alpha\ \ \mu}\_{\ \alpha,}$. For shear waves, $\varepsilon^\text{3D} = 0$, and by Eq. (3.3)'s underlying relation $\varepsilon_{00} = \varepsilon^\text{3D}$, $\varepsilon_{00} = 0$, implying that $\varepsilon^{\alpha}\_{\ \alpha} = 0$. Therefore, proving the harmonic gauge condition reduces to demonstrating that $\varepsilon^{\mu\alpha}\_{\ \ ,\alpha} = 0$. Furthermore, the shear time-space components must vanish, $\varepsilon_{4j} = \varepsilon_{j4} = 0 = \varepsilon_{0j} = \varepsilon_{j0}$, because we are assuming negligible static fields and in-plane shear waves. Therefore, in order to prove that the harmonic gauge condition holds, we just need to show that $\varepsilon_{ik,k} = 0$. Let $u_i$ be the material displacement field. In terms of the displacement field, the strain is $2\varepsilon_{ij} = u_{i,j} + u_{j,i}$, and so,
 
 $$
 \begin{split}
 2\varepsilon_{ij} &= 2u_{j,i} + [u_{i,j} - u_{j,i}] \\
-2\varepsilon_{ik,k} &= 2u_{k,ki} + [u_{i,k} - u_{k,i}]_{,k}
+2\varepsilon_{ik,k} &= 2u_{k,ki} + [u_{i,k} - u_{k,i}]\_{,k}
 \end{split}
 \tag{3.5}
 $$
@@ -507,7 +507,7 @@ But, $u_{k,ki} = 0$ since $\varepsilon_{kk} = u_{k,k} = 0$. The difference in th
 $$
 \begin{split}
 \varepsilon_{ik,k} &= 0 \\
-\therefore \varepsilon^{\mu\alpha}_{\ \ \ ,\alpha} &= (1/2)\varepsilon^{\alpha\ \ \mu}_{\ \alpha,}
+\therefore \varepsilon^{\mu\alpha}\_{\ \ \ ,\alpha} &= (1/2)\varepsilon^{\alpha\ \ \mu}\_{\ \alpha,}
 \end{split}
 \tag{3.6}
 $$
@@ -521,7 +521,7 @@ R_{\mu\nu} \approx -\varepsilon_{\mu\nu,\alpha}^{\ \ \ \ \ \alpha}
 \tag{3.7}
 $$
 
-After substituting into the Einstein Field Equations (1.2), and taking into account that $R \approx \varepsilon^{\alpha\ \ \mu}_{\ \alpha,\ \mu} = 0$, and that in empty space $T_{\mu\nu} = 0$, we arrive at,
+After substituting into the Einstein Field Equations (1.2), and taking into account that $R \approx \varepsilon^{\alpha\ \ \mu}\_{\ \alpha,\ \mu} = 0$, and that in empty space $T_{\mu\nu} = 0$, we arrive at,
 
 $$
 \begin{split}
@@ -604,7 +604,7 @@ The small strain (weak gravity) condition was imposed so we could use the linear
 
 Imposing the nearly static field condition allowed us to ignore the kinetic energy term in the fabric's Lagrangian. It also let us assume specific bending kinematics that minimize the membrane energy of the fabric and, in §2.8, we showed that such kinematics result in zero membrane energy. Without the condition of nearly static fields, we will need to take into account the kinetic and membrane energies of the fabric and also consider a more complex deformation state. One possible simplification would be to concentrate on the condition without bending (away from static gravitational fields), and derive a closed-form result for the fabric's Lagrangian. This is the condition under which we would study gravitational waves as discussed in §3.3. The mathematical complexities resulting in the general non-static fields case will probably require the use of numerical techniques.
 
-Focusing on deriving the fabric's Lagrangian outside of inclusions was a useful simplification so the $\varepsilon_{00,kk}$ term in Eq. (2.23) could be eliminated. In the case of inclusions, this term contributes to an additional Lagrangian term that is analogous to the energy-matter Lagrangian term $\mathcal{L}_\text{M}$ in the generalized Einstein-Hilbert action $\mathcal{S}_\text{EH} = \int (R/2\kappa + \mathcal{L}_\text{M})\sqrt{|g|}\ \mathrm{d}x^4$. The detailed analysis of the fabric's behavior within inclusions will be presented in a subsequent paper.
+Focusing on deriving the fabric's Lagrangian outside of inclusions was a useful simplification so the $\varepsilon_{00,kk}$ term in Eq. (2.23) could be eliminated. In the case of inclusions, this term contributes to an additional Lagrangian term that is analogous to the energy-matter Lagrangian term $\mathcal{L}\_\text{M}$ in the generalized Einstein-Hilbert action $\mathcal{S}\_\text{EH} = \int (R/2\kappa + \mathcal{L}\_\text{M})\sqrt{|g|}\ \mathrm{d}x^4$. The detailed analysis of the fabric's behavior within inclusions will be presented in a subsequent paper.
 
 ## 4. Summary and Conclusion
 

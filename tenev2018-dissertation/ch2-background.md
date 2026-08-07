@@ -17,7 +17,10 @@ In order to refer to points in space we need a set of basis vectors and a refere
 $$
 \begin{split}
 \mathbf{a}=a^1\mathbf{e_1}+a^2\mathbf{e_2} =
-\begin{pmatrix} a^1 \\ a^2 \end{pmatrix}
+\begin{pmatrix}
+a^1 \\
+a^2
+\end{pmatrix}
 \end{split}
 \tag{2.1}
 $$
@@ -317,7 +320,7 @@ In the case of small curvatures, that is when $g_{ab}=\eta_{ab}+h_{ab}$ for some
 
 $$
 \begin{split}
-R_{ab} \approx -\frac{1}{2}\eta^{cd}\partial_{cd}h_{ab}, \quad (g_{ab}=\eta_{ab}+h_{ab},\quad |h|_{ab}\ll1)
+R_{ab} \approx -\frac{1}{2}\eta^{cd}\partial_{cd}h_{ab}, \quad (g_{ab}=\eta_{ab}+h_{ab},\quad |h|\_{ab}\ll1)
 \end{split}
 \tag{2.28}
 $$
@@ -341,12 +344,12 @@ The distance element $d\overline{s}$ between the same two material points prior 
 
 $$
 \begin{split}
-d\overline{s}^2 = \overline{g}_{ij} dx^i dx^j
+d\overline{s}^2 = \overline{g}\_{ij} dx^i dx^j
 \end{split}
 \tag{2.30}
 $$
 
-where $\overline{g}_{ij}$ is the metric of the body prior to deformation. From here on, a bar over the name of a variable indicates that the referenced quantity pertains to the undeformed configuration. Oftentimes, the material coordinates are assigned such that they are arranged in a Cartesian grid prior to the body's deformation, in which case the undeformed metric is $\overline{g}_{ij} = \delta_{ij}$.
+where $\overline{g}\_{ij}$ is the metric of the body prior to deformation. From here on, a bar over the name of a variable indicates that the referenced quantity pertains to the undeformed configuration. Oftentimes, the material coordinates are assigned such that they are arranged in a Cartesian grid prior to the body's deformation, in which case the undeformed metric is $\overline{g}\_{ij} = \delta_{ij}$.
 
 Let $y^i$ be a set of *reference coordinates* associated with the enclosing space. Each material point of the body can also be described in terms of these reference coordinates. However, unlike its material coordinates, the point's reference coordinates are not attached to it so the same material point may have different reference coordinates before and after the deformation. Throughout the work presented here, we will always consider reference coordinates that are arranged in a fixed Cartesian grid, so that the metric associated with the reference space is simply $\delta_{ij}$.
 
@@ -377,7 +380,7 @@ g_{ij} = \delta_{kl} F^k_i F^l_j,
 \tag{2.33}
 $$
 
-which is also the same expression as for the Cauchy–Green deformation tensor. In other words, for the coordinate assignments described above and used throughout this work, the deformed metric tensor $g_{ij}$ is one and the same as the Cauchy–Green deformation tensor, if the undeformed metric is the flat Cartesian metric: $\overline{g}_{ij} = \delta_{ij}$.
+which is also the same expression as for the Cauchy–Green deformation tensor. In other words, for the coordinate assignments described above and used throughout this work, the deformed metric tensor $g_{ij}$ is one and the same as the Cauchy–Green deformation tensor, if the undeformed metric is the flat Cartesian metric: $\overline{g}\_{ij} = \delta_{ij}$.
 
 #### Small Strain
 
@@ -385,8 +388,8 @@ The small strain tensor $\varepsilon_{ij}$ quantifies the amount of relative len
 
 $$
 \begin{split}
-2\varepsilon_{ij}dx^i dx^j & = ds^2 - d\overline{s}^2 = (g_{ij} - \overline{g}_{ij})dx^i dx^j \\
-\therefore\ \varepsilon_{ij} &= \frac{1}{2}(g_{ij} - \overline{g}_{ij})
+2\varepsilon_{ij}dx^i dx^j & = ds^2 - d\overline{s}^2 = (g_{ij} - \overline{g}\_{ij})dx^i dx^j \\
+\therefore\ \varepsilon_{ij} &= \frac{1}{2}(g_{ij} - \overline{g}\_{ij})
 \end{split}
 \tag{2.34}
 $$

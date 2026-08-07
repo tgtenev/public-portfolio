@@ -11,7 +11,7 @@
 7. M. Alcubierre, "Simple excision of a black hole in 3 + 1 numerical relativity", *Physical Review D*, vol. 63, no. 10, p. 104006, 2001. doi: 10.1103/PhysRevD.63.104006.
 8. M. Alcubierre et al., "Gauge conditions for long-term numerical black hole evolutions without excision", *Physical Review D*, vol. 67, no. 8, p. 084023, 2003. doi: 10.1103/PhysRevD.67.084023.
 9. P. G. Allison, M. F. Horstemeyer, H. R. Brown, "Modulus dependence on large scale porosity of powder metallurgy steel", *Journal of Materials Engineering and Performance*, vol. 21, no. 7, pp. 1422–1425, 2012. doi: 10.1007/s11665-011-0001-6.
-10. P. Amram, C. Boulesteix, J. Balkowski, "The H$\alpha$ kinematic of the Cartwheel galaxy", *Astronomy and Astrophysics*, vol. 330, pp. 881–893, 1998.
+10. P. Amram, C. Boulesteix, J. Balkowski, "The $\mathrm{H}\alpha$ kinematic of the Cartwheel galaxy", *Astronomy and Astrophysics*, vol. 330, pp. 881–893, 1998.
 11. P. Anninos, J. Seidel, E. Suen, W. M. Towns, J. Towns, "Three-dimensional numerical relativity: The evolution of black holes", *Physical Review D*, vol. 52, no. 4, pp. 2059–2082, 1995. doi: 10.1103/PhysRevD.52.2059.
 12. S. Antoci, L. Mihich, "A four-dimensional Hooke's law can encompass linear elasticity and inertia", *Nuovo Cimento B*, p. 8, 1999.
 13. R. Arnowitt, S. Deser, C. W. Misner, "Dynamical Structure and Definition of Energy in General Relativity", *Physical Review*, vol. 116, no. 5, pp. 1322–1330, 1959. doi: 10.1103/PhysRev.116.1322.
@@ -38,7 +38,7 @@
 34. G. B. Cook et al., "Boosted Three-Dimensional Black-Hole Evolutions with Singularity Excision", *Physical Review Letters*, vol. 80, no. 12, pp. 2512–2516, 1998. doi: 10.1103/PhysRevLett.80.2512.
 35. E. Corbelli, "Dark matter and visible baryons in M33", *Monthly Notices of the Royal Astronomical Society*, vol. 342, no. 1, pp. 199–207, 2003. doi: 10.1046/j.1365-8711.2003.06531.x.
 36. E. Corbelli, P. Salucci, "The extended rotation curve and the dark matter halo of M33", *Monthly Notices of the Royal Astronomical Society*, vol. 311, no. 2, pp. 441–447, 2000. doi: 10.1046/j.1365-8711.2000.03075.x.
-37. E. Corbelli, D. Thilker, S. Zibetti, C. Giovanardi, P. Salucci, "Dynamical signatures of a $\Lambda$CDM-halo and the distribution of the baryons in M 33", *Astronomy & Astrophysics*, vol. 572, p. A23, 2014. doi: 10.1051/0004-6361/201424033.
+37. E. Corbelli, D. Thilker, S. Zibetti, C. Giovanardi, P. Salucci, "Dynamical signatures of a $\Lambda\text{CDM}$-halo and the distribution of the baryons in M 33", *Astronomy & Astrophysics*, vol. 572, p. A23, 2014. doi: 10.1051/0004-6361/201424033.
 38. H. Ullrich, "Introduction To Computational PDEs Course Notes for AMATH 442 / CM 452", Department of Applied Mathematics, University of Waterloo, 2009.
 39. J. G. Bertone, "How dark matter came to matter", *Nature Astronomy*, vol. 1, 2017. doi: 10.1038/s41550-017-0059.
 40. B. S. Dewitt, "Quantum theory of gravity. I. the canonical theory", *Physical Review*, vol. 160, no. 5, pp. 1113–1148, 1967. doi: 10.1103/PhysRev.160.1113.

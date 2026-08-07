@@ -4,7 +4,7 @@
 
 ### Introduction
 
-De Swart et al. [39] present a good review of the historical analysis of dark matter. The notion of dark matter (DM) was introduced in the 1920's and 1930's by Kapteyn [76], Oort [126, 127], Zwicky [173, 174], Holmberg [65], and Smith [151]. Later, in the 1970's and 1980's the notion was popularized by Rubin et al. [144, 145] as a way to explain anomalous rotational curves of galaxies. In addition, DM was also invoked [89] to explain gravitational lensing which was discovered by Lynds and Petrosian [99]. Herein we will use the term "Dark Matter effect" (DM effect) to describe such observations of anomalous gravity. The development of the Standard Cosmological Model, also known as $\Lambda$CDM (where "CDM" stands for Cold Dark Matter), appealed to DM as a means to balance the contents of the universe and provide a mechanism for structure formation during the early epoch since its inception [89]. In this context, the $\Lambda$CDM model predicted that DM must be non-baryonic and has to make up a certain fraction of the total contents of the cosmos, namely about 27%, which is more than 5 times the ordinary (baryonic) matter which, according to the $\Lambda$CDM model, is supposed to comprise only about 5% of the cosmic content [89]. Whereas the DM effect provides an observational support for DM, by contrast, the idea that DM must make up 27% of the contents of the universe is model dependent.
+De Swart et al. [39] present a good review of the historical analysis of dark matter. The notion of dark matter (DM) was introduced in the 1920's and 1930's by Kapteyn [76], Oort [126, 127], Zwicky [173, 174], Holmberg [65], and Smith [151]. Later, in the 1970's and 1980's the notion was popularized by Rubin et al. [144, 145] as a way to explain anomalous rotational curves of galaxies. In addition, DM was also invoked [89] to explain gravitational lensing which was discovered by Lynds and Petrosian [99]. Herein we will use the term "Dark Matter effect" (DM effect) to describe such observations of anomalous gravity. The development of the Standard Cosmological Model, also known as $\Lambda\text{CDM}$ (where "CDM" stands for Cold Dark Matter), appealed to DM as a means to balance the contents of the universe and provide a mechanism for structure formation during the early epoch since its inception [89]. In this context, the $\Lambda\text{CDM}$ model predicted that DM must be non-baryonic and has to make up a certain fraction of the total contents of the cosmos, namely about 27%, which is more than 5 times the ordinary (baryonic) matter which, according to the $\Lambda\text{CDM}$ model, is supposed to comprise only about 5% of the cosmic content [89]. Whereas the DM effect provides an observational support for DM, by contrast, the idea that DM must make up 27% of the contents of the universe is model dependent.
 
 Despite the overwhelming evidence for the DM effect, there has been no direct confirmation [91] for the existence of DM, such as would be, for example, the discovery of the particle responsible for DM. The lack of direct evidence for DM has prompted the development of other models to explain the DM effect, such as the Modified Newtonian Dynamics (MOND) theory introduced in the 1980's by Milgrom [116]. According to MOND, Newton's Second Law of motion must be modified so that in the case of very weak acceleration $a$ such that $a \ll a_0$, where $a_0$ is a universal acceleration scale parameter, the force $F$ associated with $a$ is no longer linear with respect to $a$ but is proportional to its square. A more narrow formulation of MOND is one where only Newton's Gravitational Law needs to be modified as follows:
 
@@ -23,7 +23,7 @@ The Cosmic Fabric analogy of General Relativity proposed in Chapters III–V hel
 
 The inherent curvature figures as the additional $\overline{\mathcal{L}}$ term in Equation (1.1) from Chapter I. The extra Lagrangian term represents a modification to the equations of general relativity (Equation (1.3)), because it implies that in the absence of any matter–energy fields ($T_{\mu\nu} = 0$), the intrinsic curvature does not vanish ($R_{\mu\nu} \neq 0$), but equals the inherent curvature of space. Since the Cosmic Fabric model is an analogy of General Relativity (GR), any results derived through it should also be derivable from conventional GR once its field equations have been modified to account for background spatial curvature. Because the ISH does not invoke new physics, but only new initial configuration, namely an initially curved physical space, it therefore avoids the flaw that Boran et al. [27] point out regarding other DM emulator theories.
 
-The idea that the DM effect has a geometrical explanation is not new, but has received relatively little attention so far. For example, Böhmer et al. [24] and later Usman [169] propose an "$f(R)$ modified theory of gravity" to explain the DM effect where the Ricci scalar $R$, which figures in the Einstein–Hilbert action, is replaced with some more general expression $f(R)$. In a limited sense, our approach can be viewed as a special case of an $f(R)$ theory provided that the inherent curvature of space were constant and can be incorporated as a parameter into $f(R)$. However, per the ISH proposed here, the inherent curvature must be a field, and so the ISH is not the same as an $f(R)$ theory. Dolginov [44] does consider the inherent geometry of space as the cause for the DM effect and offers several arguments against the conventional DM explanation, such as the absence of dense dark matter clouds. He states that such problems do not exist if "the dark matter effect is a result of local non-flat geometry of the empty space." However, Dolginov [44] goes only as far as to raise the possibility for the role that inherent structure plays, but comes short of quantifying the effect, and does not compare it to existing DM models as we have done here.
+The idea that the DM effect has a geometrical explanation is not new, but has received relatively little attention so far. For example, Böhmer et al. [24] and later Usman [169] propose an "$`f(R)`$ modified theory of gravity" to explain the DM effect where the Ricci scalar $R$, which figures in the Einstein–Hilbert action, is replaced with some more general expression $f(R)$. In a limited sense, our approach can be viewed as a special case of an $f(R)$ theory provided that the inherent curvature of space were constant and can be incorporated as a parameter into $f(R)$. However, per the ISH proposed here, the inherent curvature must be a field, and so the ISH is not the same as an $f(R)$ theory. Dolginov [44] does consider the inherent geometry of space as the cause for the DM effect and offers several arguments against the conventional DM explanation, such as the absence of dense dark matter clouds. He states that such problems do not exist if "the dark matter effect is a result of local non-flat geometry of the empty space." However, Dolginov [44] goes only as far as to raise the possibility for the role that inherent structure plays, but comes short of quantifying the effect, and does not compare it to existing DM models as we have done here.
 
 This chapter presents the case for the Inherent Structure Hypothesis (ISH), namely that the Dark Matter (DM) effect is the manifestation of the inherent structure of cosmic space above continuum length scale. We show that the inherent curvature of space amplifies the gravity of ordinary matter that resides in it and we quantify the effect demonstrating that it can feasibly be one and the same as the DM effect. By "inherent curvature" we mean the curvature of space that is uncaused by any matter inclusions. In the context of the Cosmic Fabric analogy of physical space, the inherent curvature corresponds to the neutral shape of the cosmic medium prior to it being tensed or compressed. As part of our presentation, we analyze the range of observations for which the ISH produces equivalent results to other models, such as the DM or MOND explanations, and we propose ways in which the ISH can be experimentally distinguished from these models. In order that we can work with closed form expressions, our calculations are for a spherically symmetric configuration and nearly static conditions, but such limitations are not fundamental to the ideas presented here. Furthermore, although we develop the Inherent Structure Hypothesis in the context of the Cosmic Fabric model, its validity does not depend on said model and the same conclusions can be reached by considering solutions to the GR equations that have been modified to account for inherent intrinsic curvature.
 
@@ -113,7 +113,7 @@ The undeformed spatial metric $\overline{g}_{ij}$ can be computed as the inner p
 
 $$
 \begin{split}
-\overline{g}_{ij} = \partial_i y^L \partial_j y^L
+\overline{g}\_{ij} = \partial_i y^L \partial_j y^L
 \end{split}
 \tag{6.7}
 $$
@@ -122,7 +122,7 @@ For the chosen coordinates (6.3),
 
 $$
 \begin{split}
-[\overline{g}_{ij}] &= \begin{pmatrix}
+[\overline{g}\_{ij}] &= \begin{pmatrix}
 1+(\overline{w}')^2 & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
@@ -131,7 +131,7 @@ $$
 0 & 1 & 0 \\
 0 & 0 & 1
 \end{pmatrix} \\
-[\overline{g}^{ij}] &= [\overline{g}_{ij}]^{-1} = \begin{pmatrix}
+[\overline{g}^{ij}] &= [\overline{g}\_{ij}]^{-1} = \begin{pmatrix}
 (\overline{l}')^{-2} & 0 & 0 \\
 0 & 1 & 0 \\
 0 & 0 & 1
@@ -155,8 +155,8 @@ The first derivatives of the metric can be computed by differentiating Equation 
 
 $$
 \begin{split}
-\partial_1 \overline{g}_{11} &= 2 \overline{l}'\overline{l}'' \\
-\partial_2 \overline{g}_{12} &= \partial_2 \overline{g}_{21} = \partial_3 \overline{g}_{13} = \partial_3 \overline{g}_{31} = \frac{(\overline{l}')^2 - 1}{\overline{r}}
+\partial_1 \overline{g}\_{11} &= 2 \overline{l}'\overline{l}'' \\
+\partial_2 \overline{g}\_{12} &= \partial_2 \overline{g}\_{21} = \partial_3 \overline{g}\_{13} = \partial_3 \overline{g}\_{31} = \frac{(\overline{l}')^2 - 1}{\overline{r}}
 \end{split}
 \tag{6.10}
 $$
@@ -167,7 +167,7 @@ The Christoffel symbols $\overline{\Gamma}^m_{\ ij}$ characterize how inherent c
 
 $$
 \begin{split}
-\overline{\Gamma}^m_{\ ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}_{ki} + \partial_i \overline{g}_{jk} - \partial_k \overline{g}_{ij}\right),
+\overline{\Gamma}^m_{\ ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}\_{ki} + \partial_i \overline{g}\_{jk} - \partial_k \overline{g}\_{ij}\right),
 \end{split}
 \tag{6.11}
 $$
@@ -176,9 +176,9 @@ We proceed to evaluate these for the special coordinate choice (6.3). For the ch
 
 $$
 \begin{split}
-\overline{\Gamma}^1_{11} &= \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}_{11} = \frac{\overline{l}'\overline{l}''}{(\overline{l}')^2} \\
-\overline{\Gamma}^1_{22} &= \overline{g}^{11}\partial_2 \overline{g}_{12} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2} \\
-\overline{\Gamma}^1_{33} &= \overline{g}^{11}\partial_3 \overline{g}_{13} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2}
+\overline{\Gamma}^1_{11} &= \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}\_{11} = \frac{\overline{l}'\overline{l}''}{(\overline{l}')^2} \\
+\overline{\Gamma}^1_{22} &= \overline{g}^{11}\partial_2 \overline{g}\_{12} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2} \\
+\overline{\Gamma}^1_{33} &= \overline{g}^{11}\partial_3 \overline{g}\_{13} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2}
 \end{split}
 \tag{6.12}
 $$
@@ -189,7 +189,7 @@ Consider physical space with radially symmetric inherent curvature specified by 
 
 $$
 \begin{split}
-& \ddot{x}^\alpha + \Gamma^{\alpha}_{\mu\nu} \dot{x}^\mu \dot{x}^\nu = 0, \quad \text{such that}\quad g_{\alpha\beta}\Gamma^{\alpha}_{\mu\nu} = \frac{1}{2} \left( \partial_\nu g_{\mu\beta} + \partial_{\mu} g_{\beta\nu} - \partial_\beta g_{\mu\nu} \right)
+& \ddot{x}^\alpha + \Gamma^{\alpha}\_{\mu\nu} \dot{x}^\mu \dot{x}^\nu = 0, \quad \text{such that}\quad g_{\alpha\beta}\Gamma^{\alpha}\_{\mu\nu} = \frac{1}{2} \left( \partial_\nu g_{\mu\beta} + \partial_{\mu} g_{\beta\nu} - \partial_\beta g_{\mu\nu} \right)
 \end{split}
 \tag{6.13}
 $$
@@ -198,13 +198,13 @@ where the dot notation represents differentiation with respect to proper time. C
 
 $$
 \begin{split}
-\ddot{x}^1 +c^2\Gamma^1_{00} &= 0, \quad \text{s.t.} \quad g_{11}\Gamma^{1}_{00} = \frac{1}{2}\left(- \partial_1 g_{00} \right) \\
-\therefore\ \ddot{x}^1 &= c^2 \frac{\partial_1 g_{00}}{2g_{11}} \approx c^2 \frac{\partial_1 g_{00}}{2 \overline{g}_{11}} = c^2 \frac{\partial_1 g_{00}}{2 (\overline{l}')^2}
+\ddot{x}^1 +c^2\Gamma^1_{00} &= 0, \quad \text{s.t.} \quad g_{11}\Gamma^{1}\_{00} = \frac{1}{2}\left(- \partial_1 g_{00} \right) \\
+\therefore\ \ddot{x}^1 &= c^2 \frac{\partial_1 g_{00}}{2g_{11}} \approx c^2 \frac{\partial_1 g_{00}}{2 \overline{g}\_{11}} = c^2 \frac{\partial_1 g_{00}}{2 (\overline{l}')^2}
 \end{split}
 \tag{6.14}
 $$
 
-The approximation in Equation (6.14) invokes the weak gravity (small strains) assumption due to which the deformed and undeformed metrics are nearly identical, $g_{ij} \approx \overline{g}_{ij}$. However, note that such approximation does not necessarily apply for the spatial derivatives of $g_{ij}$ and $\overline{g}_{ij}$.
+The approximation in Equation (6.14) invokes the weak gravity (small strains) assumption due to which the deformed and undeformed metrics are nearly identical, $g_{ij} \approx \overline{g}\_{ij}$. However, note that such approximation does not necessarily apply for the spatial derivatives of $g_{ij}$ and $\overline{g}\_{ij}$.
 
 Let $a \equiv \ddot{l}$ be the proper radial acceleration, where $l$ stands for the deformed radial distance. Again, due to the weak gravity (small strains) assumption, we can approximate $l \approx \overline{l}$ (the deformed and undeformed proper distances are about the same), and because of the assumed nearly static conditions, the approximation can be carried to the time derivatives so that $\ddot{l} \approx \ddot{\overline{l}}$. Under the nearly static conditions, $\overline{l}'$ also does not change significantly in time, so $\ddot{\overline{l}} \approx \ddot{x}^1 \overline{l}'$ and thus $a \approx \ddot{x}^1 \overline{l}'$, which combined with Equation (6.14) produces the following:
 
@@ -258,7 +258,7 @@ where $\nabla_i$ is the covariant derivative with respect to the $x^i$ coordinat
 $$
 \begin{split}
 \nabla_i (\nabla^i \varepsilon) &= \overline{g}^{ij}\left( \partial_{ij} \varepsilon - \overline{\Gamma}^m_{\ ij} \partial_m \varepsilon \right) \\
-& = \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}_{\ 11}\partial_1 \varepsilon + \overline{g}^{22}\partial_{22} \varepsilon - \overline{g}^{22}\overline{\Gamma}^1_{\ 22}\partial_1 \varepsilon + \overline{g}^{33}\partial_{33} \varepsilon - \overline{g}^{33}\overline{\Gamma}^1_{\ 33}\partial_1 \varepsilon \\
+& = \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}\_{\ 11}\partial_1 \varepsilon + \overline{g}^{22}\partial_{22} \varepsilon - \overline{g}^{22}\overline{\Gamma}^1_{\ 22}\partial_1 \varepsilon + \overline{g}^{33}\partial_{33} \varepsilon - \overline{g}^{33}\overline{\Gamma}^1_{\ 33}\partial_1 \varepsilon \\
 & = \frac{1}{(\overline{l}')^2}\left[\varepsilon'' - \frac{\overline{l}''}{\overline{l}'}\varepsilon' + \frac{2}{\overline{r}}\varepsilon'\right]
 \end{split}
 \tag{6.20}
@@ -336,7 +336,7 @@ To answer the second question above, we now consider how an inherent curvature p
 
 $$
 \begin{split}
-M_\text{DM} = M\left(\frac{\overline{l}^2}{\overline{r}^2} - 1\right); \quad M'_\text{DM} = 2\frac{M l}{\overline{r}^2}\left(\overline{l}' - \frac{l}{\overline{r}}\right)
+M_\text{DM} = M\left(\frac{\overline{l}^2}{\overline{r}^2} - 1\right); \quad M'\_\text{DM} = 2\frac{M l}{\overline{r}^2}\left(\overline{l}' - \frac{l}{\overline{r}}\right)
 \end{split}
 \tag{6.26}
 $$
@@ -350,7 +350,7 @@ $$
 \tag{6.27}
 $$
 
-Beyond the boundary of the hypothetical dark matter halo, $M'_\text{DM} = 0$, so $\overline{l}' = \overline{l}/\overline{r}$ implying that $\overline{l}' = const$. Therefore, within the dark matter halo where $M'_\text{DM} > 0$, we would expect that $\overline{l}'$ is monotonically increasing. So, in general, $\overline{l}'$ has to be non-decreasing for the DM effect due to inherent curvature to be explainable by actual dark matter. In other words, we conclude the following:
+Beyond the boundary of the hypothetical dark matter halo, $M'\_\text{DM} = 0$, so $\overline{l}' = \overline{l}/\overline{r}$ implying that $\overline{l}' = const$. Therefore, within the dark matter halo where $M'\_\text{DM} > 0$, we would expect that $\overline{l}'$ is monotonically increasing. So, in general, $\overline{l}'$ has to be non-decreasing for the DM effect due to inherent curvature to be explainable by actual dark matter. In other words, we conclude the following:
 
 $$
 \begin{split}
@@ -464,11 +464,11 @@ At the same time, the ISH provides a more general and potentially more accurate 
 
 #### Implication to Cosmological Models
 
-Like MOND and other dark matter alternative models, the Inherent Structure Hypothesis (ISH) is incompatible with the $\Lambda$CDM model, which critically depends on the existence of non-baryonic dark matter [89]. Even more fundamentally, the $\Lambda$CDM model depends on the presupposition known as the Cosmological Principle [89] that at the cosmic length scale (greater than 100 Mpc or $3\times 10^{24}\ \text{m}$) the universe is homogeneous and isotropic, which in essence is a presupposition about the absence of structure at that scale.
+Like MOND and other dark matter alternative models, the Inherent Structure Hypothesis (ISH) is incompatible with the $\Lambda\text{CDM}$ model, which critically depends on the existence of non-baryonic dark matter [89]. Even more fundamentally, the $\Lambda\text{CDM}$ model depends on the presupposition known as the Cosmological Principle [89] that at the cosmic length scale (greater than 100 Mpc or $3\times 10^{24}\ \text{m}$) the universe is homogeneous and isotropic, which in essence is a presupposition about the absence of structure at that scale.
 
 By contrast, ISH is based on the presupposition that structure is a fundamental property of nature, and as such, it is an essential element in cosmological models that adopt the same view. Indeed, common experience shows that every sufficiently complex functioning system exhibits structure at its greatest length scale and so the cosmos should be no exception. For this reason, it is quite likely that new cosmological data will soon conclusively repudiate the Cosmological Principle triggering the revision of the Standard Cosmological Model to account for structure at every length scale. The ISH will be well fitted for such revised cosmological model.
 
-What would a cosmological model based on the presupposition of structure look like? According to the ISH, the inherent curvature of space is uncaused by matter, and yet, the galaxy data in Table 6.1 demonstrates a correlation between inherent curvature and matter. Therefore, one must conclude that there is a causal relationship after all but in reverse: the inherent structure of space is what causes matter to form galaxies and galactic clusters in the first place. This idea may also explain the so-called Large Scale Structure of the universe consisting of walls and filaments made up of galaxies and galactic clusters that appear organized into definite forms but are not gravitationally bound together. New cosmological models may appeal to the inherent structure of space as the seed needed for matter-structure formation similarly to how the $\Lambda$CDM model appeals to dark matter for the same purpose.
+What would a cosmological model based on the presupposition of structure look like? According to the ISH, the inherent curvature of space is uncaused by matter, and yet, the galaxy data in Table 6.1 demonstrates a correlation between inherent curvature and matter. Therefore, one must conclude that there is a causal relationship after all but in reverse: the inherent structure of space is what causes matter to form galaxies and galactic clusters in the first place. This idea may also explain the so-called Large Scale Structure of the universe consisting of walls and filaments made up of galaxies and galactic clusters that appear organized into definite forms but are not gravitationally bound together. New cosmological models may appeal to the inherent structure of space as the seed needed for matter-structure formation similarly to how the $\Lambda\text{CDM}$ model appeals to dark matter for the same purpose.
 
 ### Summary and Conclusion
 

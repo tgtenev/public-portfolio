@@ -50,7 +50,7 @@ The inherent curvature of space represents a modification to the field equations
 
 The notion of inherent structure must be clarified in the context of the notion of length scale, because there can be diverse kinds of structures depending on the length scale. By "length scale" we understand a specific range of distances for which certain physical parameters and laws dominate, while others are of lesser significance. For our purpose, we consider the following four length-scales: substructure ($10^{-36}\text{m} - 10^{-10}\text{m}$), continuum ($10^{-10}\text{m} - 10^{14} \text{m}$), structure ($10^{14}\text{m}-3\times 10^{24}\text{m}$), and cosmic ($3 \times 10^{24}\text{m} - 10^{27} \text{m}$) length-scales. The specific ranges are indicated for the sake of concreteness, but are not intended to be precise. By analogy, the substructure length scale in a conventional material corresponds to the discrete entities comprising the material. Tenev and Horstemeyer [24] discuss briefly the ramification of physical space having substructure. A more extensive treatment is a subject of subatomic physics and is beyond the scope of this paper. At continuum length scale, as the name suggests, physical space is treated as a differentiable manifold. General Relativity is strictly a continuum scale theory, and at this length scale, the Cosmic Fabric model [23] yields equivalent results with it. The structure length scale in a conventional material describes the components of which a mechanical system is built, such as the trusses in a bridge, for example. The behavior of these components depends not only on the continuum properties of their material but also on their shape. Our investigation of the Inherent Structure Hypothesis focuses on this length scale, where we have supposed that the space medium forms certain structures whose intrinsic curvatures can be measured and which in fact manifest as the effects currently attributed to dark matter. Finally, the cosmic length scale pertains to the global geometry of the cosmos. To use an analogy: the relationship between the global geometry of the cosmos versus the geometry at its structure length scale is like the relationship between the Earth's global geometry, which is approximately spherical, versus that of the local terrain at various regions on the Earth's surface.
 
-The idea that the DM effect has a geometrical explanation is not new, but has received relatively little attention so far. For example, Bohmer et al. [25] and later Usman [26] propose an "$f(R)$ modified theory of gravity" to explain the DM effect where the Ricci scalar $R$, which figures in the Einstein-Hilbert action, is replaced with some more general expression $f(R)$. In a limited sense, our approach can be viewed as a special case of an $f(R)$ theory provided that the inherent curvature of space were constant and can be incorporated as a parameter into $f(R)$. However, per the ISH proposed here, the inherent curvature must be a field, and so the ISH is not the same as an $f(R)$ theory. Dolginov [27] does consider the inherent geometry of space as the cause for the DM effect and offers several arguments against the conventional DM explanation, such as the absence of dense dark matter clouds. He states that such problems do not exist if the "the dark matter effect is a result of local non-flat geometry of the empty space." However, Dolginov [27] goes only as far as to raise the possibility for the role that inherent structure plays, but comes short of quantifying the effect, and does not compare it to existing DM models as we have done here.
+The idea that the DM effect has a geometrical explanation is not new, but has received relatively little attention so far. For example, Bohmer et al. [25] and later Usman [26] propose an "$`f(R)`$ modified theory of gravity" to explain the DM effect where the Ricci scalar $R$, which figures in the Einstein-Hilbert action, is replaced with some more general expression $f(R)$. In a limited sense, our approach can be viewed as a special case of an $f(R)$ theory provided that the inherent curvature of space were constant and can be incorporated as a parameter into $f(R)$. However, per the ISH proposed here, the inherent curvature must be a field, and so the ISH is not the same as an $f(R)$ theory. Dolginov [27] does consider the inherent geometry of space as the cause for the DM effect and offers several arguments against the conventional DM explanation, such as the absence of dense dark matter clouds. He states that such problems do not exist if the "the dark matter effect is a result of local non-flat geometry of the empty space." However, Dolginov [27] goes only as far as to raise the possibility for the role that inherent structure plays, but comes short of quantifying the effect, and does not compare it to existing DM models as we have done here.
 
 This paper presents the case for the Inherent Structure Hypothesis (ISH), namely that the Dark Matter (DM) effect is the manifestation of the inherent structure of cosmic space above continuum length scale. We show that the inherent curvature of space amplifies the gravity of ordinary matter that resides within it and we quantify the effect demonstrating that it can feasibly be one and the same as the DM effect. By "inherent curvature" we mean the curvature of space that is uncaused by any matter inclusions. In the context of the Cosmic Fabric analogy of physical space, the inherent curvature corresponds to the neutral shape of the cosmic medium prior to it being tensed or compressed. As part of our presentation, we analyze the range of observations for which the ISH produces equivalent results to other models, namely the DM and MOND explanations, and we propose ways in which the ISH can be experimentally distinguished from these models. In order that we can work with closed form expressions, our calculations are for a spherically symmetric configuration and nearly static conditions, but such limitations are not fundamental to the ideas presented here. Furthermore, although we develop the Inherent Structure Hypothesis in the context of the Cosmic Fabric model, its validity does not depend on said model and the same conclusions can be reached by considering solutions to the GR equations that have been modified to account for inherent intrinsic curvature.
 
@@ -64,7 +64,7 @@ Here, and for the remainder of the paper we have adopted the following notationa
 
 ![Profile of a spherically symmetric hypersurface (radially symmetric in four-dimensional space) with material coordinates (x^1, x^2, x^3) immersed within a four dimensional reference space with coordinates (y^1, y^2, y^3, y^4). The y^4 axis has been aligned with the axis of symmetry and y^4 = w(r), where r is the distance from the symmetry axis. The hypersurface coordinates x^i have been assigned such that x^i = y^i. The relationship between the radial distance element dr, transverse displacement element dw, and proper length element dl is also indicated; if dl^2 = dw^2 + dr^2, then l' = 1 + w' where the apostrophe indicates differentiation with respect to r.](https://figures.tgtenev.com/tenev2019-dark-matter-effect/fig-profile.svg)
 
-**Figure 1.** *Profile of a spherically symmetric hypersurface (radially symmetric in four-dimensional space) with material coordinates $(x^1, x^2, x^3)$ immersed within a four dimensional reference space with coordinates $(y^1, y^2, y^3, y^4)$. The $y^4$ axis has been aligned with the axis of symmetry and $y^4 = \overline{w}(\overline{r})$, where $\overline{r}$ is the distance from the symmetry axis. The hypersurface coordinates $x^i$ have been assigned such that $x^i = y^i$. The relationship between the radial distance element $d\overline{r}$, transverse displacement element $d\overline{w}$, and proper length element $d\overline{l}$ is also indicated; if $d\overline{l}^2 = d\overline{w}^2 + d\overline{r}^2$, then $\overline{l}' = 1 + \overline{w}'$ where the apostrophe indicates differentiation with respect to $\overline{r}$.*
+**Figure 1.** *Profile of a spherically symmetric hypersurface (radially symmetric in four-dimensional space) with material coordinates $`(x^1, x^2, x^3)`$ immersed within a four dimensional reference space with coordinates $`(y^1, y^2, y^3, y^4)`$. The $`y^4`$ axis has been aligned with the axis of symmetry and $`y^4 = \overline{w}(\overline{r})`$, where $`\overline{r}`$ is the distance from the symmetry axis. The hypersurface coordinates $`x^i`$ have been assigned such that $`x^i = y^i`$. The relationship between the radial distance element $`d\overline{r}`$, transverse displacement element $`d\overline{w}`$, and proper length element $`d\overline{l}`$ is also indicated; if $`d\overline{l}^2 = d\overline{w}^2 + d\overline{r}^2`$, then $`\overline{l}' = 1 + \overline{w}'`$ where the apostrophe indicates differentiation with respect to $`\overline{r}`$.*
 
 ### 2.1 Derivatives of Radial Functions
 
@@ -150,7 +150,7 @@ The undeformed spatial metric $\overline{g}_{ij}$ can be computed as the inner p
 
 $$
 \begin{split}
-\overline{g}_{ij} = \partial_i y^L \partial_j y^L
+\overline{g}\_{ij} = \partial_i y^L \partial_j y^L
 \end{split}
 \tag{2.6}
 $$
@@ -159,7 +159,7 @@ For the chosen coordinates (2.2),
 
 $$
 \begin{split}
-[\overline{g}_{ij}] &= \left(
+[\overline{g}\_{ij}] &= \left(
 \begin{array}{ccc}
 1+(\overline{w}')^2 & 0 & 0 \\
 0 & 1 & 0 \\
@@ -174,7 +174,7 @@ $$
 \end{array}
 \right)
 \\
-[\overline{g}^{ij}] &= [\overline{g}_{ij}]^{-1}
+[\overline{g}^{ij}] &= [\overline{g}\_{ij}]^{-1}
 = \left(
 \begin{array}{ccc}
 (\overline{l}')^{-2} & 0 & 0 \\
@@ -201,8 +201,8 @@ The first derivatives of the metric can be computed by differentiating Equation 
 
 $$
 \begin{split}
-\partial_1 \overline{g}_{11} &= 2 \overline{l}'\overline{l}'' \\
-\partial_2 \overline{g}_{12} &= \partial_2 \overline{g}_{21} = \partial_3 \overline{g}_{13} = \partial_3 \overline{g}_{31} = \frac{(\overline{l}')^2 - 1}{\overline{r}}
+\partial_1 \overline{g}\_{11} &= 2 \overline{l}'\overline{l}'' \\
+\partial_2 \overline{g}\_{12} &= \partial_2 \overline{g}\_{21} = \partial_3 \overline{g}\_{13} = \partial_3 \overline{g}\_{31} = \frac{(\overline{l}')^2 - 1}{\overline{r}}
 \end{split}
 \tag{2.9}
 $$
@@ -213,7 +213,7 @@ The Christoffel symbols $\overline{\Gamma}^m_{\ ij}$ characterize how inherent c
 
 $$
 \begin{split}
-\overline{\Gamma}^m_{\ ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}_{ki} + \partial_i \overline{g}_{jk} - \partial_k \overline{g}_{ij}\right)
+\overline{\Gamma}^m_{\ ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}\_{ki} + \partial_i \overline{g}\_{jk} - \partial_k \overline{g}\_{ij}\right)
 \end{split}
 \tag{2.10}
 $$
@@ -222,9 +222,9 @@ We proceed to evaluate these for the special coordinate choice (2.2). For the ch
 
 $$
 \begin{split}
-\overline{\Gamma}^1_{11} &= \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}_{11} = \frac{\overline{l}'\overline{l}''}{(\overline{l})^2} \\
-\overline{\Gamma}^1_{22} &= \overline{g}^{11}\partial_2 \overline{g}_{12} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2} \\
-\overline{\Gamma}^1_{33} &= \overline{g}^{11}\partial_3 \overline{g}_{13} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2}
+\overline{\Gamma}^1_{11} &= \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}\_{11} = \frac{\overline{l}'\overline{l}''}{(\overline{l})^2} \\
+\overline{\Gamma}^1_{22} &= \overline{g}^{11}\partial_2 \overline{g}\_{12} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2} \\
+\overline{\Gamma}^1_{33} &= \overline{g}^{11}\partial_3 \overline{g}\_{13} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2}
 \end{split}
 \tag{2.11}
 $$
@@ -235,9 +235,9 @@ Consider physical space with radially symmetric inherent curvature specified by 
 
 $$
 \begin{split}
-& \ddot{x}^\alpha + \Gamma^{\alpha}_{\mu\nu} \dot{x}^\mu \dot{x}^\nu = 0,
+& \ddot{x}^\alpha + \Gamma^{\alpha}\_{\mu\nu} \dot{x}^\mu \dot{x}^\nu = 0,
 \quad
-\text{such that}\quad g_{\alpha\beta}\Gamma^{\alpha}_{\mu\nu} = \frac{1}{2}
+\text{such that}\quad g_{\alpha\beta}\Gamma^{\alpha}\_{\mu\nu} = \frac{1}{2}
 \left( \partial_\nu g_{\mu\beta} + \partial_{\mu} g_{\beta\nu} - \partial_\beta g_{\mu\nu} \right)
 \end{split}
 \tag{3.1}
@@ -248,13 +248,13 @@ where the dot notation represents differentiation with respect to proper time. C
 $$
 \begin{split}
 \ddot{x}^1 +c^2\Gamma^1_{00} &= 0,
-\quad \text{s.t.} \quad g_{11}\Gamma^{1}_{00} = \frac{1}{2}\left(- \partial_1 g_{00} \right) \\
-\therefore \ddot{x}^1 &= c^2 \frac{\partial_1 g_{00}}{2g_{11}} \approx c^2 \frac{\partial_1 g_{00}}{2 \overline{g}_{11}} = c^2 \frac{\partial_1 g_{00}}{2 (\overline{l}')^2}
+\quad \text{s.t.} \quad g_{11}\Gamma^{1}\_{00} = \frac{1}{2}\left(- \partial_1 g_{00} \right) \\
+\therefore \ddot{x}^1 &= c^2 \frac{\partial_1 g_{00}}{2g_{11}} \approx c^2 \frac{\partial_1 g_{00}}{2 \overline{g}\_{11}} = c^2 \frac{\partial_1 g_{00}}{2 (\overline{l}')^2}
 \end{split}
 \tag{3.2}
 $$
 
-The approximation in Equation (3.2) invokes the weak gravity (small strains) assumption due to which the deformed and undeformed metrics are nearly identical, $g_{ij} \approx \overline{g}_{ij}$. However, note that such approximation does not necessarily apply for the spatial derivatives of $g_{ij}$ and $\overline{g}_{ij}$.
+The approximation in Equation (3.2) invokes the weak gravity (small strains) assumption due to which the deformed and undeformed metrics are nearly identical, $g_{ij} \approx \overline{g}\_{ij}$. However, note that such approximation does not necessarily apply for the spatial derivatives of $g_{ij}$ and $\overline{g}\_{ij}$.
 
 Let $a \equiv \ddot{l}$ be the proper radial acceleration, where $l$ stands for the deformed radial distance. Again, due to the weak gravity (small strains) assumption, we can approximate $l \approx \overline{l}$ (the deformed and undeformed proper distances are about the same), and because of the assumed nearly static conditions, the approximation can be carried to the time derivatives so that $\ddot{l} \approx \ddot{\overline{l}}$. Under the nearly static conditions, $\overline{l}'$ also does not change significantly in time, so $\ddot{\overline{l}} \approx \ddot{x}^1 \overline{l}'$ and thus $a \approx \ddot{x}^1 \overline{l}'$, which combined with Equation (3.2) produces the following:
 
@@ -309,7 +309,7 @@ where $\nabla_i$ is the covariant derivative with respect to the $x^i$ coordinat
 $$
 \begin{split}
 \nabla_i (\nabla^i \varepsilon) = & \overline{g}^{ij}\left( \partial_{ij} \varepsilon - \overline{\Gamma}^m_{\ ij} \partial_m \varepsilon \right) \\
-= & \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}_{\ 11}\partial_1 \varepsilon \\
+= & \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}\_{\ 11}\partial_1 \varepsilon \\
 & + \overline{g}^{22}\partial_{22} \varepsilon - \overline{g}^{22}\overline{\Gamma}^1_{\ 22}\partial_1 \varepsilon \\
 & + \overline{g}^{33}\partial_{33} \varepsilon - \overline{g}^{33}\overline{\Gamma}^1_{\ 33}\partial_1 \varepsilon \\
 = & \frac{1}{(\overline{l}')^2}\left[\varepsilon'' - \frac{\overline{l}''}{\overline{l}'}\varepsilon' + \frac{2}{\overline{r}}\varepsilon'\right]
@@ -348,7 +348,7 @@ where $M(\overline{r})$ represents the gravitating mass enclosed within the coor
 
 ![The inherent shape of space causing the Dark Matter effect. A test particle at P and a proper distances l from a body of mass M_B that is located at B experiences gravitational acceleration a_P. The magnitude of a_P is greater than predicted by the Inverse Square Law in terms of l, but matches the predication of said law when the projected (coordinate) distance r is used instead of l. The critical coordinate distance r_c represents the limit within which the Inherent Structure Hypothesis is observationally equivalent to the hypothetical presence of dark matter. Typically, r_c extends beyond the edge of visible galactic matter.](https://figures.tgtenev.com/tenev2019-dark-matter-effect/fig-dark-matter-effect.svg)
 
-**Figure 2.** *The inherent shape of space causing the "Dark Matter" effect. A test particle at $P$ and a proper distances $\overline{l}$ from a body of mass $M_B$ that is located at $B$ experiences gravitational acceleration $a_P$. The magnitude of $a_P$ is greater than predicted by the Inverse Square Law in terms of $\overline{l}$, but matches the predication of said law when the projected (coordinate) distance $\overline{r}$ is used instead of $\overline{l}$. The critical coordinate distance $r_c$ represents the limit within which the Inherent Structure Hypothesis is observationally equivalent to the hypothetical presence of dark matter. Typically, $r_c$ extends beyond the edge of visible galactic matter.*
+**Figure 2.** *The inherent shape of space causing the "Dark Matter" effect. A test particle at $`P`$ and a proper distances $`\overline{l}`$ from a body of mass $`M_B`$ that is located at $`B`$ experiences gravitational acceleration $`a_P`$. The magnitude of $`a_P`$ is greater than predicted by the Inverse Square Law in terms of $`\overline{l}`$, but matches the predication of said law when the projected (coordinate) distance $`\overline{r}`$ is used instead of $`\overline{l}`$. The critical coordinate distance $`r_c`$ represents the limit within which the Inherent Structure Hypothesis is observationally equivalent to the hypothetical presence of dark matter. Typically, $`r_c`$ extends beyond the edge of visible galactic matter.*
 
 Equation (3.11) is none other than Newton's Gravitational Law but expressed in terms of the coordinate distance to the gravitating mass instead of the proper distance. This result is true for our particular choice of coordinates where the coordinate distance $\overline{r}$ is actually the projection of the proper distance $\overline{l}$ onto a flat hypersurface that is perpendicular to the axis of symmetry, as illustrated in Figure 2.
 
@@ -391,7 +391,7 @@ To answer the second question above, we now consider how an inherent curvature p
 $$
 \begin{split}
 M_\text{DM} = M\left(\frac{\overline{l}^2}{\overline{r}^2} - 1\right); \quad
-M'_\text{DM} = 2\frac{M l}{\overline{r}^2}\left(\overline{l}' - \frac{l}{\overline{r}}\right)
+M'\_\text{DM} = 2\frac{M l}{\overline{r}^2}\left(\overline{l}' - \frac{l}{\overline{r}}\right)
 \end{split}
 \tag{4.3}
 $$
@@ -405,7 +405,7 @@ $$
 \tag{4.4}
 $$
 
-Beyond the boundary of the hypothetical dark matter halo, $M'_\text{DM} = 0$, so $\overline{l}' = \overline{l}/\overline{r}$ implying that $\overline{l}' = const$. Therefore, within the dark matter halo where $M'_\text{DM} > 0$, we would expect that $\overline{l}'$ is monotonically increasing. So, in general, $\overline{l}'$ has to be non-decreasing for the DM effect due to inherent curvature to be explainable by actual dark matter. In other words, we conclude the following:
+Beyond the boundary of the hypothetical dark matter halo, $M'\_\text{DM} = 0$, so $\overline{l}' = \overline{l}/\overline{r}$ implying that $\overline{l}' = const$. Therefore, within the dark matter halo where $M'\_\text{DM} > 0$, we would expect that $\overline{l}'$ is monotonically increasing. So, in general, $\overline{l}'$ has to be non-decreasing for the DM effect due to inherent curvature to be explainable by actual dark matter. In other words, we conclude the following:
 
 $$
 \begin{split}
@@ -490,13 +490,13 @@ The actual profile of the inherent structure of space need not match exactly the
 
 ![The inherent curvature profile whose effect is equivalent to the MOND model up to a certain critical distance r_c. The deviation of the actual inherent structure profile from the MOND-equivalent one takes place beyond the critical distance. The vertical displacement is given by w = (1/2)s*sqrt(AB) - (1/4)s*ln(2*sqrt(A) + sqrt(B)), where A = (r/s)^2 + 1, B = 4(r/s)^2 + 3, s = sqrt(GM/a0), and a0, G, and M are, respectively, the MOND parameter, the gravitational constant, and the gravitating mass whose gravity is being amplified by the inherent curvature.](https://figures.tgtenev.com/tenev2019-dark-matter-effect/fig-mond-profile.svg)
 
-**Figure 3.** *The inherent curvature profile whose effect is equivalent to the MOND model up to a certain critical distance $r_c$. The deviation of the actual inherent structure profile from the MOND-equivalent one takes place beyond the critical distance. The vertical displacement is given by $\overline{w} = \frac{1}{2}s\sqrt{AB} - \frac{1}{4}s\ln\left( 2\sqrt{A} + \sqrt{B} \right)$, where $A \equiv (\overline{r}/s)^2 + 1$, $B \equiv 4(\overline{r}/s)^2 + 3$, $s \equiv \sqrt{GM / a_0}$, and $a_0$, $G$, and $M$ are, respectively, the MOND parameter, the gravitational constant, and the gravitating mass whose gravity is being amplified by the inherent curvature.*
+**Figure 3.** *The inherent curvature profile whose effect is equivalent to the MOND model up to a certain critical distance $`r_c`$. The deviation of the actual inherent structure profile from the MOND-equivalent one takes place beyond the critical distance. The vertical displacement is given by $`\overline{w} = \frac{1}{2}s\sqrt{AB} - \frac{1}{4}s\ln\left( 2\sqrt{A} + \sqrt{B} \right)`$, where $`A \equiv (\overline{r}/s)^2 + 1`$, $`B \equiv 4(\overline{r}/s)^2 + 3`$, $`s \equiv \sqrt{GM / a_0}`$, and $`a_0`$, $`G`$, and $`M`$ are, respectively, the MOND parameter, the gravitational constant, and the gravitating mass whose gravity is being amplified by the inherent curvature.*
 
 Table 1 shows that within a diverse sample of galaxies, the vast majority conform to the profile illustrated in Figure 3. The table shows that for most galaxies, the characteristic scale $s$ is greater than the radius $R$ of the visible galactic mass, and is also within an order of magnitude of it. Note that in this case $R$ represents the proper distance, which is in general longer than the corresponding undeformed coordinate distance. Therefore, $s$ being greater than $R$ also implies that $s$ is greater than the corresponding coordinate distance. In a few cases, like the Cartwheel galaxy, where the galactic radius appears to exceed the characteristic scale $s$, the associated inherent structure of space likely differs from the generic profile in Figure 3. In the case of the Cartwheel galaxy, for example, such variance is not surprising because of the unusual shape of that galaxy.
 
-**Table 1.** *Apparent masses and sizes of galaxies $25\times 10^3$–$13.4\times 10^9$ light years from Earth. The list is sorted by distance from Earth. The scale factor $s=\sqrt{GM/a_0}$, where $a_0$ is the MOND parameter, is characteristic of the inherent curvature of space associated with that galaxy. The visible radius $R$ is to within an order of magnitude of the characteristic scale $s$. This relationship appears to hold for a broad variety of galaxies. The acronyms LMC and SMC stand for Large Magellanic Cloud and Small Magellanic Cloud, respectively.*
+**Table 1.** *Apparent masses and sizes of galaxies $`25\times 10^3`$–$`13.4\times 10^9`$ light years from Earth. The list is sorted by distance from Earth. The scale factor $`s=\sqrt{GM/a_0}`$, where $`a_0`$ is the MOND parameter, is characteristic of the inherent curvature of space associated with that galaxy. The visible radius $`R`$ is to within an order of magnitude of the characteristic scale $`s`$. This relationship appears to hold for a broad variety of galaxies. The acronyms LMC and SMC stand for Large Magellanic Cloud and Small Magellanic Cloud, respectively.*
 
-| Galaxy | Mass $M$ [$10^9\ \text{M}_\odot$] | Radius $R$ [$10^3\ \text{ly}$] | $R/s$ |
+| Galaxy | Mass $M$ [$`10^9\ \text{M}_\odot`$] | Radius $R$ [$`10^3\ \text{ly}`$] | $R/s$ |
 |---|---|---|---|
 | Milky Way [28–32] | 1000 | 50.0 | 0.45 |
 | LMC [33] | 10 | 7.0 | 0.63 |

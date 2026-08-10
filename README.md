@@ -27,6 +27,7 @@ Each paper carries a **Document Metadata** block under its title giving the publ
 |---|---|
 | [Emergent de Sitter Expansion and Closed Topology from the Cosmic Fabric Model as an Open Thermodynamic System: Resolving the Negative Bulk Modulus Paradox](tenev2026-emergent-de-sitter.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.21652255) · CC BY 4.0 |
 | [Modified Newtonian Dynamics after Four Decades: The Idea, the Evidence, and the Open Questions](tenev2026-mond-review.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.21693735) · CC BY 4.0 |
+| [How Dennis's Young-Earth Cosmology Works (2025 Revision)](tenev2026-dennis-cosmology.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.21879298) · CC BY 4.0 |
 
 ## Dissertation
 

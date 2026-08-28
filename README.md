@@ -29,6 +29,8 @@ Each paper carries a **Document Metadata** block under its title giving the publ
 | [Modified Newtonian Dynamics after Four Decades: The Idea, the Evidence, and the Open Questions](tenev2026-mond-review.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.21693735) · CC BY 4.0 |
 | [How Dennis's Young-Earth Cosmology Works (2025 Revision)](tenev2026-dennis-cosmology.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.21879298) · CC BY 4.0 |
 | [The Aether Lineage: Material Theories of Space, Their Failure Modes, and Their Transferable Results](tenev2026-aether-lineage.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.22101597) · CC BY 4.0 |
+| [Crystal Growth by Steps and Spirals: The Burton–Cabrera–Frank Theory after Seventy-Five Years](tenev2026-bcf-review.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.22151200) · CC BY 4.0 |
+| [Avalanches and Self-Organized Criticality: The Idea, the Theory, and the Evidence](tenev2026-soc-review.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.22151213) · CC BY 4.0 |
 
 ## Dissertation
 

@@ -1,0 +1,191 @@
+Chapter Two, Background.
+
+This is Chapter Two of the dissertation An Elastic Constitutive Model of Spacetime and Its Applications, by Tichomir G. Tenev, Mississippi State University, 2018, held in the public portfolio store as the document of record.
+
+Note for this audio edition. This is a listening adaptation of the written document. Mathematical expressions are read out in words, acronyms are expanded, figures and tables are described verbally, and links and references are named descriptively rather than read. The written original is the document of record.
+
+Below, we introduce the requisite concepts from differential geometry, continuum mechanics, and General Relativity that are used in the remainder of this dissertation work.
+
+Differential geometry.
+
+Differential geometry employs calculus techniques to study curvature and deformation. It is used extensively within the General Theory of Relativity, and also to some extent within continuum mechanics. Here, we introduce briefly the concepts of covariance, contravariance, metric, and curvature. The material below was first published by Tenev and Horstemeyer.
+
+Contravariant and covariant representation of points, reciprocal basis.
+
+This subsection is based on the lecture notes by Vainchtein. Within this and the following subsection only, quantities written in boldface denote vectors, which is the notation we motivate and explain here for the contravariant and covariant notation used in the remainder of this dissertation. Also, without loss of generality, we work in two-dimensional space to simplify the examples used here.
+
+In order to refer to points in space we need a set of basis vectors and a reference point, also known as the origin. For example, let vector e-sub-one and vector e-sub-two be basis vectors in two-dimensional space such that they are both attached at the origin but not overlapping each other. Each basis vector defines a coordinate axis and a measuring ruler for that axis, by which a numerical value can be assigned to any point on the axis. Since vector e-sub-one and vector e-sub-two are not parallel to each other, we can reference any point in space by stating the numerical values of its projection points along the e-sub-one and e-sub-two axes respectively. Thus, the following expression is a way to describe a point, vector a, in terms of the given basis vectors: vector a equals a-superscript-one times vector e-sub-one, plus a-superscript-two times vector e-sub-two, which as a column vector is written a-superscript-one over a-superscript-two.
+
+The choice of basis vectors e-sub-one and e-sub-two is arbitrary with the only limitation being that they should not be parallel to one another. The point vector a exists independent of the choice of basis vectors. However, the indexes a-superscript-one and a-superscript-two are only meaningful in the context of the basis and change when another basis is chosen.
+
+The coefficients a-superscript-one and a-superscript-two form the contravariant representation of the point vector a. The term contravariant signifies that these coefficients vary inversely in relation to the length of their respective basis vectors. In other words, if we were to choose longer basis vectors then the same point vector a would be represented by smaller coefficients and vice versa.
+
+How are the contravariant coefficients a-superscript-one and a-superscript-two determined for a given basis? In the case of a Cartesian orthonormal basis, the coefficients are the lengths of the orthogonal projections of the point vector a onto the respective basis vectors. Therefore determining a-superscript-one and a-superscript-two amounts to computing the dot product between vector a and the basis. However, this procedure does not apply for any general set of basis vectors that may not necessarily be orthonormal. Nevertheless, we can choose a reciprocal set of basis vectors, vector e-superscript-one and vector e-superscript-two, such that vector e-sub-one dotted with vector e-superscript-one equals one, and vector e-sub-one dotted with vector e-superscript-two equals zero; vector e-sub-two dotted with vector e-superscript-one equals zero, and vector e-sub-two dotted with vector e-superscript-two equals one.
+
+With the help of these reciprocal basis vectors we can compute each contravariant coefficient as the dot product between the given point vector a and the respective reciprocal basis vector. For example, vector a dotted with vector e-superscript-one equals the quantity a-superscript-one times vector e-sub-one, plus a-superscript-two times vector e-sub-two, dotted with vector e-superscript-one; that equals a-superscript-one times the quantity vector e-sub-one dotted with vector e-superscript-one, plus a-superscript-two times the quantity vector e-sub-two dotted with vector e-superscript-one; which equals a-superscript-one.
+
+And likewise for a-superscript-two.
+
+Since vector e-superscript-one and vector e-superscript-two themselves form another basis, the given point vector a has a representation in that basis too, as follows: vector a equals a-sub-one times vector e-superscript-one, plus a-sub-two times vector e-superscript-two.
+
+The coefficients a-sub-one and a-sub-two form the covariant representation of point vector a. The term covariant signifies that these coefficients would increase or decrease when the original set of basis vectors, vector e-sub-one and vector e-sub-two, increase or decrease in length respectively. That is, the covariant coefficients vary in the same way as the original basis vectors.
+
+Metric and metric tensor.
+
+A metric specifies how distances between points are computed for a given set of basis vectors. For example, let vector e-sub-one and vector e-sub-two be the basis vectors and let vector a and vector b be two points in space. If the line segment between vector a and vector b happened to be along one of the basis vectors, then we could use that basis vector as the measuring rod to count off the distance between the two points. However, there is no inherent mechanism for determining the length of a segment in a general orientation. In such case, we would use a combination of all measuring rods, but the manner in which these rods are to be combined must be specified in addition to specifying the basis. The metric tensor provides this additional information.
+
+Let vector delta x, equal to vector b minus vector a, be the vector between points vector a and vector b, so that delta-x-superscript-i equals b-superscript-i minus a-superscript-i, for i equal to one or two, and vector delta x equals delta-x-superscript-one times vector e-sub-one, plus delta-x-superscript-two times vector e-sub-two.
+
+By definition, the length delta s of the segment connecting points vector a and vector b is determined as follows: the quantity delta s, squared, equals g-sub-one-one times delta-x-superscript-one times delta-x-superscript-one, plus g-sub-one-two times delta-x-superscript-one times delta-x-superscript-two, plus g-sub-two-one times delta-x-superscript-two times delta-x-superscript-one, plus g-sub-two-two times delta-x-superscript-two times delta-x-superscript-two.
+
+Where the coefficients g-sub-i-j, for i and j each equal to one or two, are called the metric. It is possible to show that these coefficients obey tensor transformation rules under change of basis and thus show that they are the components of a tensor, tensor g, known as the metric tensor. Being a tensor means that tensor g represents a quantity that is independent of the choice of basis, so that only the specific representation of tensor g in terms of its components g-sub-i-j depends on the basis.
+
+Indeed, we can write the equation above in a basis-independent way as follows: the quantity delta s, squared, equals vector delta x transpose, times tensor g, times vector delta x.
+
+Therefore it is the tensor g alone, independent from the choice of basis, that is responsible for defining distances between points in space. From here on, we will use the terms metric and metric tensor interchangeably.
+
+In general, tensor g may vary from point to point in space. In other words, tensor g is a function of position, a tensor field. Therefore, the metric equation above is only valid within a small region in space for which we can treat tensor g as approximately constant. To signify that, we typically write the metric equation in terms of the infinitesimal distance like so: the quantity d s, squared, equals vector d x transpose, times tensor g, times vector d x.
+
+Relationship to the dot product of vectors.
+
+Once we have established the notion of distance, we can derive other notions such as perpendicularity, geodesic, the generalization of a straight line, and dot product. Since the metric tensor defines how distances are measured, it is also involved in defining the dot product between two vectors.
+
+We begin by defining the square of the line segment distance d s as the dot product of the vector d x with itself. By expanding the dot product in terms of the contravariant representation we get the following: d s squared equals vector d x dotted with itself, which equals the quantity d-x-superscript-i times vector e-sub-i, dotted with the quantity d-x-superscript-j times vector e-sub-j; which equals d-x-superscript-i times d-x-superscript-j times the quantity vector e-sub-i dotted with vector e-sub-j; which equals g-sub-i-j times d-x-superscript-i times d-x-superscript-j.
+
+Where summation of repeated indexes is implied. The last equality above follows from the definition of the metric coefficients g-sub-i-j in terms of their use in computing the square of the line segment d s squared, per the earlier equation defining the squared length of a general line segment. For the last equality to be true for any choice of line segment, it follows that g-sub-i-j equals vector e-sub-i dotted with vector e-sub-j, for i and j each equal to one or two.
+
+Next, consider the dot product of any arbitrary two vectors, vector d x and vector d y, as follows: vector d x dotted with vector d y equals the quantity d-x-superscript-i times vector e-sub-i, dotted with the quantity d-y-superscript-j times vector e-sub-j; which equals d-x-superscript-i times d-y-superscript-j times the quantity vector e-sub-i dotted with vector e-sub-j; which equals g-sub-i-j times d-x-superscript-i times d-y-superscript-j; which equals vector d x transpose, times tensor g, times vector d y.
+
+In other words, the metric tensor is the dot-product operator. While for Cartesian coordinates in Euclidean space we could have just used vector d x dotted with vector d y equals vector d x transpose times vector d y, in the general case we need to use the metric tensor to compute the dot product as per the equation just above.
+
+Raising and lowering of indexes.
+
+Consider the following expression for one of the covariant components of an arbitrary point vector a. By using both covariant and contravariant representations of vector a, we can derive the following: a-sub-one equals the quantity a-sub-one times vector e-superscript-one, plus a-sub-two times vector e-superscript-two, dotted with vector e-sub-one, which equals vector a dotted with vector e-sub-one. That in turn equals the quantity a-superscript-one times vector e-sub-one, plus a-superscript-two times vector e-sub-two, dotted with vector e-sub-one, which equals a-superscript-one times the quantity vector e-sub-one dotted with vector e-sub-one, plus a-superscript-two times the quantity vector e-sub-two dotted with vector e-sub-one; which equals g-sub-one-one times a-superscript-one, plus g-sub-one-two times a-superscript-two.
+
+In other words, we conclude that the metric tensor coefficients can be used to convert between contravariant and covariant representation. In general, a-sub-i equals g-sub-i-j times a-superscript-j, and a-superscript-j equals g-superscript-i-j times a-sub-j.
+
+In the above equation the g-superscript-i-j coefficients are the coefficients of the metric tensor in terms of the reciprocal basis vectors. These constitute the contravariant representation of tensor g, while the coefficients g-sub-i-j make up the covariant representation. It is straightforward to show that g-superscript-i-j times g-sub-i-j equals delta-sub-i-j; therefore, g-superscript-i-j is the matrix inverse of g-sub-i-j.
+
+The conversion from contravariant to covariant representation and vice versa is known as lowering and raising of indexes, respectively, and the metric tensor's covariant or contravariant representation is used to perform it.
+
+Flat space with Cartesian coordinates.
+
+In Cartesian coordinates the metric is simply the following expression, which is the direct application of the Pythagorean theorem: d s squared equals the quantity d-x-superscript-one, squared, plus the quantity d-x-superscript-two, squared.
+
+Therefore, the metric tensor is the identity tensor, whose components are as follows: g-sub-one-one and g-sub-two-two both equal one, while g-sub-one-two and g-sub-two-one both equal zero.
+
+Likewise, the flat three-dimensional Cartesian metric tensor is g-sub-i-j equals delta-sub-i-j, where delta-sub-i-j is the Kronecker delta. The four-dimensional tensor for Minkowskian, flat, spacetime is g-sub-myu-nyu equals eta-sub-myu-nyu, for myu and nyu ranging from zero to three, where eta-sub-zero-zero equals minus one; eta-sub-zero-i and eta-sub-i-zero both equal zero; and eta-sub-i-j equals delta-sub-i-j, for i and j ranging from one to three.
+
+Non-Cartesian coordinates.
+
+Consider a set of unit basis vectors, vector e-sub-one and vector e-sub-two, that subtend some arbitrary angle theta with each other, as illustrated in Figure two point one, panel a. We can use simple trigonometry as shown in the diagram to compute the length of an arbitrary line segment d s as follows: d s squared equals the quantity d-x-superscript-two plus d-x-superscript-one times cosine theta, squared, plus the quantity d-x-superscript-one times sine theta, squared; which simplifies to the quantity d-x-superscript-one, squared, plus two times d-x-superscript-one times d-x-superscript-two times cosine theta, plus the quantity d-x-superscript-two, squared.
+
+Therefore the metric tensor's representation for the given basis vectors is as follows: g-sub-one-one and g-sub-two-two both equal one, while g-sub-one-two and g-sub-two-one both equal cosine theta.
+
+Figure two point one, described in words. The figure has two panels. Panel a shows a line segment d s drawn in a skewed, non-orthogonal Cartesian coordinate system, where the two basis directions meet at an angle theta rather than at a right angle. Panel b shows a line segment d s drawn in spherical coordinates on the surface of a sphere, using the elevation angle theta and the azimuth angle fai. The caption reads: A line segment d s in skewed Cartesian, panel a, and spherical, panel b, coordinates. The metric for case a, when the basis are unit vectors subtending some angle theta with each other, is d s squared equals the quantity d-x-superscript-one, squared, plus the quantity d-x-superscript-two, squared, plus two times d-x-superscript-one times d-x-superscript-two times cosine theta. For case b of the coordinates theta and fai for the surface of a sphere with radius capital R, the metric is d s squared equals capital R squared times d theta squared, plus capital R squared times sine squared theta, times d fai squared.
+
+Just as with the previous example of Cartesian coordinates, the current one also involves a flat, Euclidean, space and yet the metric tensor's representation is no longer one and the same as the identity tensor. That is because the metric tensor's representation depends on the choice of basis vectors. At the same time, in both of the above cases the metric is constant throughout space.
+
+In spherical coordinates, the great circles serve as coordinate axes and, as illustrated in Figure two point one, panel b, the square length d s squared of an infinitesimal line segment can be computed as follows: d s squared equals capital R squared times d theta squared, plus capital R squared times sine squared theta, times d fai squared.
+
+Where capital R is the radius of the sphere, theta is the elevation angle, and fai is the azimuth angle. Based on the spherical-coordinates metric equation above, we conclude that the metric tensor for spherical coordinates has the following form: g-sub-one-one equals capital R squared; g-sub-two-two equals capital R squared times sine squared theta; and g-sub-one-two and g-sub-two-one both equal zero.
+
+Unlike the previous examples, which were all for Euclidean space, in this case the metric tensor varies from point to point on the sphere because its value depends on the elevation angle.
+
+Affine connection and covariant derivative.
+
+The following section is based on Sections eighty-five and eighty-six in Landau and Lifshitz.
+
+An affine connection specifies how vectors located at different points in space can be compared to one another, which is needed to compute the differential of a vector field along a given direction in space. Such differential is known as the covariant derivative of the vector field. In Euclidean geometry, the difference between two vectors can be computed by parallel transporting one to the location of the other and using the triangle rule to subtract one from the other. In non-Euclidean geometry, parallel transport is not well defined because it depends on the path taken. Therefore, additional information is needed to compute differences between vectors at different locations. This additional information is the affine connection, and like the metric, an affine connection is not inherent within a given space but must be specified as a matter of choice. The affine connection specifies how the contravariant components of vectors change under parallel transport, which is the relocation of a vector from one place to another without changing its value.
+
+Let v-superscript-i be some vector at location x-superscript-i that we wish to parallel transport to another location, x-superscript-i plus d-x-superscript-i. The vector change d-v-superscript-i under parallel transport along the infinitesimal displacement d-x-superscript-i is given by the following: d-v-superscript-i equals capital-gamma-superscript-i-sub-j-k, times v-superscript-j, times d-x-superscript-k.
+
+The equation above expresses the notion that over an infinitesimal displacement, the change d-v-superscript-i can be approximated by a linear expression in terms of the vector's own components and the components of the displacement vector. The linear coefficients capital-gamma-superscript-i-sub-j-k are known as connection coefficients or Christoffel symbols. Just like the metric, the Christoffel symbols can vary from one point in space to another. Note the similarity between the above expression and the earlier dot-product expression for two arbitrary vectors. It appears as if each component d-v-superscript-i is the result of the inner product between v-superscript-j and d-x-superscript-k, where capital-gamma-superscript-i-sub-j-k plays the role of the inner product operator. However, unlike the metric tensor, the Christoffel symbols are not tensors since they do not obey tensor transformation rules.
+
+Although the connection is a matter of choice, there is a specific connection that is in a sense natural for the given metric. It is known as the Levi-Civita connection. Its Christoffel symbols can be derived from differentiating the metric tensor with respect to spatial displacements as follows: capital-gamma-superscript-k-sub-i-j equals one half times g-superscript-k-l, times the quantity, partial-j of g-sub-i-l, plus partial-i of g-sub-j-l, minus partial-l of g-sub-i-j.
+
+Intrinsic curvature.
+
+The Christoffel-symbol formula above shows that for Euclidean space the Christoffel symbols all vanish, so it is reasonable to expect that these have something to do with the curvature of space. Indeed, the components of the Riemann curvature tensor, R-superscript-a-sub-b-c-d, those of the Ricci tensor, R-sub-a-b, and the Ricci scalar curvature can be expressed in terms of the Christoffel symbols and their gradients as follows: R-superscript-a-sub-b-c-d equals partial-c of capital-gamma-superscript-a-sub-b-d, minus partial-b of capital-gamma-superscript-a-sub-c-d, plus capital-gamma-superscript-a-sub-c-f times capital-gamma-superscript-f-sub-b-d, minus capital-gamma-superscript-a-sub-d-f times capital-gamma-superscript-f-sub-c-b.
+
+R-sub-a-b is defined as R-superscript-c-sub-a-c-b.
+
+Capital R is defined as R-sub-a-b times g-superscript-a-b.
+
+In the case of small curvatures, that is when g-sub-a-b equals eta-sub-a-b plus h-sub-a-b, for some small perturbation, the absolute value of h-sub-a-b much less than one, and for an appropriate choice of coordinates, namely those that conform to the harmonic gauge, the Ricci curvature tensor is approximated, following Misner, Thorne, and Wheeler, as the following: R-sub-a-b is approximately equal to minus one half times eta-superscript-c-d, times the second partial derivative, partial-c-d, of h-sub-a-b, where g-sub-a-b equals eta-sub-a-b plus h-sub-a-b, and the absolute value of h-sub-a-b is much less than one.
+
+Continuum mechanics.
+
+Continuum mechanics models the kinematics and kinetics of solids and fluids in the context of a differentiable continuum. Below we review the following concepts: deformation, strain, stress, and elastic moduli, which are basic notions in this field of science.
+
+Deformation, material and reference coordinates.
+
+Let x-superscript-i be the material coordinates assigned to a body, and let g-sub-i-j be its metric tensor. By material coordinates, we understand those that are attached to the body, as if painted onto it, and displace with its material as it deforms. Thus, deformation does not change the coordinates of a given material point but does change distances between points. The metric tensor defines how coordinate differences relate to distances. Thus, the distance element d s between two nearby material points is given by d s squared equals g-sub-i-j times d-x-superscript-i times d-x-superscript-j.
+
+The distance element d-s-bar between the same two material points prior to deformation is the following: d-s-bar, squared, equals g-bar-sub-i-j, times d-x-superscript-i times d-x-superscript-j.
+
+Where g-bar-sub-i-j is the metric of the body prior to deformation. From here on, a bar over the name of a variable indicates that the referenced quantity pertains to the undeformed configuration. Oftentimes, the material coordinates are assigned such that they are arranged in a Cartesian grid prior to the body's deformation, in which case the undeformed metric is g-bar-sub-i-j equals delta-sub-i-j.
+
+Let y-superscript-i be a set of reference coordinates associated with the enclosing space. Each material point of the body can also be described in terms of these reference coordinates. However, unlike its material coordinates, the point's reference coordinates are not attached to it, so the same material point may have different reference coordinates before and after the deformation. Throughout the work presented here, we will always consider reference coordinates that are arranged in a fixed Cartesian grid, so that the metric associated with the reference space is simply delta-sub-i-j.
+
+The deformation gradient of the body, which fully describes the body's deformation up to a rigid translation, is defined as follows: F-superscript-i-sub-j is defined as the partial derivative of y-superscript-i with respect to x-superscript-j.
+
+The relationship between the deformed metric g-sub-i-j and F-superscript-i-sub-j can be derived as follows. Consider the distance element d s with material and reference coordinate differences d-x-superscript-i and d-y-superscript-i respectively. Then, g-sub-i-j times d-x-superscript-i times d-x-superscript-j equals d s squared, which equals delta-sub-k-l times d-y-superscript-k times d-y-superscript-l, which equals delta-sub-k-l times the partial derivative of y-superscript-k with respect to x-superscript-i, times the partial derivative of y-superscript-l with respect to x-superscript-j, times d-x-superscript-i times d-x-superscript-j; which equals delta-sub-k-l times F-superscript-k-sub-i times F-superscript-l-sub-j, times d-x-superscript-i times d-x-superscript-j.
+
+Since the relation above must be true for any arbitrary distance element d s, it follows that g-sub-i-j equals delta-sub-k-l times F-superscript-k-sub-i times F-superscript-l-sub-j, which is also the same expression as for the Cauchy-Green deformation tensor. In other words, for the coordinate assignments described above and used throughout this work, the deformed metric tensor g-sub-i-j is one and the same as the Cauchy-Green deformation tensor, if the undeformed metric is the flat Cartesian metric, g-bar-sub-i-j equals delta-sub-i-j.
+
+Small strain.
+
+The small strain tensor epsilon-sub-i-j quantifies the amount of relative length change as a result of deformation. By definition, epsilon-sub-i-j is such that two times epsilon-sub-i-j, times d-x-superscript-i times d-x-superscript-j, equals d s squared minus d-s-bar squared, which equals the quantity g-sub-i-j minus g-bar-sub-i-j, times d-x-superscript-i times d-x-superscript-j; therefore, epsilon-sub-i-j equals one half times the quantity g-sub-i-j minus g-bar-sub-i-j.
+
+Each component epsilon-sub-i-j represents the amount of relative stretch in the j-th direction along the cross section surface normal to the i-th direction, which is shown in Figure two point two, panel b.
+
+Figure two point two, described in words. The figure has two panels. Panel a shows a small cubic material element under a multi-axial stress state, with stress arrows acting on each of its faces. Panel b shows a uniaxial deformation of an object, drawn as a transparent original shape overlaid by the opaque, deformed shape, illustrating the Poisson effect of lateral contraction accompanying axial stretching. The caption reads: Stress, strain and Poisson effect. Multi-axial stress state, panel a, and a uniaxial deformation of an object, panel b, from the transparent to the opaque shape. Each component sigma-sub-i-j represents the stress through the i-th surface in the j-th direction. The Poisson's ratio, nyu, is the negative of the transverse strain, perpendicular to the direction of tension, divided by the axial strain, along the direction of tension. For a uniaxial stress state, epsilon-sub-j-j equals the quantity minus nyu over capital Y, times sigma-sub-i-i, which equals minus nyu times epsilon-sub-i-i, for i not equal to j.
+
+The three-dimensional volumetric strain is defined as epsilon, which is epsilon-superscript-i-sub-i, which is epsilon-superscript-one-sub-one plus epsilon-superscript-two-sub-two plus epsilon-superscript-three-sub-three, which equals g-bar-superscript-i-j times epsilon-sub-i-j. This is a scalar field that represents the fractional increase of the body's mid-hypersurface volume after deformation. In other words, d-V over d-V-bar equals the quantity one plus epsilon, where d-V and d-V-bar are, respectively, the deformed and undeformed volume elements.
+
+Stress and elastic moduli.
+
+The stress tensor sigma-sub-i-j represents the force per unit area that is applied in the j-th direction along the cross section plane that is normal to the i-th direction, which is shown in Figure two point two, panel a. Hooke's Law, introduced in Chapter One, relates the stress and strain tensor quantities to each other via a set of elastic moduli that characterize the constitutive properties of the material. Constitutive properties are those that are intrinsic to the material and characterize its internal structure. In the most general case, there can be up to twenty-one independent elastic moduli, but for an isotropic material there are just two.
+
+In this dissertation work, we will most often use the Young's elastic modulus, capital Y, and the Poisson ratio, nyu, as the two independent elastic moduli that figure in Hooke's Law from Chapter One. Any other elastic moduli, such as the shear modulus, myu, and the First Lamé parameter, lambda, which will also be considered on occasion, can be expressed in terms of capital Y and nyu. The Young's elastic modulus, capital Y, is the amount of longitudinal stress sigma-sub-i-i in the i-th direction needed to produce a unit amount of longitudinal strain epsilon-sub-i-i in the same direction under a uniaxial stress condition, with no summation intended over the index i. The Poisson ratio nyu is the negative of the transverse strain, perpendicular to the direction of tension, divided by the axial strain, along the direction of tension, as shown in Figure two point two.
+
+General Relativity.
+
+Below we attempt to provide an intuitive description of the physics that underlies the mathematics of General Relativity.
+
+Consider a test particle, capital P, situated a distance r from a body of mass, capital M. Newton's Gravitational Law views gravity as a force causing capital P to accelerate with acceleration a-sub-P as follows: a-sub-P equals minus capital G times capital M, over r squared.
+
+Where capital G is the gravitational constant.
+
+By contrast, according to General Relativity, gravity is a two-part phenomenon. First, bent spacetime causes matter to accelerate, which is Newton's First Law for bent spacetime. Second, matter bends spacetime.
+
+Consequently, capital P accelerates M-ward because it finds itself in a spacetime that capital M has bent. Therefore, according to General Relativity, gravity is not a force but the manifestation of spacetime curvature.
+
+What does it mean for spacetime to bend? Spacetime bends when time flows slower in some locations relative to other locations. Picture a sheet of lasagna extruding from a pasta maker; when some parts of the sheet are extruded slower than others, the sheet wrinkles. In this analogy, the sheet represents the trail that physical space leaves behind in time. Notice that the bending of space alone does not necessarily produce bent spacetime unless there is a variation in time lapse rates across space.
+
+Why does bent space cause matter to accelerate? The effect is the generalization of Newton's First Law to bent spacetime, which states that a body free of forces moves along a geodesic, the shortest distance between points, in spacetime. Geodesics are curved in bent spacetime. A curved trajectory in spacetime represents changing velocity and hence acceleration. Therefore, a body free of forces accelerates in curved spacetime.
+
+Mathematically stated, the proper acceleration a-sub-P of the aforementioned particle capital P can be derived from the equation of a geodesic in spacetime, which is as follows: x-double-dot-superscript-alpha, plus capital-gamma-superscript-alpha-sub-myu-nyu, times x-dot-superscript-myu, times x-dot-superscript-nyu, equals zero.
+
+Where the dots represent differentiation with respect to proper time. Essentially, the geodesic equation above states that the covariant derivative of the space-time velocity vector, also known as the four-velocity, should not change. Recall from the Differential Geometry section that capital-gamma-superscript-alpha-sub-myu-nyu is the correction term to the ordinary derivative of the velocity vector that accounts for the effect of curvature. By proper time and proper acceleration, respectively, we mean the time and acceleration measured within the particle's rest reference frame, that is, using a hypothetical clock attached to the accelerating particle. For radial acceleration from rest, where x-dot-superscript-zero equals c and x-dot-superscript-i equals zero, towards a spherically symmetric body, the geodesic equation above simplifies as follows: r-double-dot, plus c squared times capital-gamma-superscript-r-sub-zero-zero, equals zero; and a-sub-P equals the square root of g-sub-r-r, times r-double-dot, which equals c squared times the quantity, partial-r of g-sub-zero-zero, divided by two times the square root of g-sub-r-r.
+
+Where g-sub-zero-zero and g-sub-r-r are, respectively, the temporal and radial coefficients of the metric.
+
+Why does matter bend spacetime? General Relativity offers no explanation, but postulates the fact mathematically in the form of the well-known Einstein field equations, per Einstein's original 1916 formulation of General Relativity, namely: R-sub-myu-nyu, minus one half times capital R times g-sub-myu-nyu, equals kappa times T-sub-myu-nyu.
+
+Where R-sub-myu-nyu and capital R are, respectively, the Ricci tensor and Ricci scalar curvature, which were introduced in the Differential Geometry section, kappa is defined as eight pi times capital G, over c to the fourth, and is the Einstein constant, and T-sub-myu-nyu is the stress-energy tensor, which is visualized in Figure two point three.
+
+Figure two point three, described in words. The figure depicts an infinitesimal material volume element with its faces labeled to show the components of the stress-energy tensor, T-sub-myu-nyu: the spatial components matching the mechanical stress tensor, the time-time component representing energy density, and the time-space components representing momentum density. The caption reads: Interpretation of the stress-energy tensor, T-sub-myu-nyu. For an infinitesimal material volume element, the spatial components, T-sub-i-j equals sigma-sub-i-j, are the same as the components of the mechanical stress tensor. T-sub-zero-zero equals rho times c squared, and represents the relativistic energy density of the material, where rho is the mass density. T-sub-i-zero equals T-sub-zero-i equals c times p-sub-i, and these represent the momentum density p-sub-i in the i-th direction. All components T-sub-myu-nyu also have the meaning of momentum density fluxes in the nyu direction with respect to the myu spacetime hypersurface.
+
+For the case of weak gravity and nearly static mass density rho, T-sub-zero-zero equals c squared times rho, and T-sub-myu-nyu equals zero for myu and nyu not equal to zero, and the Einstein field equations above reduce to the classical Newtonian gravity given earlier in this section, which can be shown briefly as follows. Contracting the Einstein field equations above with g-superscript-myu-nyu yields that capital R equals minus kappa times T, where T is defined as g-superscript-myu-nyu times T-sub-myu-nyu, which when substituted back into the Einstein field equations above produces the following: R-sub-myu-nyu equals kappa times the quantity, T-sub-myu-nyu minus one half times g-sub-myu-nyu times T, which equals kappa times c squared over two, times rho, times delta-sub-myu-nyu.
+
+Let g-sub-myu-nyu equal eta-sub-myu-nyu plus h-sub-myu-nyu, where the absolute value of h-sub-myu-nyu is much less than one. Applying the linearized Ricci-tensor approximation derived earlier in the Differential Geometry section for R-sub-myu-nyu, and ignoring the time derivative of the metric based on the nearly static assumption, the equation above, expressed for just the time-time component, becomes the following: minus one half times the Laplacian of h-sub-zero-zero equals kappa times c squared over two, times rho, which equals four pi times capital G times rho, over c squared.
+
+Which is in fact the Poisson's equation of gravity, with minus c squared times h-sub-zero-zero, over two, disguising as the gravitational potential. Therefore, for a body of gravitating mass capital M, the solution to this equation is the following: minus c squared times h-sub-zero-zero, over two, equals minus capital G times capital M, over r.
+
+Consequently, c squared times partial-r of g-sub-zero-zero equals c squared times partial-r of h-sub-zero-zero, which equals minus two times capital G times capital M, over r squared.
+
+When we substitute the result just derived above into the proper-acceleration equation derived earlier in this section, and we approximate g-sub-r-r as approximately equal to one for the case of weak gravity, we arrive at the classical Newtonian equation given at the start of this section for the gravitational acceleration.
+
+The reference list is omitted from this audio edition; see the written original.

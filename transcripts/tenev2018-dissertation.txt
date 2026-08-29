@@ -1,0 +1,101 @@
+An Elastic Constitutive Model of Spacetime and Its Applications.
+
+A dissertation for the degree of Doctor of Philosophy, in the Department of Computational Engineering at Mississippi State University, Starkville, Mississippi, submitted in December 2018, held in the public portfolio store as the document of record. By Tichomir G. Tenev.
+
+Note for this audio edition. This is a listening adaptation of the written document. Mathematical expressions are read out in words, acronyms are expanded, figures and tables are described verbally, and links and references are named descriptively rather than read. The written original is the document of record.
+
+Tichomir G. Tenev, Department of Computational Engineering, Mississippi State University, Starkville, Mississippi, three nine seven five nine, United States. His email address is ticho at tenev dot com.
+
+This dissertation was submitted for the degree of Doctor of Philosophy. The major professor was Mark F. Horstemeyer. The committee members were Anzhong Wang, Tomasz Haupt, and Shantia Yarahmadian. The dean of the Bagley College of Engineering was Jason M. Keith. The degree was conferred in December 2018.
+
+Abstract.
+
+We introduce an elastic constitutive model of gravity that enables the interpretation of cosmological observations in terms of established ideas from Solid Mechanics and multi-scale modeling. The behavior of physical space is identified with that of a material-like medium called cosmic fabric, which exhibits constitutive behavior. This cosmic fabric is a solid hyperplate that is broad in the three ordinary spatial dimensions and thin in a fourth hyperspatial dimension. Matter in space is treated as fabric inclusions that prescribe in-plane, three-dimensional, strain causing the transverse bending of the fabric into the fourth hyperspatial dimension. The linearized Einstein-Hilbert action, which governs the dynamics of physical space, is derived from postulating Hooke's Law for the fabric, and the Schwarzschild metric is recovered from investigating matter-fabric interactions. At the continuum length scale, the Principle of Relativity is shown to apply for both moving and stationary observers alike, so that the fabric's rest reference frame remains observationally indistinguishable at such a length scale. Within the Cosmic Fabric paradigm, the structural properties of space at different hierarchical length scales can be investigated using theoretical notions and computational tools from solid mechanics to address outstanding problems in cosmology and fundamental physics. For example, we propose and offer theoretical support for the Inherent Structure Hypothesis, which states that the gravitational anomalies currently attributed to dark matter may in fact be manifestations of the inherent, undeformed, curvature of space. In addition, we develop a numerical framework wherein one can perform numerical experiments to investigate the implications of said hypothesis.
+
+Keywords for this dissertation are modified gravity, constitutive model, spacetime, cosmic fabric, hierarchical length scales, dark matter, and the particle-mesh method.
+
+Contents. The full text is divided into separate chapter files so that the hosting platform renders the mathematical notation reliably, since a single combined file would exceed the platform's limit for math rendering on one page. Each chapter is self-contained, with its own equation numbering. The chapters are as follows. Chapter One, Introduction. Chapter Two, Background. Chapter Three, Cosmic Fabric Model of Gravity. Chapter Four, Recovering Relativity. Chapter Five, Spacetime Metric of a Spherically Symmetric Inclusion. Chapter Six, Dark Matter Effect. Chapter Seven, Numerical Framework for Weak Gravity Dynamics. Chapter Eight, Conclusions. Chapter Nine, Future Research. A references section follows the chapters.
+
+Dedication.
+
+To the Lord Jesus Christ through Whom all things were made and without Whom nothing was made that was made. In Him we live and move and have our being.
+
+Acknowledgments.
+
+Before all, I thank my Heavenly Father Who is the source of all good and perfect gifts, and Who provided the time and finances, the ideas, environment, and people to allow me to accomplish this dissertation work. May it be pleasing to Him. Amen.
+
+Mark Horstemeyer encouraged me to move to Mississippi and subsequently became my doctoral advisor and collaborator. I thank him for this and for teaching me mechanical engineering and what it means to be a scientist.
+
+I am also thankful to the members of my graduate committee for their continual supervision and encouragement. Anzhong Wang introduced me to the General Relativity community and guided me in that area. Shantia Yarahmadian supervised my study in applied math, and shared his insights with me on the nature of time. Byron Williams introduced me to Mississippi State's graduate program and became a committee member in addition to becoming a good friend. Tomasz Haupt stepped in during the final months of my program to take Byron's place on the committee whose job had taken him elsewhere.
+
+I would like to acknowledge the wonderful group of colleagues with whom I fellowshipped at the University's Center for Advanced Vehicular Systems, abbreviated CAVS: Denver Seeley, Robert Allen, Heechen Cho, Sungkwan Moon, Nayeon Lee, and others.
+
+John Baumgardner, Russ Humphreys, and Andrew McIntosh offered unfiltered feedback and from the beginning were a source of inspiration and encouragement.
+
+Also, I would like to acknowledge Tamas Morvai for the helpful discussions on the nature of time, and Youseff Hammi for his gracious help with Abaqus.
+
+Finally, I would like to acknowledge my wife, Rong Tenev, without whose support, deep insight, and encouragement, this work would not have been possible.
+
+List of Symbols, Abbreviations, and Nomenclature. The following symbols and notational conventions are used throughout the dissertation, read as a list.
+
+Y is Young's modulus of elasticity.
+
+Nyu is Poisson's ratio, when not used as an index.
+
+L is the cosmic fabric thickness.
+
+H-bar is the reduced Planck constant, h-bar equals one point zero five four five seven one eight zero zero, times ten to the minus thirty-four, in units of kilograms times meters squared, per second.
+
+G is the gravitational constant, G equals six point six seven four zero eight, times ten to the minus eleven, in units of cubic meters per kilogram per second squared.
+
+C is the speed of light, c equals two hundred ninety-nine million, seven hundred ninety-two thousand, four hundred fifty-eight meters per second.
+
+Kappa is the Einstein constant, defined as kappa equals eight pi G, over c to the fourth.
+
+The symbols partial-sub-a and partial-sub-a-b denote partial derivatives: partial-sub-a is defined as the partial derivative with respect to x-sub-a, and partial-sub-a-b is defined as the second partial derivative with respect to x-sub-a and x-sub-b.
+
+The Laplacian, written nabla squared, is the Laplace operator for spatial coordinates, defined as the sum of partial-sub-one-one, partial-sub-two-two, and partial-sub-three-three.
+
+Delta-sub-b-sup-a is the Kronecker delta: delta-sub-a-sup-b equals delta-sub-a-b equals delta-sup-a-b, and each equals one when a equals b, and zero when a does not equal b.
+
+G-sub-i-j is the three-dimensional metric tensor.
+
+G-bar-sub-i-j is the three-dimensional undeformed metric tensor. In general, a bar over a quantity indicates that it pertains to the undeformed configuration.
+
+G-sub-myu-nyu and g are the spacetime metric and its determinant, with g defined as the determinant of g-sub-myu-nyu.
+
+Eta-sub-myu-nyu is the Minkowski metric for flat spacetime: eta-sub-zero-zero equals minus one, eta-sub-zero-i and eta-sub-i-zero equal zero, and eta-sub-i-j equals delta-sub-i-j.
+
+Epsilon-sub-i-j and epsilon are the small strain tensor and its trace, with epsilon defined, in three dimensions, as g-bar-sup-i-j times epsilon-sub-i-j.
+
+R-sub-myu-nyu and R are the four-dimensional Ricci curvature tensor and scalar, with R defined as g-sup-myu-nyu times R-sub-myu-nyu.
+
+The three-dimensional Ricci curvature tensor and scalar, written R-sub-i-j with a three-D label and R with a three-D label, satisfy: the three-dimensional R is defined as g-sup-i-j times the three-dimensional R-sub-i-j.
+
+T-sub-myu-nyu and T are the stress-energy tensor of General Relativity and its trace, with T defined as g-sup-myu-nyu times T-sub-myu-nyu.
+
+Furthermore, the following notational conventions are used. Lower-case Latin indexes, i, j, k, and l, running from one to three, run over the three ordinary spatial dimensions. Upper-case Latin indexes, capital I, capital J, capital K, and capital L, running from one to four, run over the four hyperspace dimensions, while Greek indexes, myu, nyu, alpha, and beta, running from zero to three, run over the four spacetime dimensions, where indexes zero and four represent, respectively, the time dimension and the extra spatial dimension. Sometimes t is used to denote coordinate time, such that x-superscript-zero is defined as c times t, where c is the speed of light. For spacetime, the space-like metric signature, minus, plus, plus, plus, is adopted, and the flat, Minkowskian, metric tensor is denoted eta-sub-myu-nyu, where the matrix eta-sub-myu-nyu is the diagonal matrix with entries minus one, one, one, and one.
+
+Except when explicitly stated otherwise, the Einstein summation convention is used for repeated indexes. Thus, when two quantities appear in the same term with a repeated index, they represent the sum of multiple terms over that index. For example, A-sub-i-j times B-sup-j-k is defined as the sum, over i running from one to three, of A-sub-i-j times B-sup-j-k. Note that the range of i and j from one to three is implied by the use of lower-case Latin indexes. Also, the pair of repeated indexes over which the summation is performed will be in opposite position, top, contravariant, and bottom, covariant, or vice versa.
+
+Errata. This edition corrects a small number of errors present in the published version of record, ProQuest publication number ten million, nine hundred seventy-eight thousand, four hundred fifty-eight: a few typographical slips and two factor-of-two coefficient errors. Every correction is confined to notation and to coefficients appearing in preview and summary statements; the detailed derivations in the body already produce the corrected values, so no derivation, result, or physical conclusion is affected. The following corrections apply, each given as the form printed in the published version and the corrected form used here, read as a list.
+
+In Chapter One, in the preview of the Solid Mechanics Lagrangian, the published version reads: script-L equals R times L squared times myu, over the quantity twenty-four times c. This is corrected here to: script-L equals R times L squared times myu, over the quantity twelve times c. The reason is a factor-of-two slip: with myu equal to Y over four, the published coefficient is myu times L squared over twenty-four, which is half of the derived value, myu times L squared over twelve, equal to Y times L squared over forty-eight, equal to one over two kappa, per Equations 3.18 and 3.25. The corrected form also matches the elastic modulus, Y comparable to twenty-four over the quantity l-sub-p squared times kappa, of Equation 3.29.
+
+In Equation 3.1, Equation 3.24, and the paragraph opening, Formulation of the Cosmic Fabric Model of Gravity, the published coefficient reads Y times L over forty-eight. This is corrected here to Y times L squared over forty-eight. The exponent on the fabric thickness L was dropped: the Lagrangian density derived in Equation 3.23, and the identification of Y times L squared over forty-eight with one over two kappa in Equation 3.25, both carry L squared, and the analogy between the fabric action, script-S-sub-F, and the Einstein-Hilbert action, script-S-sub-E-H, requires it.
+
+In the Solid Mechanics action cell of Table 3.1, the published version reads: script-S equals L squared Y over twenty-four, times the integral of R times the square-root term, with respect to d to the fourth x. This is corrected here to: script-S equals L squared Y over forty-eight, times the same integral. This is a factor-of-two slip in the opposite direction from the entry above: the coefficient equals one over two kappa per Equation 3.25, and the table's own elastic-constant entry, Y equals six c to the seventh, over the quantity two pi h-bar G squared, is consistent only with the L squared Y over forty-eight coefficient.
+
+In Equation 4.5, the published version reads: d-tau-prime equals d-t times the square root of the quantity one minus beta squared. This is corrected here to: d-tau-prime equals d-tau times the square root of the quantity one minus beta squared. The quantity being time-dilated is the stationary observer's round-trip proper time, d-tau, from Equation 4.4, per the dilation relation of Equation 4.3; no coordinate time t is defined anywhere in this derivation.
+
+In Equation 5.37, the published version reads: d-s equals g-sub-t-t times c squared times d-t squared, plus further terms. This is corrected here to: d-s squared equals g-sub-t-t times c squared times d-t squared, plus further terms. The left-hand side is the squared line element, while the right-hand side is written in squared differentials, so the left side must also be squared.
+
+In the hoop term of Equation 5.41, the published version reads: the quantity one plus two epsilon-sub-Omega, times d-r-bar squared, times d-Omega squared. This is corrected here to: the quantity one plus two epsilon-sub-Omega, times r-bar squared, times d-Omega squared. This matches the g-sub-Omega-Omega times r-bar squared times d-Omega squared term of Equation 5.37; the hoop term carries r-bar squared, not d-r-bar squared.
+
+In the exterior line of Equation 5.53, the published version ends with plus r squared times d-Omega. This is corrected here to plus r squared times d-Omega squared, matching the interior line and the definition of d-Omega squared as d-theta squared plus sine squared theta times d-fai squared.
+
+In the first line of Equation 6.12, the published version reads: Gamma-bar-superscript-one-sub-one-one equals l-bar-prime times l-bar-double-prime, over the quantity l squared. This is corrected here to: Gamma-bar-superscript-one-sub-one-one equals l-bar-prime times l-bar-double-prime, over the quantity l-bar-prime squared. This is consistent with Gamma-bar-superscript-one-sub-one-one equal to one-half times g-bar-superscript-one-one times partial-sub-one of g-bar-sub-one-one, and with g-bar-superscript-one-one equal to l-bar-prime to the power minus two, and with the two sibling lines of the same equation.
+
+In Chapter Seven, in the wfunMOND code listing, standing for the weight-function routine for Modified Newtonian Dynamics, the published version contains the line: r equals sqsrt of the quantity x-one squared plus x-two squared plus x-three cubed. This is corrected here to: r equals square-root of the quantity x-one squared plus x-two squared plus x-three squared. These are slips in the reproduced MATLAB code: the function name should be square-root, not the misspelled sqsrt as printed, and the radial distance is r equals the square root of x-one squared plus x-two squared plus x-three squared, so the third term's exponent should be two, not three.
+
+The reference list is omitted from this audio edition; see the written original.

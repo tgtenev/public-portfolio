@@ -80,12 +80,12 @@ where per Einstein's convention, summation over repeated indexes is implied. Pri
 
 $$
 \begin{split}
-d\overline{l}^2 = \overline{g}\_{ij}dx^i dx^j.
+d\overline{l}^2 = \overline{g}_ {ij}dx^i dx^j.
 \end{split}
 \tag{2.2}
 $$
 
-In Eq. (2.2) and for the remainder of the paper, a bar over the variable name of a quantity indicates that the quantity pertains to the undeformed configuration. For Cartesian coordinates, as adopted here, $\overline{g}\_{ij} = \delta_{ij}$, where,
+In Eq. (2.2) and for the remainder of the paper, a bar over the variable name of a quantity indicates that the quantity pertains to the undeformed configuration. For Cartesian coordinates, as adopted here, $\overline{g}_ {ij} = \delta_{ij}$, where,
 
 $$
 \begin{split}
@@ -119,7 +119,7 @@ $$
 \tag{2.5}
 $$
 
-The volumetric strain is a scalar field that represents the fractional increase of the fabric's volume (hypersurface area). In other words, $dV^\text{3D}/d\overline{V}^\text{3D} = (1+\varepsilon^\text{3D})$, where $dV^\text{3D}$ and $d\overline{V}^\text{3D}$ are, respectively, the deformed and undeformed volume elements. The definition of strain per Eq. (2.4) and Eq. (2.5) only applies when $\varepsilon_{ij} \ll 1$, which is why the term "small strain," and only when $\overline{g}\_{ij} = \delta_{ij}$. The superscript $^\text{3D}$ indicates that the superscripted quantity pertains to the ordinary three spatial dimensions.
+The volumetric strain is a scalar field that represents the fractional increase of the fabric's volume (hypersurface area). In other words, $dV^\text{3D}/d\overline{V}^\text{3D} = (1+\varepsilon^\text{3D})$, where $dV^\text{3D}$ and $d\overline{V}^\text{3D}$ are, respectively, the deformed and undeformed volume elements. The definition of strain per Eq. (2.4) and Eq. (2.5) only applies when $\varepsilon_{ij} \ll 1$, which is why the term "small strain," and only when $\overline{g}_ {ij} = \delta_{ij}$. The superscript $^\text{3D}$ indicates that the superscripted quantity pertains to the ordinary three spatial dimensions.
 
 Hooke's Law relates the strain $\varepsilon_{ij}$ in a material to the stress $\sigma^{ik}$ according to the following general formula:
 
@@ -461,7 +461,7 @@ In this section we formulate the equations that govern the interaction between a
 
 The governing equations are formulated in terms of the radial stretch factor $e(r) = r/\overline{R} - 1$ and the transverse displacement $w(r)$ based on the following constraints: 1) the bending energy density must balance the relativistic energy density of the inclusion, 2) inclusions are a source of strain, and 3) the total membrane energy must vanish. As discussed in detail in [1], the term "bending energy" means the portion of the elastic energy due to bending whereby the mid-hypersurface of the fabric remains unstrained and the hypersurfaces on each side of it are being, respectively, stretched or compressed. By contrast, the term "membrane energy" is the elastic energy attributed to the stretching of the mid-hypersurface.
 
-The above constraints are motivated as follows: Consider the Fabric's action $\mathcal{S} = \int \mathcal{L}\_\text{F} \sqrt{|g|} dx^4$ where $\mathcal{L}\_\text{F}$ is the Lagrangian of the fabric together with the inclusion; $g \equiv \det [g_{\mu\nu}]$ is the determinant of the spacetime metric; and the integral is taken over a sufficiently large volume of spacetime such that the integral converges. According to the Principle of Least Action, physical systems progress along a trajectory that extremizes the action (the action is either minimized or maximized). For a nearly static situation the kinetic components of $\mathcal{L}\_\text{F}$ can be ignored, so only the contributions from the fabric's elastic energy and the body's relativistic energy need to be considered. Thus, $\mathcal{L}\_\text{F} = -(U_\text{M} + U_\text{B} + c^2 \rho)$. Furthermore, per Eq. (2.10) the determinant $|g| \approx 1$. Therefore, since the total energy integrated over all of three-dimensional space should be non-negative, the action $\mathcal{S}$ would reach an extremum if the deformation functions $e$ and $w$ were such that the total elastic energy $W$, defined as follows, vanished:
+The above constraints are motivated as follows: Consider the Fabric's action $\mathcal{S} = \int \mathcal{L}_ \text{F} \sqrt{|g|} dx^4$ where $\mathcal{L}_ \text{F}$ is the Lagrangian of the fabric together with the inclusion; $g \equiv \det [g_{\mu\nu}]$ is the determinant of the spacetime metric; and the integral is taken over a sufficiently large volume of spacetime such that the integral converges. According to the Principle of Least Action, physical systems progress along a trajectory that extremizes the action (the action is either minimized or maximized). For a nearly static situation the kinetic components of $\mathcal{L}_ \text{F}$ can be ignored, so only the contributions from the fabric's elastic energy and the body's relativistic energy need to be considered. Thus, $\mathcal{L}_ \text{F} = -(U_\text{M} + U_\text{B} + c^2 \rho)$. Furthermore, per Eq. (2.10) the determinant $|g| \approx 1$. Therefore, since the total energy integrated over all of three-dimensional space should be non-negative, the action $\mathcal{S}$ would reach an extremum if the deformation functions $e$ and $w$ were such that the total elastic energy $W$, defined as follows, vanished:
 
 $$
 \begin{split}
@@ -517,7 +517,7 @@ where $r_0$, as defined above, is a geometric quantity characterizing the densit
 | Parameter | Description |
 |---|---|
 | $r_g$ | Radius of the gravitating body after the initial stretch but before the transverse displacement. Note that this is not the actual geometric radius which is slightly larger due to the transverse displacement |
-| $\overline{r}_g$ | Undeformed radius of the gravitating body. Since we work in the small strains (weak gravity) regime $\overline{r}_g \approx r_g$. |
+| $\overline{r}_ g$ | Undeformed radius of the gravitating body. Since we work in the small strains (weak gravity) regime $\overline{r}_ g \approx r_g$. |
 | $r_s \equiv {2 G M}/{c^2}$ | Schwarzschild radius, which is the geometric equivalent of the body's mass. |
 | $r_0 \equiv \sqrt{r_g^3/r_s}$ | Geometric equivalent of the body's density $\rho$. Specifically, $\kappa c^2\rho = 3/r_0^2$, where $\kappa \equiv 8 \pi G/c^4$ is the Einstein constant. |
 | $R^\text{3D} = -2\kappa U_\text{B}$ | The intrinsic curvature scalar of the cosmic fabric is the geometric equivalent of the bending elastic energy caused by the matter inclusion. |
@@ -608,12 +608,12 @@ f &= -\frac{1}{2}\frac{\overline{R}}{r_0^2} - \frac{C_3}{\overline{R}^2} \\
 \tag{4.13}
 $$
 
-where $C_3$ and $C_4$ are constants of integration. Let $\varepsilon^\text{3D}\_\text{int}$ and $\varepsilon^\text{3D}\_\text{ext}$ represent the interior and exterior solutions, respectively. For the interior solution, $0\le \overline{R} \le \overline{r}\_g$, we determine that $C_3 = 0$, or else $\varepsilon^\text{3D}\_\text{int}$ diverges as $\overline{R} \rightarrow 0$. For the exterior case, $r_0 = \infty$, so $\varepsilon^\text{3D}\_\text{ext} = C_4 + C_3/r$, but $C_4$ must vanish, for $\varepsilon^\text{3D}\_\text{ext}$ to vanish at infinity. Thus, we conclude so far the following,
+where $C_3$ and $C_4$ are constants of integration. Let $\varepsilon^\text{3D}_ \text{int}$ and $\varepsilon^\text{3D}_ \text{ext}$ represent the interior and exterior solutions, respectively. For the interior solution, $0\le \overline{R} \le \overline{r}_ g$, we determine that $C_3 = 0$, or else $\varepsilon^\text{3D}_ \text{int}$ diverges as $\overline{R} \rightarrow 0$. For the exterior case, $r_0 = \infty$, so $\varepsilon^\text{3D}_ \text{ext} = C_4 + C_3/r$, but $C_4$ must vanish, for $\varepsilon^\text{3D}_ \text{ext}$ to vanish at infinity. Thus, we conclude so far the following,
 
 $$
 \begin{split}
-\varepsilon^\text{3D}\_\text{int}  = C_4 - \frac{1}{4}\frac{r^2}{r_0^2}; \quad
-\varepsilon^\text{3D}\_\text{ext}  = \frac{C_3}{r}.
+\varepsilon^\text{3D}_ \text{int}  = C_4 - \frac{1}{4}\frac{r^2}{r_0^2}; \quad
+\varepsilon^\text{3D}_ \text{ext}  = \frac{C_3}{r}.
 \end{split}
 \tag{4.14}
 $$
@@ -622,8 +622,8 @@ For it to be physically admissible, $\varepsilon^\text{3D}$ and its first deriva
 
 $$
 \begin{split}
-&\varepsilon^\text{3D}\_\text{int}(r_g) = \varepsilon^\text{3D}\_\text{ext}(r_g); \quad
-\left.\frac{d }{d\overline{R}}\varepsilon^\text{3D}\_\text{int}\right|\_{r = r_g} = \left.\frac{d }{d\overline{R}}\varepsilon^\text{3D}\_\text{ext}\right|\_{r = r_g} \\
+&\varepsilon^\text{3D}_ \text{int}(r_g) = \varepsilon^\text{3D}_ \text{ext}(r_g); \quad
+\left.\frac{d }{d\overline{R}}\varepsilon^\text{3D}_ \text{int}\right|_ {r = r_g} = \left.\frac{d }{d\overline{R}}\varepsilon^\text{3D}_ \text{ext}\right|_ {r = r_g} \\
 &\therefore C_3 = \frac{r_s}{2}; \quad C_4 =  \frac{3r_g^2}{4r_0^2},
 \end{split}
 \tag{4.15}
@@ -633,8 +633,8 @@ which finally produces the following result:
 
 $$
 \begin{split}
-\varepsilon^\text{3D}\_\text{int} = \frac{3}{4}\frac{\overline{R}\_g^2}{r_0^2} - \frac{1}{4}\frac{\overline{R}^2}{r_0^2}; \quad
-\varepsilon^\text{3D}\_\text{ext} = \frac{1}{2}\frac{r_s}{\overline{R}}
+\varepsilon^\text{3D}_ \text{int} = \frac{3}{4}\frac{\overline{R}_ g^2}{r_0^2} - \frac{1}{4}\frac{\overline{R}^2}{r_0^2}; \quad
+\varepsilon^\text{3D}_ \text{ext} = \frac{1}{2}\frac{r_s}{\overline{R}}
 \end{split}
 \tag{4.16}
 $$
@@ -664,7 +664,7 @@ $$
 \tag{4.18}
 $$
 
-After substituting the result for $\varepsilon^\text{3D}$ and $u$ from Eq. (4.16) and Eq. (4.10), respectively, into Eq. (4.18) and approximating $\overline{R}_g \approx r_g$, we obtain the following general solution:
+After substituting the result for $\varepsilon^\text{3D}$ and $u$ from Eq. (4.16) and Eq. (4.10), respectively, into Eq. (4.18) and approximating $\overline{R}_ g \approx r_g$, we obtain the following general solution:
 
 $$
 \begin{split}
@@ -672,7 +672,7 @@ $$
 %
 \therefore & e_\text{int} = \frac{1}{4}\frac{r_g^2}{r_0^2} - \frac{3}{20}\frac{\overline{R}^2}{r_0^2} + \frac{C_5}{\overline{R}^3} \\
 %
-\frac{(e_\text{ext}\overline{R}^3)'}{\overline{R}^2} &= \varepsilon^\text{3D}\_\text{ext} - u
+\frac{(e_\text{ext}\overline{R}^3)'}{\overline{R}^2} &= \varepsilon^\text{3D}_ \text{ext} - u
 = \frac{1}{2}\frac{r_s}{\overline{R}} - \frac{1}{2}\frac{r_s}{\overline{R}} = 0 \\
 &\therefore e_\text{ext} = \frac{C_6}{\overline{R}^3},
 \end{split}
@@ -959,10 +959,10 @@ Consequently,
 
 $$
 \begin{split}
-\overline{R}\_\text{int} &= \left(1 - \frac{r_g^2}{4r_0^2} + \frac{3r^2}{20r_0^2}\right)r \\
-\quad \overline{R}\_\text{ext} &= \left(1 - \frac{r_s r_0^2}{10r^3}\right)r \\
-d\overline{R}\_\text{int} &= \left(1 - \frac{r_g^2}{4r_0^2} + \frac{9r^2}{20r_0^2}\right)dr \\
-d\overline{R}\_\text{ext} &= \left(1 + \frac{r_s r_0^2}{5r^3}\right)dr
+\overline{R}_ \text{int} &= \left(1 - \frac{r_g^2}{4r_0^2} + \frac{3r^2}{20r_0^2}\right)r \\
+\quad \overline{R}_ \text{ext} &= \left(1 - \frac{r_s r_0^2}{10r^3}\right)r \\
+d\overline{R}_ \text{int} &= \left(1 - \frac{r_g^2}{4r_0^2} + \frac{9r^2}{20r_0^2}\right)dr \\
+d\overline{R}_ \text{ext} &= \left(1 + \frac{r_s r_0^2}{5r^3}\right)dr
 \end{split}
 \tag{6.3}
 $$

@@ -146,11 +146,11 @@ $$
 
 ### 2.3 Spatial Metric Tensor
 
-The undeformed spatial metric $\overline{g}_{ij}$ can be computed as the inner product of the three surface tangent vectors $\partial_i y^L$:
+The undeformed spatial metric $\overline{g}_ {ij}$ can be computed as the inner product of the three surface tangent vectors $\partial_i y^L$:
 
 $$
 \begin{split}
-\overline{g}\_{ij} = \partial_i y^L \partial_j y^L
+\overline{g}_ {ij} = \partial_i y^L \partial_j y^L
 \end{split}
 \tag{2.6}
 $$
@@ -159,7 +159,7 @@ For the chosen coordinates (2.2),
 
 $$
 \begin{split}
-[\overline{g}\_{ij}] &= \left(
+[\overline{g}_ {ij}] &= \left(
 \begin{array}{ccc}
 1+(\overline{w}')^2 & 0 & 0 \\
 0 & 1 & 0 \\
@@ -174,7 +174,7 @@ $$
 \end{array}
 \right)
 \\
-[\overline{g}^{ij}] &= [\overline{g}\_{ij}]^{-1}
+[\overline{g}^{ij}] &= [\overline{g}_ {ij}]^{-1}
 = \left(
 \begin{array}{ccc}
 (\overline{l}')^{-2} & 0 & 0 \\
@@ -201,8 +201,8 @@ The first derivatives of the metric can be computed by differentiating Equation 
 
 $$
 \begin{split}
-\partial_1 \overline{g}\_{11} &= 2 \overline{l}'\overline{l}'' \\
-\partial_2 \overline{g}\_{12} &= \partial_2 \overline{g}\_{21} = \partial_3 \overline{g}\_{13} = \partial_3 \overline{g}\_{31} = \frac{(\overline{l}')^2 - 1}{\overline{r}}
+\partial_1 \overline{g}_ {11} &= 2 \overline{l}'\overline{l}'' \\
+\partial_2 \overline{g}_ {12} &= \partial_2 \overline{g}_ {21} = \partial_3 \overline{g}_ {13} = \partial_3 \overline{g}_ {31} = \frac{(\overline{l}')^2 - 1}{\overline{r}}
 \end{split}
 \tag{2.9}
 $$
@@ -213,7 +213,7 @@ The Christoffel symbols $\overline{\Gamma}^m_{\ ij}$ characterize how inherent c
 
 $$
 \begin{split}
-\overline{\Gamma}^m_{\ ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}\_{ki} + \partial_i \overline{g}\_{jk} - \partial_k \overline{g}\_{ij}\right)
+\overline{\Gamma}^m_{\ ij} = \frac{1}{2} \overline{g}^{mk}\left(\partial_j \overline{g}_ {ki} + \partial_i \overline{g}_ {jk} - \partial_k \overline{g}_ {ij}\right)
 \end{split}
 \tag{2.10}
 $$
@@ -222,9 +222,9 @@ We proceed to evaluate these for the special coordinate choice (2.2). For the ch
 
 $$
 \begin{split}
-\overline{\Gamma}^1_{11} &= \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}\_{11} = \frac{\overline{l}'\overline{l}''}{(\overline{l})^2} \\
-\overline{\Gamma}^1_{22} &= \overline{g}^{11}\partial_2 \overline{g}\_{12} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2} \\
-\overline{\Gamma}^1_{33} &= \overline{g}^{11}\partial_3 \overline{g}\_{13} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2}
+\overline{\Gamma}^1_{11} &= \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}_ {11} = \frac{\overline{l}'\overline{l}''}{(\overline{l})^2} \\
+\overline{\Gamma}^1_{22} &= \overline{g}^{11}\partial_2 \overline{g}_ {12} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2} \\
+\overline{\Gamma}^1_{33} &= \overline{g}^{11}\partial_3 \overline{g}_ {13} = \frac{(\overline{l}')^2-1}{\overline{r} (\overline{l}')^2}
 \end{split}
 \tag{2.11}
 $$
@@ -235,9 +235,9 @@ Consider physical space with radially symmetric inherent curvature specified by 
 
 $$
 \begin{split}
-& \ddot{x}^\alpha + \Gamma^{\alpha}\_{\mu\nu} \dot{x}^\mu \dot{x}^\nu = 0,
+& \ddot{x}^\alpha + \Gamma^{\alpha}_ {\mu\nu} \dot{x}^\mu \dot{x}^\nu = 0,
 \quad
-\text{such that}\quad g_{\alpha\beta}\Gamma^{\alpha}\_{\mu\nu} = \frac{1}{2}
+\text{such that}\quad g_{\alpha\beta}\Gamma^{\alpha}_ {\mu\nu} = \frac{1}{2}
 \left( \partial_\nu g_{\mu\beta} + \partial_{\mu} g_{\beta\nu} - \partial_\beta g_{\mu\nu} \right)
 \end{split}
 \tag{3.1}
@@ -248,13 +248,13 @@ where the dot notation represents differentiation with respect to proper time. C
 $$
 \begin{split}
 \ddot{x}^1 +c^2\Gamma^1_{00} &= 0,
-\quad \text{s.t.} \quad g_{11}\Gamma^{1}\_{00} = \frac{1}{2}\left(- \partial_1 g_{00} \right) \\
-\therefore \ddot{x}^1 &= c^2 \frac{\partial_1 g_{00}}{2g_{11}} \approx c^2 \frac{\partial_1 g_{00}}{2 \overline{g}\_{11}} = c^2 \frac{\partial_1 g_{00}}{2 (\overline{l}')^2}
+\quad \text{s.t.} \quad g_{11}\Gamma^{1}_ {00} = \frac{1}{2}\left(- \partial_1 g_{00} \right) \\
+\therefore \ddot{x}^1 &= c^2 \frac{\partial_1 g_{00}}{2g_{11}} \approx c^2 \frac{\partial_1 g_{00}}{2 \overline{g}_ {11}} = c^2 \frac{\partial_1 g_{00}}{2 (\overline{l}')^2}
 \end{split}
 \tag{3.2}
 $$
 
-The approximation in Equation (3.2) invokes the weak gravity (small strains) assumption due to which the deformed and undeformed metrics are nearly identical, $g_{ij} \approx \overline{g}\_{ij}$. However, note that such approximation does not necessarily apply for the spatial derivatives of $g_{ij}$ and $\overline{g}\_{ij}$.
+The approximation in Equation (3.2) invokes the weak gravity (small strains) assumption due to which the deformed and undeformed metrics are nearly identical, $g_{ij} \approx \overline{g}_ {ij}$. However, note that such approximation does not necessarily apply for the spatial derivatives of $g_{ij}$ and $\overline{g}_ {ij}$.
 
 Let $a \equiv \ddot{l}$ be the proper radial acceleration, where $l$ stands for the deformed radial distance. Again, due to the weak gravity (small strains) assumption, we can approximate $l \approx \overline{l}$ (the deformed and undeformed proper distances are about the same), and because of the assumed nearly static conditions, the approximation can be carried to the time derivatives so that $\ddot{l} \approx \ddot{\overline{l}}$. Under the nearly static conditions, $\overline{l}'$ also does not change significantly in time, so $\ddot{\overline{l}} \approx \ddot{x}^1 \overline{l}'$ and thus $a \approx \ddot{x}^1 \overline{l}'$, which combined with Equation (3.2) produces the following:
 
@@ -309,7 +309,7 @@ where $\nabla_i$ is the covariant derivative with respect to the $x^i$ coordinat
 $$
 \begin{split}
 \nabla_i (\nabla^i \varepsilon) = & \overline{g}^{ij}\left( \partial_{ij} \varepsilon - \overline{\Gamma}^m_{\ ij} \partial_m \varepsilon \right) \\
-= & \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}\_{\ 11}\partial_1 \varepsilon \\
+= & \overline{g}^{11}\partial_{11}\varepsilon - \overline{g}^{11}\overline{\Gamma}^{1}_ {\ 11}\partial_1 \varepsilon \\
 & + \overline{g}^{22}\partial_{22} \varepsilon - \overline{g}^{22}\overline{\Gamma}^1_{\ 22}\partial_1 \varepsilon \\
 & + \overline{g}^{33}\partial_{33} \varepsilon - \overline{g}^{33}\overline{\Gamma}^1_{\ 33}\partial_1 \varepsilon \\
 = & \frac{1}{(\overline{l}')^2}\left[\varepsilon'' - \frac{\overline{l}''}{\overline{l}'}\varepsilon' + \frac{2}{\overline{r}}\varepsilon'\right]
@@ -391,12 +391,12 @@ To answer the second question above, we now consider how an inherent curvature p
 $$
 \begin{split}
 M_\text{DM} = M\left(\frac{\overline{l}^2}{\overline{r}^2} - 1\right); \quad
-M'\_\text{DM} = 2\frac{M l}{\overline{r}^2}\left(\overline{l}' - \frac{l}{\overline{r}}\right)
+M'_ \text{DM} = 2\frac{M l}{\overline{r}^2}\left(\overline{l}' - \frac{l}{\overline{r}}\right)
 \end{split}
 \tag{4.3}
 $$
 
-For $M_\text{DM}$ to be physically admissible, we require that $M'_\text{DM} \ge 0$, since the reverse implies negative dark matter density. Therefore, we require that,
+For $M_\text{DM}$ to be physically admissible, we require that $M'_ \text{DM} \ge 0$, since the reverse implies negative dark matter density. Therefore, we require that,
 
 $$
 \begin{split}
@@ -405,7 +405,7 @@ $$
 \tag{4.4}
 $$
 
-Beyond the boundary of the hypothetical dark matter halo, $M'\_\text{DM} = 0$, so $\overline{l}' = \overline{l}/\overline{r}$ implying that $\overline{l}' = const$. Therefore, within the dark matter halo where $M'\_\text{DM} > 0$, we would expect that $\overline{l}'$ is monotonically increasing. So, in general, $\overline{l}'$ has to be non-decreasing for the DM effect due to inherent curvature to be explainable by actual dark matter. In other words, we conclude the following:
+Beyond the boundary of the hypothetical dark matter halo, $M'_ \text{DM} = 0$, so $\overline{l}' = \overline{l}/\overline{r}$ implying that $\overline{l}' = const$. Therefore, within the dark matter halo where $M'_ \text{DM} > 0$, we would expect that $\overline{l}'$ is monotonically increasing. So, in general, $\overline{l}'$ has to be non-decreasing for the DM effect due to inherent curvature to be explainable by actual dark matter. In other words, we conclude the following:
 
 $$
 \begin{split}
@@ -513,7 +513,7 @@ Table 1 shows that within a diverse sample of galaxies, the vast majority confor
 | Phoenix Cluster [48] | 2,000,000 | 550.0 | 0.11 |
 | GN-z11 [49] | 1 | 1.5 | 0.43 |
 
-Interestingly, the relationship between $R$ and $s$ illustrated in Table 1 also holds for our Solar System, which suggests that it may apply to smaller gravitational systems and not just galaxies. For example, in the case of the Solar System, $M \approx 1 \text{M}_\odot$, $R = 1.43\times 10^{14} \text{m}$ (the distance between the Sun and the planet Sedna), and consequently $R/s = 0.14$.
+Interestingly, the relationship between $R$ and $s$ illustrated in Table 1 also holds for our Solar System, which suggests that it may apply to smaller gravitational systems and not just galaxies. For example, in the case of the Solar System, $M \approx 1 \text{M}_ \odot$, $R = 1.43\times 10^{14} \text{m}$ (the distance between the Sun and the planet Sedna), and consequently $R/s = 0.14$.
 
 The above comparison between the Inherent Structure Hypothesis (ISH) and MOND serves to validate ISH, because MOND has been empirically shown to provide good explanation for the DM effect in most cases [15,50].
 

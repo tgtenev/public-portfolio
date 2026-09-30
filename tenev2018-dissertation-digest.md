@@ -61,15 +61,15 @@ A "length scale" is a range of distances over which certain physical laws and pa
 
 ![Cosmic hierarchical length scales.](https://figures.tgtenev.com/tenev2018-dissertation/fig-lengthscales.svg)
 
-**Figure 1.1.** Cosmic hierarchical length scales and the information bridges between them. The field equations of General Relativity — and analogously the constitutive equations of the cosmic fabric — dominate the continuum length scale (2). The dark matter effect is observed at the structure length scale (3). Structure at scales (3) and (4) contributes the $\overline{\mathcal{L}}$ term to the action; scale (1) contributes $\mathcal{L}_\text{M}$.
+**Figure 1.1.** Cosmic hierarchical length scales and the information bridges between them. The field equations of General Relativity — and analogously the constitutive equations of the cosmic fabric — dominate the continuum length scale (2). The dark matter effect is observed at the structure length scale (3). Structure at scales (3) and (4) contributes the $\overline{\mathcal{L}}$ term to the action; scale (1) contributes $\mathcal{L}_ \text{M}$.
 
 The analogy: at scales under a kilometer the Earth's surface is well approximated as flat; between 1 and 100 km local terrain matters; beyond 100 km the globe's curvature dominates. Those boundaries are not fundamental constants — they reflect how the Earth happens to be structured. Likewise, the Inherent Structure Hypothesis proposes that space has structure at galactic and cosmic scales reflecting the organization of the universe. Formally, this enters the Lagrangian (action) formulation of gravity as an extra term $\overline{\mathcal{L}}$:
 
 $$
-\mathcal{S} = \int_{\Omega}\left(\mathcal{L} - \overline{\mathcal{L}} + \mathcal{L}\_\text{M} \right) d\Omega \quad (1.1)
+\mathcal{S} = \int_{\Omega}\left(\mathcal{L} - \overline{\mathcal{L}} + \mathcal{L}_ \text{M} \right) d\Omega \quad (1.1)
 $$
 
-where $\mathcal{L}$ is the Lagrangian density from spacetime curvature, $\mathcal{L}_\text{M}$ accounts for matter–energy fields, and $\overline{\mathcal{L}}$ — a term not previously considered — is the correction due to the *inherent* (undeformed) curvature of space. Without $\overline{\mathcal{L}}$, the Cosmic Fabric model reproduces conventional General Relativity (Chapters III–V); with it, the model modifies General Relativity at galactic scales and above (Chapter VI).
+where $\mathcal{L}$ is the Lagrangian density from spacetime curvature, $\mathcal{L}_ \text{M}$ accounts for matter–energy fields, and $\overline{\mathcal{L}}$ — a term not previously considered — is the correction due to the *inherent* (undeformed) curvature of space. Without $\overline{\mathcal{L}}$, the Cosmic Fabric model reproduces conventional General Relativity (Chapters III–V); with it, the model modifies General Relativity at galactic scales and above (Chapter VI).
 
 ### Dark matter and MOND
 
@@ -134,7 +134,7 @@ $$
 — *provided* Poisson's ratio is fixed at $\nu = 1$, the unique choice that removes an unphysical dependence on how the fabric sits in the reference space (its extrinsic curvature). Third, the membrane energy is shown to vanish for nearly static deformations. The fabric's Lagrangian density is then $-U_\text{B}\sqrt{|g|}$, which — using the linearized relation between spatial curvature $R^\text{3D}$ and the four-dimensional Ricci scalar $R$ — takes exactly the Einstein–Hilbert form:
 
 $$
-\mathcal{S}\_\text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}\_\text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad (3.1)
+\mathcal{S}_ \text{F} = \frac{YL^2}{48} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad \text{versus}\quad \mathcal{S}_ \text{EH}= \frac{1}{2\kappa} \int R\sqrt{|g|}\ \mathrm{d}x^4 \quad (3.1)
 $$
 
 Identifying the two coefficients, $YL^2/48 = 1/(2\kappa)$, calibrates the model: the fabric's stiffness is fixed by Newton's constant.

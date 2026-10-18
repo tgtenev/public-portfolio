@@ -15,6 +15,14 @@
 **Tichomir Tenev**
 ticho@tenev.com
 
+## Errata
+
+The published version of record (*Journal of Creation*, vol. 39, no. 1, pp. 14–17, 2025) contains the error of argument listed below, and this edition leaves it as printed.
+
+| Location | Error |
+|---|---|
+| Section *A Clue from MOND*, and the paragraph beginning "Taking a step back" in the section *DMe Due to the Inherent Structure of Space* | A curvature at the scale of the cosmos is negligible at galactic scales, so it cannot produce the first-order DMe that MOND captures. For a uniform curvature of radius $r_H = 1.36 \times 10^{26}\ \text{m}$, the flat projection of a distance $l$ is $r = r_H\sin(l/r_H)$, and the amplification in eqn (1) is $(l/r)^2 - 1 \approx l^2/3r_H^2$. At $l = 10\ \text{kpc}$ this is about $1.7 \times 10^{-12}$. For a radius equal to $r_0 = 7.49 \times 10^{26}\ \text{m}$ it is about $6 \times 10^{-14}$. |
+
 ## Introduction
 
 Among creationists, dark matter (DM) is often brought up in the context of rebutting the big bang model. But, in such a context, DM is actually tangential to the origins debate and needlessly controversial. The gravitational anomalies commonly attributed to DM, henceforth *dark matter effect* (DMe), have been readily observable for decades. Yet, in another context, DMe is highly relevant. As shown in Tenev and Horstemeyer [1], DMe is likely evidence for the macroscale structure of space, and therefore reveals design and purpose.

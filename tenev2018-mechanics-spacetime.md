@@ -28,6 +28,25 @@ We present an elastic constitutive model of gravity where we identify physical s
 
 **PACS numbers:** 04.50.Kd (Modified theories of gravity); 46.90.+s (Other topics in continuum mechanics of solids)
 
+## Errata
+
+The published version of record (*Int. J. Mod. Phys. D*, vol. 27, no. 8, art. 1850083, 2018) contains the errors listed below, and this edition leaves them as printed. The misprints come first, each with the form as printed and the form it should take.
+
+| Location | Published version | Should read | Reason |
+|---|---|---|---|
+| §1, paragraph on Hehl and Kiefer | $\nu = \frac{\lambda}{2(\lambda -\mu)}$ | $\nu = \frac{\lambda}{2(\lambda + \mu)}$ | This is the standard relation between the Poisson ratio and the Lamé parameters. With $\lambda = -1$ and $\mu = \frac{1}{2}$ it gives $\nu = 1$, as the sentence states, while the printed form gives $\nu = \frac{1}{3}$. |
+| Eqs. (1.3) and (2.25), and the opening paragraph of §2 | coefficient $\frac{YL}{48}$ | $\frac{YL^2}{48}$ | The exponent on the fabric thickness $L$ was dropped. Eqs. (2.24) and (3.1) have $L^2$, and only $YL^2/48$ has the units of $1/2\kappa$. |
+| Eq. (2.17) | $U_\text{B} = L^2C^{ijkl}\left[b_{ij}b_{kl} + \mathcal{O}(b^3 L)\right]$ | $U_\text{B} = \frac{L^2}{24}C^{ijkl}\left[b_{ij}b_{kl} + \mathcal{O}(b^3 L)\right]$ | With $\varepsilon_{ij}^\text{B} = -b_{ij}\xi$, Eq. (2.16) gives the factor $\frac{1}{2L}\int_{-L/2}^{L/2}\xi^2\ \mathrm{d}\xi = \frac{L^2}{24}$. Eqs. (2.18) and (2.19) include it. |
+| Eq. (2.18) | $U_\text{B} = -\frac{L^2 Y}{24(1+\nu)} \left(R^\text{3D} + \frac{1-\nu}{1-2\nu} b^i_i b^k_k\right)$ | $U_\text{B} = -\frac{L^2 Y}{24(1+\nu)} \left(R^\text{3D} - \frac{1-\nu}{1-2\nu} b^i_i b^k_k\right)$ | With $R^\text{3D} = b^i_i b^k_k - b^k_j b^j_k$, Hooke's Law (1.1) gives $C^{ijkl}b_{ij}b_{kl} = \frac{Y}{1+\nu}\left(\frac{1-\nu}{1-2\nu}b^i_i b^k_k - R^\text{3D}\right)$. The term vanishes at $\nu = 1$, so Eq. (2.19) is unaffected. |
+| Eq. (3.14) | $\rho \sim 1.3 \times 10^{96}\ \mathrm{kg}\ \mathrm{m}^{-3}$ | $\rho \sim 1.23 \times 10^{96}\ \mathrm{kg}\ \mathrm{m}^{-3}$ | With $Y$ from Eq. (3.13), $\rho = Y/4c^2 = 3c^5/4\pi\hbar G^2 = 1.23 \times 10^{96}\ \mathrm{kg}\ \mathrm{m}^{-3}$. |
+| Table 1, action integral outside of inclusions | $\mathcal{S} = \frac{L^2 Y}{24} \int R\sqrt{\lvert g\rvert}\ d^4x$ | $\mathcal{S} = \frac{L^2 Y}{48} \int R\sqrt{\lvert g\rvert}\ d^4x$ | The coefficient equals $1/2\kappa$ by Eq. (3.1). The elastic constant given in Table 1, $Y = 6c^7/2\pi\hbar G^2$, follows from $L^2Y/48 = 1/2\kappa$ with $L = l_p$. |
+
+The paper also contains an error of argument, in its treatment of gravitational waves.
+
+| Location | Error |
+|---|---|
+| §3.3, Eqs. (3.5)–(3.12) | With the time–space components set to zero, the harmonic condition of Eq. (3.6), $\varepsilon_{ik,k} = 0$, leaves no shear wave. For any displacement, $2\varepsilon_{ik,k} = \nabla^2 u_i + u_{k,ki}$, so at $u_{k,k} = 0$ the condition requires $\nabla^2 u_i = 0$. Eq. (3.11) then gives $\partial^2 u_i/\partial t^2 = 0$. The bracket of Eq. (3.5), which the text sets to zero as torsion, is the rotation of the material, and a shear wave is a wave of rotation. Eq. (3.12) also holds only on one axis. No field of material displacements gives its strain throughout a region, since that strain violates the compatibility condition $\varepsilon_{11,33} + \varepsilon_{33,11} = 2\varepsilon_{13,13}$. The displacement $u_1 = \frac{1}{2}hx^1\cos k(x^3 - ct)$, $u_2 = -\frac{1}{2}hx^2\cos k(x^3 - ct)$ gives $\varepsilon_{11} = -\varepsilon_{22}$, but its $\varepsilon_{13}$ and $\varepsilon_{23}$ grow in proportion to $x^1$ and $x^2$ and vanish only on the axis $x^1 = x^2 = 0$. |
+
 ## 1. Introduction
 
 This paper explores the material analogy of physical space and its implications. Since as early as Isaac Newton [1] there have been various theories about an all pervasive cosmic medium, also known as "ether," through which light and matter-matter interactions propagate. These theories culminated with the Lorentz Ether Theory (LET) [2,3], which postulated length contractions and time dilations for objects moving through ether [4,2] in order to explain the negative outcome of the Michelson and Morley's ether detection experiment [5]. Although the theory of Special Relativity (SR) [6] appeared to obviate the need for an ether, in reality SR and LET are mathematically equivalent and experimentally indistinguishable from one another. After the development of General Relativity [7], which attributed measurable intrinsic curvature to spacetime, Einstein conceded [8] that some notion of an ether must remain. More recently, theoretical predictions from Quantum Field Theory [9] include zero-point energy density of vacuum, which further supports the material view of physical space.

@@ -28,6 +28,21 @@ We extend the descriptive power of the Cosmic Fabric model of space developed by
 
 **PACS numbers:** 04.50.Kd (Modified theories of gravity); 46.90.+s (Other topics in continuum mechanics of solids)
 
+## Errata
+
+The published version of record (*Rep. Adv. Phys. Sci.*, vol. 2, no. 3, art. 1850011, 2018) contains the errors listed below, and this edition leaves them as printed. The misprints come first, each with the form as printed and the form it should take.
+
+| Location | Published version | Should read | Reason |
+|---|---|---|---|
+| Eq. (2.5) | $d\tau' = dt\sqrt{1 - \beta^2}$ | $d\tau' = d\tau\sqrt{1 - \beta^2}$ | By Eq. (2.3), the moving observer's round-trip time is the stationary observer's round-trip time $d\tau$ of Eq. (2.4) multiplied by $\sqrt{1 - \beta^2}$. The second equality of Eq. (2.5) already uses $d\tau$. |
+| Eq. (3.4) | $a_{12} = a_{21} = -\beta = -v/c$ | $a_{12} = a_{21} = -\gamma\beta = -\gamma v/c$ | Eq. (3.2) gives the off-diagonal coefficients as $-\gamma\beta$, as the Lorentz transformation requires. |
+
+The paper also contains an error of argument, in its abstract.
+
+| Location | Error |
+|---|---|
+| Abstract | The abstract states that the notions of length contraction and time dilation are deduced from the postulates of the Cosmic Fabric model. Time dilation, Eq. (2.3), follows from the Time Lapse postulate, but the length change of Eq. (2.6) does not follow from the postulates. §2.2 obtains it from the negative outcome of the Michelson-Morley experiment, which it uses to exclude the other reading of Eq. (2.5), an anisotropic signal speed. The length change is therefore an input from experiment. |
+
 ## 1. Introduction
 
 The Cosmic Fabric model proposed by Tenev and Horstemeyer [1] is a formal analogy interpreting space as an elastic solid body (a cosmic fabric) with a Poisson Ratio of unity so only signals in the form of shear waves, such as light and gravitational waves, are admitted. Matter-energy densities behave as inclusions, which are free to move unimpeded within the fabric. These inclusions induce mechanical strain causing the bending of the fabric and the slowing down of clock rates within it, from which effects one can derive the field equations of General Relativity.

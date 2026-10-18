@@ -28,6 +28,13 @@ This Markdown edition corrects two errors present in the published version of re
 | Section *Large Young Luminous Shell*, opening paragraph | $\tau = c\varepsilon$ | $\tau = \varepsilon/c$ | Follows from the definition $\varepsilon = c\tau$ given in the preceding section. Here $\varepsilon$ is a length (a shell-cap extension) and $\tau$ a time, so $c\varepsilon$ has dimensions of L²/T and cannot be a time. Every other statement of this relation in the paper uses $\tau = \varepsilon/c$. |
 | Section *Large Young Luminous Shell*, closing sentence | "the complete set of equations for the SYLS redshift" | "…for the LYLS redshift" | The equations referred to are the four-part LYLS result of Equations (3) and (4), plotted in Figure 4 as the redshift of an LYLS. The SYLS redshift is the single closed form of Equation (2). |
 
+The published version also contains the following errors of argument, which this edition leaves as printed.
+
+| Location | Error |
+|---|---|
+| Section *Method*, and the models of the sections *The Large Young Luminous Shell (LYLS)* and *The Large Young Luminous Ball (LYLB)* | The large models violate the weak-field assumption of the Method section by six to seven orders of magnitude. With $R = 3.38 R_H$ and the densities of Figures 4 and 5, the ratio $GM/Rc^2$ is about $10^7$ for the LYLS and about $10^6$ for the LYLB. Weak gravity requires this ratio to be much less than 1. The treatment by Newtonian gravity in flat space, with $z \approx V/c^2$, therefore does not apply to these models. |
+| Section *Discussion*, second paragraph | A static, homogeneous and isotropic solution with matter must be closed, not flat. With a cosmological constant $\Lambda$, Einstein's field equations for a static universe of density $\rho$ require $\Lambda c^2 = 4\pi G\rho$ and a closed space of radius $a = c/\sqrt{4\pi G\rho}$, which is Einstein's static universe. The sentence "a static, flat solution is possible with the appropriate cosmological constant" should read "a static, closed solution is possible with the appropriate cosmological constant". |
+
 ## Background
 
 Hubble [1] observed that distant astronomical objects show a redshift, where light spectra are shifted towards the red end, roughly proportional to their distance. He interpreted this as the Doppler effect of stellar recession with redshift $z$ given by $z \approx v/c$ where $v$ is galactic velocity and $c$ is the speed of light. This led to the Hubble relation,

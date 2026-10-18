@@ -28,6 +28,21 @@ The Cosmic Fabric model of gravity that was previously introduced by Tenev and H
 
 **PACS numbers:** 04.50.Kd (Modified theories of gravity); 46.90.+s (Other topics in continuum mechanics of solids)
 
+## Errata
+
+The published version of record (*Int. J. Mod. Phys. D*, vol. 28, no. 8, art. 1950096, 2019) contains the errors listed below, and this edition leaves them as printed. The misprints come first, each with the form as printed and the form it should take.
+
+| Location | Published version | Should read | Reason |
+|---|---|---|---|
+| Eq. (5.10) | $\max(r_s) \sim 3.713\times 10^{-35}\ \text{m}$ and $\max(M) \sim 2.500\times 10^{-8}\ \text{kg}$ | $\max(r_s) \sim 4.61\times 10^{-35}\ \text{m}$ and $\max(M) \sim 3.1\times 10^{-8}\ \text{kg}$ | Eq. (5.8) with $L = 5.729\times 10^{-35}\ \text{m}$ from Eq. (5.9) gives $\sqrt{35/54}\ L = 4.61\times 10^{-35}\ \text{m}$. The printed value is $(35/54)L$. The mass follows as $\max(r_s)c^2/2G$. |
+| Eq. (6.3), exterior lines | $\overline{R}_ \text{ext} = \left(1 - \frac{r_s r_0^2}{10r^3}\right)r$ and $d\overline{R}_ \text{ext} = \left(1 + \frac{r_s r_0^2}{5r^3}\right)dr$ | $\overline{R}_ \text{ext} = \left(1 - \frac{r_s r_g^2}{10r^3}\right)r$ and $d\overline{R}_ \text{ext} = \left(1 + \frac{r_s r_g^2}{5r^3}\right)dr$ | These follow from Eq. (6.2) with $e_\text{ext} = r_s r_g^2/10\overline{R}^3$ from Eq. (4.20). Only with $r_s r_g^2$ does substituting Eq. (6.3) into Eq. (4.24) give Eq. (6.1). |
+
+The paper also contains an error of argument, in its formulation of the governing equations.
+
+| Location | Error |
+|---|---|
+| §4.1, Eqs. (4.1)–(4.3) | The step from the principle of least action to the requirement that the total energy $W$ of Eq. (4.1) vanish is not variational. An extremum of the action requires the first variation of $W$ with respect to $e$ and $w$ to vanish, not $W$ itself. $W$ can also be negative: $U_\text{B} = -R^\text{3D}/2\kappa$ is negative inside the body, and Eq. (5.5) gives $W_\text{M} < 0$. The solution of §4 is also not stationary for $W$. At small strain $\int U_\text{B}\ dx^3$ reduces to a boundary term, so the variation of $W$ comes from $W_\text{M}$ alone. Eq. (5.4) gives $W_\text{M} = -4\pi Y\int ue\overline{R}^2\ d\overline{R}$, whose variation with respect to $e$ is $-4\pi Yu\overline{R}^2$. This vanishes only where the fabric does not bend. Eq. (4.3) itself agrees with the constraint equation of General Relativity for a static body, $R^\text{3D} = 2\kappa c^2\rho$. |
+
 ## 1. Introduction
 
 The Cosmic Fabric model proposed by Tenev and Horstemeyer [1, 2], is a formal analogy interpreting space as a solid fabric with appropriately chosen material properties, and the field equations of General Relativity as its bending equations. According to this model, gravitating bodies behave as inclusions in the fabric. These inclusions are sources of volumetric strains that cause the fabric to expand laterally into the three ordinary spatial dimensions, and consequently, to bend transversely into an additional fourth spatial dimension (see Fig. 1). Along this extra dimension, the fabric possesses a small thickness which is on the order of Planck's length and by which the fabric can resist bending.

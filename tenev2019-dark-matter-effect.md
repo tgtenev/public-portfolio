@@ -28,6 +28,14 @@ We propose that anomalous gravitational effects currently attributed to dark mat
 
 **PACS numbers:** 04.50.Kd (Modified theories of gravity); 95.35.+d (Dark matter — stellar, interstellar, galactic, and cosmic)
 
+## Errata
+
+The published version of record (*Int. J. Mod. Phys. D*, vol. 28, no. 8, art. 1950082, 2019) contains the error of argument listed below, and this edition leaves it as printed.
+
+| Location | Error |
+|---|---|
+| §4.2, Eqs. (4.6)–(4.11) | The equivalence with MOND holds for the acceleration of a body at rest, not for rotation speeds. In the metric of Eq. (2.7), the circle at coordinate radius $\overline{r}$ has geodesic curvature $1/(\overline{r}\ \overline{l}')$, so the geodesic equation (3.1) gives a circular orbit the speed $v^2 = \overline{r}\ \overline{l}'\ \lvert a\rvert$. With $a = -GM/\overline{r}^2$ from Eq. (3.11) and the profile of Eq. (4.9), $\overline{l}' \to 2\overline{r}/s$ far from the center, and the flat speed satisfies $v^4 = 4GMa_0$. MOND gives $v^4 = GMa_0$, so the profile of Eq. (4.11) gives twice MOND's $v^2$. |
+
 ## 1. Introduction
 
 De Swart et al. [1] present a good review of the historical analysis of dark matter. The notion of dark matter (DM) was introduced in the 1920's and 1930's by Kapteyn [2], Oort [3,4], Zwicky [5,6], Holmberg [7], and Smith [8]. Later, in the 1970's and 1980's, it was popularized by Rubin and Ford [9,10] as a way to explain anomalous rotational curves of galaxies. In addition, DM was also invoked [11] to explain gravitational lensing, which was discovered by Lynds and Petrosian [12]. Herein, we will use the term "Dark Matter effect" (DM effect) to describe such observations of anomalous gravity. The development of the Standard Cosmological Model, also known as ΛCDM (where "CDM" stands for Cold Dark Matter), appealed to DM as a means to balance the contents of the universe and provide a mechanism for structure formation during the early epoch since its inception [11]. In this context, the ΛCDM model predicted that DM must be non-baryonic and has to make up a certain fraction of the total contents of the cosmos, namely about 27%, which is more than 5 times the ordinary (baryonic) matter which, according to the ΛCDM model, is supposed to comprise only about 5% of the cosmic content [11]. Whereas the DM effect provides an observational support for DM, by contrast, the idea that DM must make up 27% of the contents of the universe is model dependent.

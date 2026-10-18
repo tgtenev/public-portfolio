@@ -149,7 +149,7 @@ Identifying the two coefficients, $YL^2/48 = 1/(2\kappa)$, calibrates the model:
 
 **Gravitational waves are shear waves.** Assuming the Lagrangian extends to fast-changing fields, shear disturbances in the fabric obey the wave equation $\partial^2\varepsilon_{ij}/\partial t^2 = c^2\nabla^2 \varepsilon_{ij}$, identical in form to the solid-mechanics shear-wave equation with $c^2 = \mu/\rho_\text{F}$. Working out which strain components can oscillate independently leaves exactly two — the two polarizations of gravitational waves, here derived by solid-mechanics reasoning.
 
-**Stiffness and density of free space.** Taking $L \sim l_p$ gives an enormous elastic modulus, $Y \sim 4.4\times10^{113}\ \text{N m}^{-2}$, and a fabric density $\rho_\text{F} = \mu/c^2 \sim 1.3\times10^{96}\ \text{kg m}^{-3}$ — agreeing to order of magnitude with Quantum Field Theory's estimate of the zero-point energy density of the vacuum.
+**Stiffness and density of free space.** Taking $L \sim l_p$ gives an enormous elastic modulus, $Y \sim 4.4\times10^{113}\ \text{N m}^{-2}$, and a fabric density $\rho_\text{F} = \mu/c^2 = Y/4c^2 \approx 1.23\times10^{96}\ \text{kg m}^{-3}$ — agreeing to order of magnitude with Quantum Field Theory's estimate of the zero-point energy density of the vacuum. The dissertation's Eq. (3.30) prints $1.3\times10^{96}\ \text{kg m}^{-3}$, a slip listed in its [errata](tenev2018-dissertation.md#errata).
 
 **Table 3.1.** Comparison between the General Relativity and Solid Mechanics perspectives.
 

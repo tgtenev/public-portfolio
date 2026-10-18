@@ -25,8 +25,8 @@ This Markdown edition corrects two errors present in the published version of re
 
 | Location | Published version | Corrected here | Reason |
 |---|---|---|---|
-| Section *Large Young Luminous Shell*, opening paragraph | $\tau = c\varepsilon$ | $\tau = \varepsilon/c$ | Follows from the definition $\varepsilon = c\tau$ given in the preceding section. Here $\varepsilon$ is a length (a shell-cap extension) and $\tau$ a time, so $c\varepsilon$ has dimensions of L²/T and cannot be a time. Every other statement of this relation in the paper uses $\tau = \varepsilon/c$. |
-| Section *Large Young Luminous Shell*, closing sentence | "the complete set of equations for the SYLS redshift" | "…for the LYLS redshift" | The equations referred to are the four-part LYLS result of Equations (3) and (4), plotted in Figure 4 as the redshift of an LYLS. The SYLS redshift is the single closed form of Equation (2). |
+| Section *Large Young Luminous Shell*, paragraph after Figure 3 | $\tau = c\varepsilon$ | $\tau = \varepsilon/c$ | Follows from the definition $\varepsilon = c\tau$ given in the preceding section. Here $\varepsilon$ is a length (a shell-cap extension) and $\tau$ a time, so $c\varepsilon$ has dimensions of L²/T and cannot be a time. Every other statement of this relation in the paper uses $\tau = \varepsilon/c$. |
+| Section *Large Young Luminous Shell*, last sentence of the paragraph before Equations (3) and (4) | "the complete set of equations for the SYLS redshift" | "…for the LYLS redshift" | The equations referred to are the four-part LYLS result of Equations (3) and (4), plotted in Figure 4 as the redshift of an LYLS. The SYLS redshift is the single closed form of Equation (2). |
 
 The published version also contains the following errors of argument, which this edition leaves as printed.
 

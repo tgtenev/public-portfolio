@@ -34,7 +34,11 @@ The published version of record (*Int. J. Mod. Phys. D*, vol. 28, no. 8, art. 19
 
 | Location | Published version | Should read | Reason |
 |---|---|---|---|
+| Eq. (4.12) | $\nabla^2 \varepsilon^\text{3D} \equiv \sum_{i=0}^3 \frac{\partial^2}{(\partial x^i)^2} \varepsilon^\text{3D}$ | $\nabla^2 \varepsilon^\text{3D} \equiv \sum_{i=1}^3 \frac{\partial^2}{(\partial x^i)^2} \varepsilon^\text{3D}$ | The Laplacian sums over the three spatial coordinates. Index 0 denotes time in the convention of §2.1. |
+| Eq. (4.21) | $ds = g_{tt} c^2 dt^2 + \ldots$ | $ds^2 = g_{tt} c^2 dt^2 + \ldots$ | The right-hand side is written in squared differentials, so the left-hand side is the squared line element, as in Eq. (4.24). |
+| Eq. (4.25), hoop term | $\left(1 + 2\varepsilon_\Omega\right)d\overline{R}^2 d\Omega^2$ | $\left(1 + 2\varepsilon_\Omega\right)\overline{R}^2 d\Omega^2$ | The hoop term of Eq. (4.21) is $g_{\Omega\Omega}\overline{R}^2 d\Omega^2$, with $\overline{R}^2$ rather than $d\overline{R}^2$. |
 | Eq. (5.10) | $\max(r_s) \sim 3.713\times 10^{-35}\ \text{m}$ and $\max(M) \sim 2.500\times 10^{-8}\ \text{kg}$ | $\max(r_s) \sim 4.61\times 10^{-35}\ \text{m}$ and $\max(M) \sim 3.1\times 10^{-8}\ \text{kg}$ | Eq. (5.8) with $L = 5.729\times 10^{-35}\ \text{m}$ from Eq. (5.9) gives $\sqrt{35/54}\ L = 4.61\times 10^{-35}\ \text{m}$. The printed value is $(35/54)L$. The mass follows as $\max(r_s)c^2/2G$. |
+| Eq. (6.1), exterior line | $\ldots + r^2 d\Omega$ | $\ldots + r^2 d\Omega^2$ | This matches the interior line and the definition $d\Omega^2 \equiv d\theta^2 + \sin^2\theta\ d\varphi^2$ given below the equation. |
 | Eq. (6.3), exterior lines | $\overline{R}_ \text{ext} = \left(1 - \frac{r_s r_0^2}{10r^3}\right)r$ and $d\overline{R}_ \text{ext} = \left(1 + \frac{r_s r_0^2}{5r^3}\right)dr$ | $\overline{R}_ \text{ext} = \left(1 - \frac{r_s r_g^2}{10r^3}\right)r$ and $d\overline{R}_ \text{ext} = \left(1 + \frac{r_s r_g^2}{5r^3}\right)dr$ | These follow from Eq. (6.2) with $e_\text{ext} = r_s r_g^2/10\overline{R}^3$ from Eq. (4.20). Only with $r_s r_g^2$ does substituting Eq. (6.3) into Eq. (4.24) give Eq. (6.1). |
 
 The paper also contains an error of argument, in its formulation of the governing equations.

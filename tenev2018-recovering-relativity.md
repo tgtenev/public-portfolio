@@ -37,11 +37,12 @@ The published version of record (*Rep. Adv. Phys. Sci.*, vol. 2, no. 3, art. 185
 | Eq. (2.5) | $d\tau' = dt\sqrt{1 - \beta^2}$ | $d\tau' = d\tau\sqrt{1 - \beta^2}$ | By Eq. (2.3), the moving observer's round-trip time is the stationary observer's round-trip time $d\tau$ of Eq. (2.4) multiplied by $\sqrt{1 - \beta^2}$. The second equality of Eq. (2.5) already uses $d\tau$. |
 | Eq. (3.4) | $a_{12} = a_{21} = -\beta = -v/c$ | $a_{12} = a_{21} = -\gamma\beta = -\gamma v/c$ | Eq. (3.2) gives the off-diagonal coefficients as $-\gamma\beta$, as the Lorentz transformation requires. |
 
-The paper also contains an error of argument, in its abstract.
+The paper also contains an error of argument, stated in its abstract and repeated in §5.
 
 | Location | Error |
 |---|---|
 | Abstract | The abstract states that the notions of length contraction and time dilation are deduced from the postulates of the Cosmic Fabric model. Time dilation, Eq. (2.3), follows from the Time Lapse postulate, but the length change of Eq. (2.6) does not follow from the postulates. §2.2 obtains it from the negative outcome of the Michelson-Morley experiment, which it uses to exclude the other reading of Eq. (2.5), an anisotropic signal speed. The length change is therefore an input from experiment. |
+| §5, first paragraph | §5 states that the two postulates of Special Relativity were deduced from the postulates of the Cosmic Fabric model. Both rest on the invariance of the signal speed for moving observers, Eq. (2.7), which needs the length change of Eq. (2.6). §2.2 obtains that length change from the negative outcome of the Michelson-Morley experiment, not from the postulates. |
 
 ## 1. Introduction
 

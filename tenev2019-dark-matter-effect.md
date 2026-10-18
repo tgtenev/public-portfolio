@@ -30,11 +30,20 @@ We propose that anomalous gravitational effects currently attributed to dark mat
 
 ## Errata
 
-The published version of record (*Int. J. Mod. Phys. D*, vol. 28, no. 8, art. 1950082, 2019) contains the error of argument listed below, and this edition leaves it as printed.
+The published version of record (*Int. J. Mod. Phys. D*, vol. 28, no. 8, art. 1950082, 2019) contains the errors listed below, and this edition leaves them as printed. The misprints come first, each with the form as printed and the form it should take.
+
+| Location | Published version | Should read | Reason |
+|---|---|---|---|
+| §1, paragraph after Eq. (1.1) | $\mu(x) \to x$ for $x \ll 0$ | $\mu(x) \to x$ for $x \ll 1$ | The interpolation function tends to $x = a/a_0$ for weak accelerations, $a \ll a_0$, as the function of Eq. (4.6) does. |
+| Eq. (2.11), first line | $\overline{\Gamma}^1_{11} = \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}_ {11} = \frac{\overline{l}'\overline{l}''}{(\overline{l})^2}$ | $\overline{\Gamma}^1_{11} = \frac{1}{2}\overline{g}^{11}\partial_1 \overline{g}_ {11} = \frac{\overline{l}'\overline{l}''}{(\overline{l}')^2}$ | This follows from $\overline{g}^{11} = (\overline{l}')^{-2}$ of Eq. (2.7) and $\partial_1 \overline{g}_ {11} = 2\overline{l}'\overline{l}''$ of Eq. (2.9). The two other lines of the equation also have $(\overline{l}')^2$. |
+| Eq. (4.10), first line | $(\overline{w}')^2 = \overline{r}^2 \frac{3s^2 + 4 \overline{r}^2}{s (s^2 + \overline{r}^2)}$ | $(\overline{w}')^2 = \overline{r}^2 \frac{3s^2 + 4 \overline{r}^2}{s^2 (s^2 + \overline{r}^2)}$ | By Eqs. (2.8) and (4.9), $(\overline{w}')^2 = (\overline{l}')^2 - 1$ with $\overline{l}' = (s^2 + 2\overline{r}^2)/(s\sqrt{s^2 + \overline{r}^2})$. The second line of Eq. (4.10), Eq. (4.11), and the requirement that $(\overline{w}')^2$ be dimensionless all need $s^2$. |
+
+The paper also contains the following errors of argument.
 
 | Location | Error |
 |---|---|
 | §4.2, Eqs. (4.6)–(4.11) | The equivalence with MOND holds for the acceleration of a body at rest, not for rotation speeds. In the metric of Eq. (2.7), the circle at coordinate radius $\overline{r}$ has geodesic curvature $1/(\overline{r}\ \overline{l}')$, so the geodesic equation (3.1) gives a circular orbit the speed $v^2 = \overline{r}\ \overline{l}'\ \lvert a\rvert$. With $a = -GM/\overline{r}^2$ from Eq. (3.11) and the profile of Eq. (4.9), $\overline{l}' \to 2\overline{r}/s$ far from the center, and the flat speed satisfies $v^4 = 4GMa_0$. MOND gives $v^4 = GMa_0$, so the profile of Eq. (4.11) gives twice MOND's $v^2$. |
+| §2 and §4.2, the metric of Eq. (2.7) with the profile of Eq. (4.9) | Read as the physical spatial metric, the inherent geometry would deflect light passing a galaxy by angles of order a radian. Light follows the geodesics of the metric of Eq. (2.7), up to corrections of order $GM/rc^2$. Space with a constant radial stretch factor $\overline{l}' = k$ is a cone, which turns a passing ray through about $\pi(1 - 1/k)$, and Eq. (4.9) gives $\overline{l}' = 2$ at $\overline{r} = 0.93s$. Since $\overline{l}' \geq 1$, the geodesic equation shows that a ray passing at $\overline{r} = s$ is turned through more than 2 rad if the profile holds out to $1.5s$ and space is flat far from the galaxy. A galaxy with flat rotation speed $v$ deflects light by about $2\pi v^2/c^2$, of order an arcsecond for $v \approx 200\ \text{km s}^{-1}$. Brouwer et al. (*Astron. Astrophys.* **650**, A113, 2021) find that the lensing rotation curves of isolated galaxies agree with their measured rotation curves near 30 kpc and stay flat out to 3 Mpc. The inherent geometry therefore cannot be the physical spatial metric. |
 
 ## 1. Introduction
 

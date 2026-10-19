@@ -217,7 +217,7 @@ In summary: at the continuum scale, the Cosmic Fabric model stands to Lorentz Ae
 
 ---
 
-## V. The Spacetime Metric of a Spherical Mass
+## V. The Spacetime Metric of a Spherically Symmetric Inclusion
 
 Chapters III–IV treated the fabric *outside* matter. This chapter works out the matter–fabric interaction for the simplest case — a static, spherically symmetric body (a "ball" of matter) — and derives the resulting spacetime geometry from mechanics alone. Two results follow: the metric matches the Schwarzschild solution of General Relativity, and, unexpectedly, the model *requires matter to be made of discrete particles*.
 

@@ -53,7 +53,7 @@ from the document of record.
 
 | Paper | Transcript |
 |---|---|
-| [Emergent de Sitter Expansion and Closed Topology](../tenev2026-emergent-de-sitter.md) | [tenev2026-emergent-de-sitter.txt](tenev2026-emergent-de-sitter.txt) |
+| [Stability of an Elastic Space with Negative Bulk Modulus](../tenev2026-emergent-de-sitter.md) | [tenev2026-emergent-de-sitter.txt](tenev2026-emergent-de-sitter.txt) |
 | [Modified Newtonian Dynamics after Four Decades](../tenev2026-mond-review.md) | [tenev2026-mond-review.txt](tenev2026-mond-review.txt) |
 | [How Dennis's Young-Earth Cosmology Works](../tenev2026-dennis-cosmology.md) | [tenev2026-dennis-cosmology.txt](tenev2026-dennis-cosmology.txt) |
 | [The Aether Lineage](../tenev2026-aether-lineage.md) | [tenev2026-aether-lineage.txt](tenev2026-aether-lineage.txt) |

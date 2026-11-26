@@ -31,6 +31,8 @@ Each paper carries a **Document Metadata** block under its title giving the publ
 | [The Aether Lineage: Material Theories of Space, Their Failure Modes, and Their Transferable Results](tenev2026-aether-lineage.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.22101597) · CC BY 4.0 |
 | [Crystal Growth by Steps and Spirals: The Burton–Cabrera–Frank Theory after Seventy-Five Years](tenev2026-bcf-review.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.22151200) · CC BY 4.0 |
 | [Avalanches and Self-Organized Criticality: The Idea, the Theory, and the Evidence](tenev2026-soc-review.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.22151213) · CC BY 4.0 |
+| [The Dark-Matter Effect in the Cosmic Fabric Model. I. A Derived Law for Galaxies with One Fitted Constant](tenev2026-dark-matter-effect-i.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.24533985) · CC BY 4.0 |
+| [The Dark-Matter Effect in the Cosmic Fabric Model. II. The Field Theory and the Kinetics of the Law for Galaxies](tenev2026-dark-matter-effect-ii.md) | Zenodo, 2026 · [concept DOI](https://doi.org/10.5281/zenodo.24533993) · CC BY 4.0 |
 
 ## Dissertation
 

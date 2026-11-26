@@ -59,6 +59,8 @@ from the document of record.
 | [The Aether Lineage](../tenev2026-aether-lineage.md) | [tenev2026-aether-lineage.txt](tenev2026-aether-lineage.txt) |
 | [Crystal Growth by Steps and Spirals](../tenev2026-bcf-review.md) | [tenev2026-bcf-review.txt](tenev2026-bcf-review.txt) |
 | [Avalanches and Self-Organized Criticality](../tenev2026-soc-review.md) | [tenev2026-soc-review.txt](tenev2026-soc-review.txt) |
+| [The Dark-Matter Effect in the Cosmic Fabric Model. I](../tenev2026-dark-matter-effect-i.md) | [tenev2026-dark-matter-effect-i.txt](tenev2026-dark-matter-effect-i.txt) |
+| [The Dark-Matter Effect in the Cosmic Fabric Model. II](../tenev2026-dark-matter-effect-ii.md) | [tenev2026-dark-matter-effect-ii.txt](tenev2026-dark-matter-effect-ii.txt) |
 
 ### Dissertation
 
